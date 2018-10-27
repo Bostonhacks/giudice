@@ -1,0 +1,1338 @@
+Submission Title,Submission Url,Plain Description,Video,Website,File Url,Desired Prizes,Built With,Mlh Points,Mlh Software Lab,Mlh Hardware Lab,Submitter Screen Name,College/Universities Of Team Members,Additional Team Member Count,Team Member 1 Screen Name,...,,
+ListenWithMe,https://bostonhacks-f17.devpost.com/submissions/80303-listenwithme,"Inspiration
+
+I wanted to listen to music with my friend but they are halfway across the world.  I wanted to share listening so we could enjoy the music at the same time as well.
+
+What it does
+
+It basically is an interface where you would listen to music with a player that would update on two different ends.
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for ListenWithMe
+",,http://github.com/QasimAbbas/ListenWithMe,,"Amazon Web Services - Best Use of AWS, Twilio — Best use of Twilio API, Liberty Mutual — Objectively Human, Best Domain Name from Domain.com","node.js, twilio, ios",Rutgers University,"Domain.com,Amazon Web Services",,QasimAbbas,"Rutgers, The State University of New Jersey",2,alexjjia,threedot14,,
+Jobify,https://bostonhacks-f17.devpost.com/submissions/80346-jobify,"Inspiration
+
+At the start of the Hackathon we knew wanted to solve a problem that affects a lot of people around us. We wanted to solve a problem with humanity and a problem with society. We had the idea to focus on the homeless community by providing them with a way to earn some cash while seeking out a more permanent job. Unfortunately, there tends to be a bias against hiring homeless people at most companies. Unfortunately, there tends to be a bias against hiring homeless people at most companies. Our app aims to solve this problem by having users create jobs, typically simpler things like mowing the lawn, washing a car, etc. Other users can then accept a job, and complete the task to then be paid by the job's creator. You may be thinking that an app may not be best suited for homeless people as they probably can't afford a smartphone. The Guardian actually reports smartphones are a ""lifeline"" for homeless people in this article, and this study reports says that 62% of the homeless youth have smartphones. That being said...
+
+Use
+
+We quickly realized that the app was not at all limited to the homeless population. It could be used by anyone who either needs a quick and simple job done but can't find the time to do it, or by someone looking to make some quick cash. This brings tons of new opportunities to communities across the world. Especially for small communities in underdeveloped areas, the app could create a network of people who, combined, can bring their skills and resources together to improve their life. Overall, we believe that with the right implementation and growth, this app could help people combat and come back from homelessness, grow communities by getting local people working together, and in general, improve the world.
+
+Current Design & Future Goals
+
+Currently, the app stores jobs, keeps track of who accepts a job and who is the owner, and can make payments - fairly simple. We also have tons of ideas for how the app could be expanded in the future. Here's some for example: 
+
+
+Maps - Require jobs to have a location (address or map marker) that shows the ""employee"" where to go to complete the job. In addition to this, the app would also only show you jobs available in your region.
+Communication - Add the ability for the ""employer"" and ""employee"" to contact each other (possibly using Twilio!)
+Ratings - Add the ability to rate your experience with another user. Also add the ability to report or flag someone.
+Transactions - Not everyone (especially homeless people) have a way to pay online. Ideally, we would want our users to be able to come into financial centers (ATMs, banks, kiosks, etc.) where they can transfer their in-app balance into real money.
+
+
+How It Works
+
+In order to reach out to the largest user base, we created our app with React Native so that it is available on both iOS and Android. We used Firebase for our database and user authentication in order to ensure that private credentials and transactions remain secure. Finally for handling all things financial, we used Stripe, a popular payment API for making fast and secure payments.
+",,https://github.com/Drewpel/boston-hacks-fall-2017,https://s3.amazonaws.com/challengepost/zip_files/production/26579/zip_files/SourceCode.zip,"BU Spark — Fellowship, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human","react-native, stripe, firebase",Boston University,,,Drewpel,Boston University,1,cjwille,,,
+Poise,https://bostonhacks-f17.devpost.com/submissions/80366-poise,"Inspiration
+
+Have you ever felt nervous before an important presentation? Maybe anxious, waiting backstage minutes before an important performance or you're next in line to give your BostonHacks hack pitch. Thoughts of all the things that could go wrong are racing through your head, even though you've prepared and rehearsed over and over.
+
+If you are like 75%-90% of Americans*, chances are you've had a bout of pre-performance anxiety, also known as ""stage fright"" at least a few times before important events, if not regularly. As a performer (and frequent public speaker) myself, I experience this feeling acutely, and I can't remember the last time I had a performance where I wasn't at least a little anxious. And while feeling nervous before a performance is natural, for a large swath of people, it consistently hinders them from performing at their best. Furthermore, those same performers have a harder time enjoying their own art in the moment, as enough of their mental energy is devoted towards improving their execution. In my opinion, It's tragic that most audiences may seldom, if ever, experience the performer at his or her peak potential.
+
+The app I decided to build aims to assuage performance anxiety by having users undergo a guided calming routine directly before a performance. My goal is to enable each user to focus on their best to the performance and empower them to take the stage with the confidence that they deserve.
+
+What it does
+
+Poise is a mobile app that enables performers to perform at their peak potential by minimizing their pre-performance stress and anxiety. Someone who is poised for a performance is calm, is ready to execute, and delivers with confidence and grace. Users of the app will reach this state directly before their presentations through guided routines that relax their bodies and focus their minds. These include standard procedures such as ""guided breathing"" and ""performance visualizing"", as well as customized actions that users can create for their unique personal experiences.
+
+While there are many apps deal with combatting general anxiety or long-term wellness, there are no good solutions for performers who wish to curb moderate to intense pre-performance anxiety in the critical moment that they need it most - directly before a performance. However, I still did want to commit to performers' long-term wellness by adding a ""feedback"" screen after finishing a routine, where they can report if a routine was helpful or not, and prompt to redo a routine if they did not feel satisfied.
+
+How I built it
+
+I built this app using React-Native, with some components built and designed using Sketch. When designing the app, I considered the user and his/her emotions at each point. The user I designed for is the performer who is feeling anxious, perhaps an hour to a few minutes before their performance. He would want to be able to access his or her calming routine as soon as possible, so I stuck to a very simple, easy to navigate, and minimal UI. I also wanted my app to evoke calmness, so I used a simple font with lowercase letters and a relaxed off-blue and white color scheme.  I also considered that the user might be in a stressed, ""me-vs-the-world"" sort of mindset, so I designed the pulsing circle that is the primary navigator in my app to act as a ""guiding light"" or ""friend.""
+
+Challenges I ran into
+
+React-Native is a fairly new framework, and standards are constantly evolving. As a result, lots of references were out of date or buggy, and I had to get deep into debugging, searching through Github pull requests and other conversations. 
+
+Accomplishments that I'm proud of
+
+Some features include the React-Native Animated class to animate my app (the pulsing circle), as well as learn aand apply React-Native's convoluted StackNavigator system. Both of these are fairly new developments in React-Native that I haven't worked with before. I'm also proud of creating an app that put UX first, when in the past that has been less of a concern for me. I felt that it was important for my users to feel comfortable and confident, and I feel that I've done a good job there.
+
+What I learned
+
+As a Psychology minor, I already had a strong interest in the science behind calming and confidence-boosting actions , but during the process of building this app I gained much more knowledge through research. For example, measured/guided breathing has been a staple of stabilizing people's bodies and minds, and reading a Stanford study on it helped me understand more. Furthermore, I learned more about many more routines including power poses, and how ""shaking it out"", or relaxing your limbs, releases stress through physical and emotional means (like increasing blood circulation and freeing your body to move). In terms of development, I also learned a lot about React-Native's new features and libraries.
+
+What's next for Poise
+
+I have a lot more in store for the app. Firstly, I want to use a live database like MongoDB or Firebase so I can work with user data. I also want to add customization features so that users can create their own routines. I also would like to have support for music playing, or include music in the app as people who are trying to focus themselves for performances tend to use headphones. Some of these features could be in the premium version if I decide to take the app to market.
+
+I also want to expand the app for different demographics, such as those who have anxiety over public speaking, job interviewees, sports, and more, as ordinary people have to do many of those tasks regularly, meaning there is a huge userbase that I can tap into.
+",https://youtu.be/sunHZke4T7E,https://github.com/lawrluor/poised,,"BU Spark — Fellowship, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human","react-native, sketch",Boston University,,,lawrluor,Boston University,0,,,,
+Safe Park - Boston,https://bostonhacks-f17.devpost.com/submissions/80441-safe-park-boston,"Inspiration
+
+Finding parking in boston is a never ending struggle and, once you find it, the last thing you want is to get robbed, beaten up, stabbed etc. because you parked in a bad neighborhood. We decided that it is time solve this compelling issue that many Bostonians and visitors face daily.
+
+What it does
+
+Searches for the parking meters with the lowest crime rates near the location your visiting.
+
+How I built it
+
+We used node.js to set up servers so that data can be collected from various api's. We extracted parking meter data addresses to allow users to find parking meters close to the travel destination. We then ran through a crime data base to determine which locations are more prone to crime than others via reverse geocoding the latitude and longitude coordinate pair into an address and compared those addresses with the parking meter addresses. The parking spots that have the lowest incidence in crime are given to the user for safe parking.
+
+Challenges I ran into
+
+Collecting and manipulating data from various api's proved to be difficult due to Javascript's asynchronous behavior. We had trouble ensuring that certain processes were completed before moving on to the next procedure which prevented us from parsing the data in the manner we wanted. Asynchronous javascript is hard.
+
+Accomplishments that I'm proud of
+
+Accomplishments that we are proud of the utilization of numerous APIs into our program, including crime data, parking rules, and reverse geocoding as well as the relevance of program idea in society.
+
+What I learned
+
+We learned how to use javascript and node and write promises. We also learned how to parse data and making api requests.
+
+What's next for Safe Park - Boston
+
+Boston would extracting information from the crime data correctly, adding the component of a parking duration in the determination of the parking spot, and lastly, figuring out the weight between crime rate and parking location. Safe Park - Boston could be further extended to different states/regions.
+",,https://github.com/monsuratolaosebikan/safe-park,,"BU Spark — Diverse Team, Liberty Mutual — Objectively Human","node.js, html","Tufts University, Boston University",,,sincerelymonsz,Tufts University,2,StephensAmbition,veeyn,,
+healthbars,https://bostonhacks-f17.devpost.com/submissions/80447-healthbars,"health-bars
+
+download node  >= over version 6
+download npm version 4
+npm install react-native-elements --save or yarn add react-native-elements
+Clone repo
+",,https://github.com/pranjalsingi/healthbars,,"Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human","javascript, react-native, expo.io","Northeastern University, University of Delaware, UMass",,,elleen,"Northeastern University, University of Delaware",2,PranjalSingi,mirdathebirda,,
+Big Belly Monitor,https://bostonhacks-f17.devpost.com/submissions/80452-big-belly-monitor,"Inspiration
+
+After spending half the hackathon working to understand some of the coarser points of machine learning, I wanted to tackle a meaningful project that involved the technology. Perusing through the data sets at Analyze Boston, I decided to start developing a utility that would help keep my city clean and beautiful.
+
+What it does
+
+Using historical data, this application can potentially predict the usage of a BigBelly trash compactor at an arbitrary location and time. 
+
+How I built it
+
+I pretty much stuck to the detailed documentation and easy to follow tutorials provided by the TensorFlow developers.
+
+Challenges I ran into
+
+I'd never touched machine learning before yesterday; it was an extremely steep learning curve.
+
+Accomplishments that I'm proud of
+
+I actually got output! I find it incredible that what used to be (and still is) the realm of hardcore computer science research is also so easily accessible that I could generate output over the course of one night.
+
+What I learned
+
+Machine learning is HARD! I am building a tenuous grasp on the theory behind the operation; I'm also starting to wrap my head around some of the nebulous features in TensorFlow.
+
+What's next for Big Belly Monitor
+
+Due to my unfamiliarity with TensorFlow, I had to strip some information out of the input. Hopefully, I can add that back and get more meaningful output.
+",,https://github.com/npiscitello/BostonHacks2017/tree/master/bigbelly_analysis,,Liberty Mutual — Objectively Human,"python, tensorflow, analyze-boston",Wentworth Institute of Technology,,,nbpiscitellobostonhacks,Wentworth Institute of Technology,0,,,,
+Healix,https://bostonhacks-f17.devpost.com/submissions/80456-healix,"Inspiration
+
+Connecting patients with medical professionals is an important part of healthcare. If patients are unable to find and schedule appointments with the correct doctor for them, their health may suffer and costs of treatment may be higher in the long term. Despite this, many people have difficulty getting the right medical care within a reasonable timeframe.
+
+What it does
+
+Healix helps people schedule appointments with medical professionals as soon as possible, leading to reduced healthcare costs and better patient outcomes. Healix's powerful search finds local doctors and specialists within a patient's insurance network. In addition to location, users can search for doctors by specialization or name. They can then schedule appointments online directly from the search results, and view their current appointments on their user page. Patients don't need to call each doctor or specialist to check his or her availability. By reducing the cost and effort of making an appointment, patients can get help sooner and doctors' offices can manage their patients more easily.
+
+How we built it
+
+We used a Python/Flask backend framework with a React front-end framework(React/Redux). We found an API online called BetterDoctor that gave us access to a database of doctor information.
+
+Challenges we ran into
+
+The main challenge we ran into was that not everyone on the team was familiar with the tech stack that we chose to use to build this project. Some did not know Python and some did not know React or Javascript.
+
+Accomplishments that we're proud of
+
+We are proud that even though not everyone knew the tech stack, we were able to unify and share whatever knowledge we had with each other and help each other out.
+
+What we learned
+
+Aside from learning how to work effectively as a team, we learned about the usefulness of digitization and standardization in the medical industry. For instance, the National Provider Identifier (NPI) registry allows us to query doctors on a national level.
+
+What's next for Healix
+
+At BostonHacks 2017, we created a patient side of Healix app. In the future, we hope to integrate hospitals and doctors' offices directly by developing a dashboard for doctors to manage their clients and availability.
+",,,,"Twilio — Best use of Twilio API, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human, Best Domain Name from Domain.com","python, react, twilio, mongodb","Boston University, Worcester Polytechnic University, Northeastern University",Domain.com,,WHYjun,"Boston University, Worcester Polytechnic Institute, Northeastern University",4,marshb000,ollien,vliang621,kjin0815
+PharmAdopt,https://bostonhacks-f17.devpost.com/submissions/80462-pharmadopt,"Giving orphan drugs a family.
+
+One of the biggest problems with pharmaceutical drug development is that rare diseases are either underfunded by pharmaceutical companies because orphan drug development can’t promise returns, or big pharma aggressively invests seeking huge returns which drives up patient costs.
+
+PharmAdopt is a web-based platform that uses user’s basic info scraped from our Facebook API and our machine learning algorithm to pair users with donation methods to patient organizations supporting the development of orphan drugs affecting people with similar demographic characteristics to themselves. 
+
+In doing so, we hope to expand the circle of empathy for rare diseases to a wider audience, thus giving orphan drugs a family. 
+",,https://kellyzjxu.github.io/pharmadopt/,,"BU Spark — Diverse Team, ITG — Best FinTech Hack, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human, BU Spark — Social Good ","javascript, node.js, facebook-graph, azure","Columbia University, Cornell University",Domain.com,,AnnaLu,"Columbia University in the City of New York, Cornell University",2,mizutahana,jl2964,,
+DangerZone,https://bostonhacks-f17.devpost.com/submissions/80466-dangerzone,"Danger Zone
+
+Setup
+
+run
+node webserver.js
+
+go to localhost:8080
+
+Initialially initialized to your current location.
+
+Use the search to search any Boston address to view safety data.
+",,https://github.com/dchen7321/DangerZone,,"Amazon Web Services - Best Use of AWS, Twilio — Best use of Twilio API, Liberty Mutual — Objectively Human","css, html, javascript, mean, node.js",Northeastern University,Amazon Web Services,,dchen73211,Northeastern University,0,,,,
+Better Neighborhoods,https://bostonhacks-f17.devpost.com/submissions/80472-better-neighborhoods,"WE ARE LIVE @ neighborhood-score.herokuapp.com
+
+What it does
+
+This app uses the Liberty Mutual Total Home Score API & Google Maps API to to build our neighborhood overview report to outline the quality of life in a specific area using the safety scores, noise pollution factors, quiet scores, relative disturbance of major roadways, traffic violations in that area, cycling and pedestrian walkways accessibility, proximity to public transportation, and access to bike-sharing stations, hospitals, gyms, and highly ranked schools within that area. 
+
+How we built it
+
+We built this app using Node.js to handle the requests and do all of our data processing server-side. We used angular.js on the front end to process the users input and correctly parse the response from the server whilst simultaneously updating the page.
+
+Challenges we ran into
+
+The biggest challenge we ran into was learning how to use the Google Maps API, as it had a steep learning curve when first getting familiar with it. We also had to learn how to use the requests module in node, which was what used by Liberty Mutual's Total Home Score API. 
+
+Accomplishments that we're proud of
+
+We are proud of being able to gather and incorporate many points of data vital to the quality of life in a neighborhood, and assemble a wholesome report based on all those factors, which was difficult at first.
+
+What we learned
+
+We got better at writing efficient solutions in node.js. We learned how to carefully peruse documentation for APIs, and most importantly, we learned how to incorporate data from an API into our app, which is something we had never done before. 
+
+What's next for Better Neighborhoods
+
+Present the user with comparisons to other nearby neighborhoods, and even recommend other neighborhoods based on what amenities are important to them 
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/26629/zip_files/HomeScoreSubmission1.zip,Liberty Mutual — Objectively Human,"node.js, angular.js, express.js, html",Boston University,,,mdesilva,Boston University,1,rsfmike,,,
+Human Centered ,https://bostonhacks-f17.devpost.com/submissions/80474-human-centered,"Inspiration
+
+Liberty Mutual once said ""Our challenge to you is to create a fun & wacky solution that puts humans at the center of your design."" And from there we realized: what if we made an app...that literally puts a human at the center?
+
+What it does
+
+Human centered literally takes photos and makes you the center of attention! It simply removes other people by obscuring others' faces, making it clear in group photo who the real star is around here.
+
+How we built it
+
+We chose to make a web-app so that it is easily accessible through both mobile devices and computers. We used javascript to handle the image facial recognition and subsequent editing completely client-side, meaning it works, even offline, without communication to server. 
+
+Challenges we ran into
+
+Initially we wanted to use AWS's Rekognition API. We discovered a couple of difficulties, including setting up a proper way to communicate different parameters after facial detection, so we used a library in JS instead. We also had a little trouble thinking of the structure for a purely client-side implementation, but we managed to make it work.
+
+What's next for Human Centered
+
+Hopefully in the future we can introduce simpler blurring instead of direct covering - looks a little less cheesy, effect would be a little more subtle as well. 
+",,,,"BU Spark — Diverse Team, Liberty Mutual — Objectively Human","javascript, polymer, html5, css3, love","Bowdoin College, Wellesley College, UMass Dartmouth",Softheon,,zephyrembyr,"Bowdoin College, Wellesley College, University of Massachusetts - Dartmouth",2,Starrynight56,wongmjane,,
+Fearface,https://bostonhacks-f17.devpost.com/submissions/80475-fearface,"Inspiration
+
+Halloween is approaching and we wanted to make a project that dealt with fear.
+
+What it does
+
+This is a web app that presents a variety of scary images and takes pictures of a user's reaction to those images. Then using Microsoft's Face API, the app calculates the degree of fear generated by the user's face for each image. The app then identifies the most fearful images for that particular person.
+
+How we built it
+
+We used HTML, CSS, and Javascript (jQuery) to build the front-end of our web app. We used Microsoft's Face API to perform sentiment analysis on the images gathered. We also built a prototype Android app that had the same functionality as the web app. 
+
+Challenges we ran into
+
+We originally intended to use the Pebble smartwatch to monitor heart rate but later discovered that none of the watches had heart rate sensors. We then tried to measure heart rate using the LED camera of our smartphones, but discovered that implementing this feature was too time consuming and difficult, and there were better ways of measuring distress (using sentiment analysis). We ran into difficulties pushing photos from our smartphone app to the Microsoft Face API. 
+
+Accomplishments that we are proud of
+
+We switched from a platform that we were more familiar with (Android development) to a platform that we were less sure about (web development) and still managed to make a working product.
+
+What I learned
+
+We learned how to talk to Microsoft Face API through HTTP. We also learned how to create web apps using HTML/CSS/Javascript. 
+
+What's next for Fearface
+
+Implementing cameras from the smartphone or laptops and continuously uploading picture data to the cloud for sentiment analysis. Adding other metrics like heart rate to better track the level of fear. Adding a sort of ""streak incentive"" so that people would continuously use our app every day. Adding sound so people are more immersed. Maybe a far-fetched idea is to make a VR game (more immersive and intense). 
+",,https://github.com/ngeorgian/FearApp/tree/master/fff,,"Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human","javascript, html5, css3, android","University of Massachusetts Amherst, Boston University",,,willzhang100,University of Massachusetts Amherst,1,ngeorgian,,,
+FaceIT,https://bostonhacks-f17.devpost.com/submissions/80476-faceit,"Inspiration
+
+The National Health Care Anti-Fraud Association estimates that health care fraud costs the United States about $68 billion annually. Roughly 3% of the nation's $2.26 trillion annual health care expenditure. 
+
+
+The following data represents Blue Cross Blue Shield of Michigan's fraud investigation unit activity from July 1980 to March 2017.
+
+Cases opened: 51,322
+Cases closed: 50,324
+Referred for recovery/cost savings: $402,716,325.25
+
+
+According to these statistics there is a huge opportunity to implement a more substantial identity-verification process in Hospitals and Clinics for point of care service. 
+
+What it does
+
+
+Create user (PatientID)
+Train PatientID with OpenCV
+Capture image of patient
+Maps PatientID to image of patient
+
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for FaceIT
+",,https://github.com/Ads7/bostonHack2017ImgRec,,"BU Spark — Diverse Team, Optum — Healthcare/Wellness Solution","opencv, django, python, javascript, html, css","Northeastern, BU, WIT, Ithaca",Domain.com,,ddyson1,"Ithaca College, Northeastern University, Boston University, Wentworth Institute of Technology",4,singh-gujral,amitmangotra,kev5,bp9614
+Mixify ,https://bostonhacks-f17.devpost.com/submissions/80478-mixify,"Developer Link
+
+https://developer.spotify.com/web-api/console/get-playlist-tracks/#complete
+
+Objective
+
+The problem we saw with many social gatherings is that people want to play their own music, resulting in random people taking the hosts' phone to play music. Also, everyone is too lazy to add music to a collaborative playlist. My solution takes an N number of playlists and an X amount of minutes (party duration) and selects an equal amount of minutes from each playlist to total the party duration. Currently, it selects songs randomly from each playlist; however, I would like to add more data science into it including 
+
+
+Song popularity
+Repeated songs
+Cross reference with Global top 100 songs
+Event type - party, gala, etc.
+
+
+Screenshot
+
+
+
+Spotify Accounts Authentication Examples
+
+This project contains basic demos showing the different OAuth 2.0 flows for authenticating against the Spotify Web API.
+
+These examples cover:
+
+
+Authorization Code flow
+Client Credentials flow
+Implicit Grant flow
+
+
+Installation
+
+These examples run on Node.js. On its website you can find instructions on how to install it. You can also follow this gist for a quick and easy way to install Node.js and npm.
+
+Once installed, clone the repository and install its dependencies running:
+$ npm install
+
+Running the examples
+
+In order to run the different examples, open the folder with the name of the flow you want to try out, and run its app.js file. For instance, to run the Authorization Code example do:
+$ cd authorization_code
+$ node app.js
+
+Then, open http://localhost:8888 in a browser.
+
+Using your own credentials
+
+The examples contains a working client ID and secret key. Note, however, that they might be rate limited if they are used frequently. If you are planning to create an application, we recommend you register your app and get your own credentials instead of using the ones in this project.
+
+Go to My Applications on Spotify Developer and create your application. For the examples, we registered these Redirect URIs:
+
+
+http://localhost:8888 (needed for the implicit grant flow)
+http://localhost:8888/callback
+
+
+Once you have created your app, replace the client_id, redirect_uri and client_secret in the examples with the ones you get from My Applications.
+",,https://github.com/ChiragAswani/BostonHacks2017,,,"html, javascript, css","Boston University, Northeastern University",,,ChiragA,Boston University,0,,,,
+Genghis Coin (BostonHacks),https://bostonhacks-f17.devpost.com/submissions/80479-genghis-coin-bostonhacks,"What is Genghis Coin?
+
+
+
+Genghis Coin makes predictions of relative maxima and minima of prices by generating a formula through Newton-Gaussian Algorithm and makes trades accordingly. This utility has a Twilio interface, that allows the user to receive live notifications about the bot's performance (aka net profits) and about drastic changes in the market. 
+
+Future Iterations
+
+
+
+In future iterations of this project, we plan to add AI for optimizing the decision of whether or not we should place buy and sell orders given our knowledge of the market using Tensorflow. Furthermore, by implementing Wit.ai for natural language processing we can improve the experience of our users. Future versions of this platform would allow users to simply invest in a bot, and see their money grow through our graphical analysis. As of now, this utility only trades cryptocurrency's but it can easily use the same math to trade stocks, and any other markets. A final form of our bot would trade with multiple different stocks simultaneously, and would use AI to predict function types for datasets. 
+",,https://github.com/cumason123/BostonHacks,,"Twilio — Best use of Twilio API, BU Spark — Diverse Team, ITG — Best FinTech Hack","python, html, css, coinbase, gdax, numpy, poloniex, twilio, flask",BU,,,wisdomtt,Boston University,1,nyleazaf,,,
+Medifi,https://bostonhacks-f17.devpost.com/submissions/80480-medifi,"Medifi: An end-to-end encrypted decentralized file sharing network for the secure transfer and easy use of medical records
+
+Medifi is a Web and Android decentralized application (DApp) to share Medical Documents securely via NFC. It can potentially store any medical records securely. The medical documents are uploaded by your doctor or other medical professional who is already trusted by the user. On a high level, this application can be used to share sensitive medical documents in a secure and accessible way. The target audience includes anyone who needs ready access to their personal medical records. 
+
+The Problem
+
+In the United States, accessing one's own medical records can be a timely and frustrating process. It can take 30 days to gain access to medical records and often the request for access is denied improperly. Even if access is gained it can be unreasonable to search through and manage the thick stack of papers. This is a process known for its incredibly inefficient and cumbersome process - there is clearly much room for improvement.
+There have been attempts to digitize medical records and other similar sensitive data using traditional Web 1.0 and Web 2.0 technologies, but these have fallen short. For example, there have been cases of staff abusing their adminstrational access to patient records. Traditional databases continue to be the subject of hacks as we have recently seen with the Equifax hack and the ransomware attacks plaguing unsecure databases. With a database acting as a single point of failure it seems this problem cannot be resolved unless a nontraditional approach to data storage is explored.
+
+The Solution & Medifi
+
+Web 3.0 has brought with it a potential solution for the problem detailed above. Medifi's solution has leveraged these emerging technologies to create an end-to-end decentralized file sharing network. This means there is no longer a single point of failure for hackers to exploit. The data itself is secured using SHA256 in a Merkel DAG data structure and users can access the data using the hashes of the SHA256 encryption traced with the help of the Ethereum Blockchain and smart contracts. This means that data can be added and viewed with ease and be stored completely securely. Which means that you will no longer have to wait thirty days to access your own medical records and sharing your medical records with trusted sources will be easier and more secure than ever before.
+
+Installation and Requirements
+
+
+An android mobile
+Refer to Embark Framework Docs
+
+
+Tech Stack
+
+
+Embark Framework
+IPFS
+Bootstrap
+Solidity
+Web3JS
+
+
+Deployment Framework
+
+OpenShift - planning on it.
+
+Collaborators
+
+
+Devin de Hueck
+Mahima
+Kim
+So Hyeong Lee
+
+
+Misc.
+
+What is DApp?
+
+Take it from the top answer on stackoverflow:
+
+
+DApp is an abbreviated form for decentralized application.
+
+A DApp has its backend code running on a decentralized peer-to-peer network. Contrast this with an app where the backend code is running on centralized servers.
+
+A DApp can have frontend code and user interfaces written in any language (just like an app) that can make calls to its backend. Furthermore, its frontend can be hosted on decentralized storage such as Swarm or IPFS.
+
+If an app=frontend+server, since Ethereum contracts are code that runs on the global Ethereum decentralized peer-to-peer network, then:
+
+DApp = frontend + contracts
+
+
+What is Ethereum?
+
+Check out the Wikipedia
+
+Inspiration :
+
+Analyzing the cybersecurity events in the medical industry, we realized there is a huge data security issue as well as the need to simply access medical records easily. Especially Arkansas Oral Facial Surgery Center was hit by a cyber attack that shut the organization out of files, medical images and details of patients visits. So we came up with the idea of storing the sensitive data on a decentralized platform, thus making protecting it from single point failure issue.
+
+Challenges we ran into
+
+Understanding the necessary requirements to build an entirely secured application in a decentralized manner.
+
+What we learned?
+We learned about blockchain technology, smart contracts, and decentralized systems.
+
+What's next for Medifi
+We wish to continue to research on end-to-end encryption and smart contracts in order to built a more robust and scalable system to meet the demands of an enormous industry.
+",https://youtu.be/UZYsvTh0VKU,https://github.com/Mahimasingh/BostonHacks2017,,"BU Spark — Diverse Team, Optum — Healthcare/Wellness Solution, BU Spark — Social Good ","java, javascript, xml, html5, css3, bootstrap, ipfs, embark, jquery, json, solidity","Boston University, Northeastern University, Ryerson University",,,ddehueck,"Boston University, Ryerson University, Northeastern University",3,BrandonMac,sohylee96,MahimaSingh7,
+BTC-price-sentiment-correlation,https://bostonhacks-f17.devpost.com/submissions/80482-btc-price-sentiment-correlation,"Inspiration
+
+money
+
+What it does
+
+predict the markets sentiment based on cryptocurrency price.
+
+How I built it:
+
+sklearn ML library to find the correlation between currencies and the market sentiments from posts on reddit and twitter articles
+ ## Challenges I ran into
+finding the correct data
+
+Accomplishments that I'm proud of
+
+scrapping reddit and twitter
+
+What I learned
+
+How to web scrape do use twitter's api
+
+What's next for BTC-price-sentiment-correlation
+
+adding more data to the model
+",,http://github.com/frumsy/name-decoder,,,"code, python",Umass Amherst,,,frumsy,University of Massachusetts Amherst,0,,,,
+Prescription Reminder,https://bostonhacks-f17.devpost.com/submissions/80483-prescription-reminder,"Inspiration
+
+I'm just here to help remind people to take their prescriptions.
+
+What it does
+
+Reminds people to take their prescriptions as ordered by their doctor.
+
+How I built it
+
+With Android, Firebase, Node.js, Twilio API, Mobile Vision API.
+
+Challenges I ran into
+
+The greatest challenge... their are no good optical character recognition (OCR) systems available for android... for now.
+Couldn't implement all the features I wanted.
+Solo programming is a bit boring and no fun.
+My files were to big to upload as a zip.
+
+Accomplishments that I'm proud of
+
+I almost developed a full working app in 24 hours.
+
+What I learned
+
+I learned how to integrate different tools together to build software.
+
+What's next for Prescription Reminder
+
+I'll be continuing development on the mobile app. I'll have more time now to find a OCR that I can integrate into the mobile app. That will make it easier for people who don't want to manually put in all the prescription information by thumbs.
+",,https://bitbucket.org/zakarh/prescription-reminder,,"Twilio — Best use of Twilio API, Optum — Healthcare/Wellness Solution","android, firebase, node.js, twilio, mobile-vision-api",Bridgewater State University,,,zakarh,Bridgewater State University,0,,,,
+UpHealth,https://bostonhacks-f17.devpost.com/submissions/80484-uphealth,"Inspiration
+
+According to the statistics, around 7000 patient deaths take place every year due to wrong medication, the communication gap between doctor and the patient and the doctor's  negligence. To overcome this, we came up with an idea to bridge the gap between the what the doctor conveys about the disease and the patient's understanding of the disease.
+
+What it does
+
+We have built a web portal and mobile application to solve the above issue, wherein the doctor can see every patient's statistics which include their current medications, dietary restrictions, and the patient's progress. Thus the doctor can send a notification, to the patient if they feel any change is required cam also ask whether the patients are taking their medications regularly.
+
+How I built it
+
+With dedication and teamwork
+
+Challenges I ran into
+
+Working with new technologies
+
+Accomplishments that I'm proud of
+
+Learnt all the technologies required in one day and successfully implemented them
+
+What I learned
+
+Teamwork
+
+What's next for UpHealth
+
+Broadening our reach to masses
+",,http://divyendra.com/BU-Healthcare/dashboard.html,https://s3.amazonaws.com/challengepost/zip_files/production/26621/zip_files/Health.zip,"RedHat — Best hack using RedHat OpenShift, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human","html5, javascript, php, css, java, xml, android-studio, phpmyadmin","Stevens Institute of Technology, University of Massachusetts, Amherst",,,DivyendraPatil,"Stevens Institute of Technology, University of Mumbai",0,,,,
+best-invest,https://bostonhacks-f17.devpost.com/submissions/80485-best-invest,"Inspiration
+
+Challenged at BostonHacks to create a fintech hack, our team wanted to create a visualization tool that (1) answers a financial question and (2) is easy for the general public to understand trends and interact with.
+
+What it does
+
+Our team built a web tool that displays side-by-side comparison of investment returns between index fund returns versus actively-managed funds. On the left, user can view the index fund and on the right, the user can add stocks to the actively-managed fund side. With the new stock addition, the user can watch the active-managed fund returns dynamically change.
+
+How we built it
+
+Front-end: React, Redux
+Back-end: Python, Flask
+
+Challenges we ran into
+
+We had difficulty deploying the application with RedHat OpenShift, but RedHat advisors were there to help and we have it successfully running!
+
+Accomplishments that we're proud of
+
+We were able to pull strengths from each member to create a working product in 24 hours!
+
+What we learned
+
+We learned that software development requires an immense amount of communication among team members.
+
+What's next for best-invest
+
+To expand the number of questions we can answer with data visualization
+",,https://github.com/lihelennn/best-invest,,"RedHat — Best hack using RedHat OpenShift, BU Spark — Diverse Team, ITG — Best FinTech Hack","react, redux, flask, python","New York University, Massachusetts Institute of Technology",,,amandalchiu,New York University,0,,,,
+Flyt,https://bostonhacks-f17.devpost.com/submissions/80486-flyt,"Inspiration
+
+People have the tendency to miss flights more often than not. Sometimes, we are too busy to keep track of time. There are times where we have mini heart attacks because we just make it to the airport. What if there was a way to tell you when to leave so you make the most use of your precious time? What if there was a way to make sure the lazy ones out there don’t miss their flights? Presenting, Flyt!
+
+What it does
+
+Flyt is a web application that takes your flight information, and most importantly, your phone number, and texts you one hour before you leave your home. It will also text you half an hour before you need to leave, and call you when you need to leave. The time to leave home is estimated based on a number of factors such as time of travel to the airport, approximate check-in time, time spent in security lines, and so on. 
+
+How we built it
+
+We used the Google Maps API to estimate time of travel. We designed a model to approximate the number of people at the check-in and security lines and hence approximate the wait time for the nth person. These were defined as a functions of the number of flights per airline and the number of passengers. Then, we used the Twilio API to send alert messages and make the phone call at the right time. All of this python code is integrated and tied up with a UI developed in HTML and CSS.
+
+Challenges we ran into
+
+The major issue was data collection. It was really difficult to find data about different flights, so we ended up scraping from different sources. Since flight information is sensitive data, it’s not very widely available. Another issue was getting the Twilio API to send messages at a scheduled time. We had to figure out how to use a redis queue and run a redis server. We were able to overcome the redis queue challenge, and we worked with some assumptions and estimations for our waiting time model as data collection was an issue. 
+
+Accomplishments that we're proud of
+
+We believe that all the components came together, and is accurate as we could have possibly modelled it. 
+
+""The UI is AWESOME,"" says a member of our team.
+
+What we learned
+
+We learnt how to use the Google Maps API, how to send a message at a scheduled time, and how to use more animation in the website. We also realized how important it is to have a good data source. 
+
+What's next for Flyt
+
+The most important part is to get better and more reliable data. We want to come up with a more accurate model to estimate wait times. 
+",,,,Twilio — Best use of Twilio API,"python, twilio, google-maps, redis",Boston University,,,varshaachar,Boston University,3,zui,sarms,ColKim,
+Snapify,https://bostonhacks-f17.devpost.com/submissions/80487-snapify,"Inspiration
+
+A picture is worth a thousand words. And we wanted to find a way to convert a picture in words, 
+
+What it does
+
+It gives best matches of images based on keywords given as input by user. 
+It tags images with the most accurate description of the image. 
+It also provides parental control by sending a notification(using twilio) if some sort of in-appropriate content is accessed by the child. 
+
+How we built it
+
+We are using Google Vision API for fetching different attributes of an image. Based on these different attributes we are ranking photos. We also used Twilio API for sending notifications. 
+
+Challenges we ran into
+
+Developing an algorithm to smartly use the raw data provided by Google vision API to generate a useful output.
+Image compression while sending image over to Google API.
+
+Accomplishments that we're proud of
+
+First it works and second it works accurately!!!
+
+What we learned
+
+The limitless possibilities of Google APIs!!!
+
+What's next for Snapify
+
+It will replace Gallery app from all smart phones in future!!!
+",https://youtu.be/VKeP3jvjiHY,https://github.com/shivam2407/BostonHack.git,,Twilio — Best use of Twilio API,"google-vision-api, android, twilio, java, php",Northeastern University,,,ShivamRawat,Northeastern University,2,thetachyonn,mongaj,,
+bill-cutter-in-halfer,https://bostonhacks-f17.devpost.com/submissions/80488-bill-cutter-in-halfer,"Inspiration
+
+What it does
+
+Destroys debt
+
+How I built it
+
+Python
+
+Challenges I ran into
+
+None
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for bill-cutter-in-halfer
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/26622/zip_files/bill-handler.zip,ITG — Best FinTech Hack,python,BU,,,cvh16545,Boston University,0,,,,
+StockBuddy,https://bostonhacks-f17.devpost.com/submissions/80489-stockbuddy,"Inspiration
+
+We recently had our first experiences with investing via. RobinHood. It's quite exciting to invest in companies you want to support (and see your money grow with their success too (;). However, RobinHood did not offer any way to learn about stocks-- you would essentially need to already know about that company. I wanted to invest in companies that were contributing to sectors I cared about (like AI / biotech / health services). 
+
+I found difficulty when researching on my own to find similar stocks to those I was already investing in / were similar in sector & purpose. StockBuddy is a ~16 hour hack that attempts to resolve some of these pains. 
+
+What it does
+
+Simply, it takes in 2 parameters: Which sector you want to invest in, and how much capital you're willing to invest. The application creates a list of stocks, including their price / target price / summary / and recent press news. 
+
+Challenges we ran into
+
+Strangely, the issues we faced were the things we expected to go smoothly. To put it in perspective, the 3 web scrappers we made and a separate data retrieving API took only ~2-3 hours to implement. The rest was fixing bugs in our UI. 
+It took us ~1.5 hours to fix a javascript bug where it wouldn't upload the changes unless we changed the document's name, and then another ~2 hours to fix a bug where the articles we parsed somehow had weird non ASCII characters (which broke our 'results' page entirely). 
+
+In general it was hard to plan at first given our time constraint on which approach would be best, and what we could deliver as an MVP. 
+
+Accomplishments that I'm proud of / what I learned
+
+I've never touched web-dev before or used flask / bootstrap / pandas-data reader / jinja / beautiful-soup and I'm happy that I forced myself to learn all these useful tools during this event.
+
+What's next for StockBuddy
+
+We would like to continue working on StockBuddy (maybe give it a new name too?). The next upgrade would be creating a database to store all the stock info so we wouldn't have to use our web scrapers every time a user submitted a request (it takes about ~3-4 seconds to get the data on each stock... yikes) 
+
+We would also like to implement more custom features, like filtering based on what you're investing in now / providing information on how 'risky' a stock is / and overall improve the UI.
+",https://youtu.be/Tfm6ZBTMPLs,https://github.com/helenzhangg/stockBuddy,,"BU Spark — Fellowship, ITG — Best FinTech Hack","flask, html5, css3, beautiful-soup, pandas, jinja",Boston University,,,hel3n,Boston University,1,Kai-Munechika,,,
+Intelligent Skin Cancer Diagnosis,https://bostonhacks-f17.devpost.com/submissions/80490-intelligent-skin-cancer-diagnosis,"Inspiration
+
+Having studied the theory in the news and research papers, I thought BostonHacks was a great opportunity to advance my skills in its application. As I contemplated what algorithm to use, I figured transfer learning was a great approach to the subject in the limited time of one day. After listening to the sponsors' talks, I came up with the idea to apply machine learning to healthcare. After surfing through datasets of diseases, I came across a melanoma, a skin cancer that can become deadly if not diagnosed early. 
+
+What it does
+
+The machine learning algorithm takes in images of moles, and then classifies whether or not a malignant form of melanoma appears. After training the model, it can be used to predict if a mole has a risk of developing into melanoma.
+
+How I built it
+
+I used the machine learning library, PyTorch, to develop a deep neural network on a Linux virtual machine. Because the input data are images, it is extremely power and time consuming to train a deep neural net. So I used transfer-learning, which is a method of using a pre-trained model on various images, to speed up the process and to allocate more to develop more specific differentiation. 
+
+Challenges I ran into
+
+I tried installing Pytorch on windows, however, the unofficial build caused many problems and broke other dependencies. So I sacrificed the benefit of gpu acceleration to build a more stable application on a slow virtual machine.
+
+Accomplishments that I'm proud of
+
+I am proud that I have gotten my first real-world application of machine learning working. I had previously struggled a lot with deep learning libraries because of their rapidly changing architecture.
+
+What I learned
+
+I strengthened my knowledge in Python through the development in machine learning. And boosted my confidence to apply machine learning to a broader spectrum of things.
+
+What's next for Intelligent Skin Cancer Diagnosis
+
+It could definitely gain more accuracy by training on a larger dataset and improve by identifying more skin conditions. It would be great to build an app that automatically identifies the diseases with only a picture. It could also suggest ways to prevent, mitigate, or reach help about a specific skin condition.
+",,https://github.com/juliusfrost/BostonHacks2017,,"Optum — Healthcare/Wellness Solution, BU Spark — Social Good ","python, machine-learning",Boston University,Amazon Web Services,,juliusfbu,Boston University,0,,,,
+Class Registration,https://bostonhacks-f17.devpost.com/submissions/80491-class-registration,"Inspiration
+
+We hate planning our schedules. There are too many time conflicts! That's why we wrote this program to eliminate the tedious planning process.
+
+What it does
+
+Our program assumes days and times for all classes available to engineering freshmen and, depending on whether or not the incoming student has AP credits, selects a subset of courses the student would like to register for. Our algorithm then generates possible schedules for the student that don't have any time conflicts.
+
+How we built it
+
+Carol and I are both beginning programmers, so we really hope that all our hard work shows in this project. We spent a lot of time working out the algorithm in python _ while learning python syntax at the same time _.
+
+Challenges we ran into
+
+We literally did not know python before coming to BostonHacks. Fortunately (or unfortunately, depending on your outlook), we have experience in MATLAB. Our biggest challenge thus was learning to code in python.
+
+Accomplishments that we're proud of
+
+We are actually submitting something for our first ever hackathon! We literally did not think we would get this far.
+
+What we learned
+
+We learned that, through perseverance, even mildly impressive things are possible.
+
+What's next for Class Registration
+
+We envision Class Registration at the point where incoming freshmen can text class requests to a phone number run by Twilio, and Twilio will respond with the possible schedules.
+",,https://github.com/benjesuis/ClassRegistration.git,https://s3.amazonaws.com/challengepost/zip_files/production/26623/zip_files/classregistration.txt,,"python, hard-work, google-searches",Boston University,,,benjaminlivney,Boston University,1,chuqiaoliang,,,
+best-colors,https://bostonhacks-f17.devpost.com/submissions/80492-best-colors,"BOUT
+Best Colors provides you with your most flattering colors based on your skin tone, eye color and hair color. Once you know your best colors to wear, you can start using them for your clothing, make up, nail polish, jewelry, hair coloring, and even home decor! You will spend money wisely by buying your most flattering colors. You will save time shopping for only your best colors. Your best colors will enhance your appearance and improve your mood.
+
+Your eye color, hair color, and skin tone have cool or warm undertones and determine your best colors to wear. When you place silver and gold colors next to your face, you determine your complexion and discover your best colors.
+
+When you look better in silver, your face looks healthy, clear, radiant, younger, and refreshed. Next to gold, your face appears pale, ashen, sallow, discolored, dull, or older. If you look better in silver, you have a cool or cooler complexion, blue-pink-red skin undertones and look your best in cool colors.
+
+When you look better in gold, your face looks healthy, clear, radiant, younger, and refreshed. Next to silver, your face appears pale, ashen, sallow, discolored, dull, or older. If you look better in gold, you have warm or warmer complexion, yellow-golden-peach skin undertones and look your best in warm colors.
+
+Cool Complexions  – you look better in silver, have blue-pink-red skin undertones, gentle, delicate, soft, low intensity coloring and low contrast between your hair, eyes, and skin. Next to silver your face looks healthy, clear, radiant, younger, and refreshed. Next to gold, your face appears pale, ashen, sallow, discolored, dull, or older.
+
+Cooler Complexions – you look better in silver, have blue-pink-red skin undertones, strong, deep, vibrant, high intensity coloring and high contrast between your hair, eyes, and skin. Next to silver your face looks healthy, clear, radiant, younger, and refreshed. Next to gold, your face appears pale, ashen, sallow, discolored, dull, or older.
+
+Warm Complexions – you look better in gold, have yellow-golden-peach skin undertones, gentle, delicate, soft, low intensity coloring and low contrast between your hair, eyes, and skin. Next to gold your face looks healthy, clear, radiant, younger, and refreshed. Next to silver, your face appears pale, ashen, sallow, discolored, dull, or older.
+
+Warmer Complexions – you look better in gold, have yellow-golden-peach skin undertones, strong, deep, vibrant, high intensity coloring and high contrast between your hair, eyes, and skin.Next to gold your face looks healthy, clear, radiant, younger, and refreshed. Next to silver, your face appears pale, ashen, sallow, discolored, dull, or older.
+
+Best Colors provides your most flattering colors based on your skin tone, eye color and hair color. Once you know your best colors, you can start using them in your clothing, make up, nail polish, jewelry, hair coloring, and even home decor.
+
+You will spend wisely buying your most flattering colors. You will save time shopping for only your best colors. Your best colors will enhance your appearance. Your face will look healthy, clear, radiant, younger, and refreshed. You will improve your mood. You will know how to create harmonious looks.
+",,https://github.com/raghucse/best-colors,,,"html, javascript, css","Northeastern University, Boston University, Colorado school of mines, UMass Lowell",,,raghu_cse,"Northeastern University, University of Massachusetts - Lowell, Boston University",2,kevinzhihuang,NoahT,,
+HelpMe,https://bostonhacks-f17.devpost.com/submissions/80493-helpme,"Inspiration Theme
+
+What it does
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for HelpMe
+",,https://github.com/pranavpraikundalia/BostonHacks,,"Twilio — Best use of Twilio API, Optum — Healthcare/Wellness Solution, BU Spark — Social Good ",,"Boston University, Northeastern University",,,pranavpraikundalia,"Boston University, Northeastern University",2,mansijain,ruturajnene,,
+Kronos: Stock Analytics Tool,https://bostonhacks-f17.devpost.com/submissions/80494-kronos-stock-analytics-tool,"Kronos: Stock Analytics Tool
+
+Specs
+
+
+Dynamic Full Stack Web Application using Flask
+Google Automatic Speech Recognition
+NLU parsing to ticker symbol
+
+
+Machine Learning Used
+
+
+Support Vector Machine
+LSTM
+
+
+Features
+
+
+Informative, dynamic, interactive, exportable graph
+Overlay on 3 popular index stocks
+Provides 5 key performance metrics
+Machine Learning next day price predictions
+Speech recognition
+Intelligent attempt to parse search to a ticker symbol
+
+",,https://github.com/osirissc2/StockPredictor,,ITG — Best FinTech Hack,"javascript, python, html, css3, flask, machine-learning",Boston University,,,ivorinedo,Boston University,2,osirissc2,jinghullei,,
+Guide-Troop,https://bostonhacks-f17.devpost.com/submissions/80495-guide-troop,"bosthacks2017
+
+Fall Boston Hacks 2017. Our team has decided to work with the Liberty Mutual API to implement a web application that recommends the safest and most optimal mode of transportation (Uber/Lyft, personal car, or public transportation) to users.
+
+Our algorithm uses metric such as FBI crime data, Liberty Mutual API Data, and weather data. In addition, our application has the potential to expand by incorporating data from Liberty Mutual's upcoming API's on parking and safest route. 
+
+Furthermore as self driving cars become a reality, our application will lay the groundwork that allows a vehicle and its owner to make intelligent decisions on the road. These decisions might include whether or not to park in a specific location (based on parking availability and crime data), find a more optimal spot, or drive itself home.
+
+We would like to emphasize that our application is fully functional for any given input (contingent on the data being available from our API's) and is not hard coded.
+",,https://github.com/RHprogrammer/bosthacks2017,,"BU Spark — Fellowship, Liberty Mutual — Objectively Human, BU Spark — Social Good ","html, python, css, javascript, django, jquery, api, fbi-data, open-weather-map",Boston University,Amazon Web Services,,hp2509,Boston University,2,Sogutt,alikinay,,
+HighLife,https://bostonhacks-f17.devpost.com/submissions/80496-highlife,"Inspiration
+
+We're worried about our friends.
+
+What it does
+
+Takes in data, tests your reflexes, and tells you what to do next.
+
+How I built it
+
+With algorithms to analyze data, bootstrap, and javascript.
+
+Challenges I ran into
+
+Getting anything to work!!
+
+Accomplishments that I'm proud of
+
+It works!!!
+
+What I learned
+
+Lots about teamwork and all the languages and programs we used.
+
+What's next for HighLife
+
+DrunkLife
+",,https://github.com/delainerogers/highlife,,"BU Spark — Diverse Team, BU Spark — Fellowship, ITG — Best FinTech Hack, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human, Best Domain Name from Domain.com, BU Spark — Social Good ","javascript, html5, css, php, excel, mysql, wamp, apache, xampp, phpmyadmin, github, sublime-text, notepad++, bootstrap","BU, UTD, Stevens Institute of Technology",Domain.com,,delainerogers,Boston University,2,rishab2113,SirWillUnicorn,,
+FullCircle,https://bostonhacks-f17.devpost.com/submissions/80497-fullcircle,"Inspiration
+
+Three of us are training for a half marathon race in November and we are unsatisfied with the unintuitive running apps that are on the market today. Given the hackathon's focus on healthcare, we felt that there was no better time to design an application with a user-friendly UI than right now!
+
+What it does
+
+FullCircle is a mobile and web application that can generate running routes based on user specifications. If a user wants to run 5 miles, FullCircle will find a five-mile path around the users current location. FullCircle guarantees to provide a safe route that will start and finish in the original location of the user so there is no hassle continuing your day after your run! 
+
+How we built it
+
+To make this application run we employed many of today's most novel technologies. 
+From using Amazon Web Services to store all of our user data such as phone number, name, desired running distance in DynamoDB to initializing a RedHat Linux machine in EC2 using Route53 to establish a domain name.
+
+We also used many APIs, including Google Maps APIs (JavaScript API, Distance Matrix API, Directions API) for our front-end user experience, Twilio Messaging APIs to communicate via SMS with our users and Liberty Mutual's Solaria Labs APIs (Total Home Score) to ensure the safety of our generated routes for our users. 
+
+Challenges we ran into
+
+As always, integration of the work of five people with so many different APIs in four different computer languages and a cloud platform was a challenge. Since we were all working off of one main AWS account, splitting the permissions via IAM, we also often ran into credential issues where we would have to reset keys to replace old outdated ones. 
+
+Accomplishments that we're proud of
+
+We are very proud with our AWS infrastructure and our user interface. One of our major focuses was to make the user experience seamless and easy and we believe that our UI is a positive step in that direction! Furthermore, we are very happy that we were able to incorporate many of the sponsors' technologies, many of which were brand new to us, in this project. 
+
+What we learned
+
+We learned how to use many of the AWS services such as Route53, EC2 and DynamoDB! On top of that, we became much more familiar with the UX design process taking into account many of our users' needs and wants.
+
+What's next for FullCircle
+
+FullCircle will soon be hosted on a permanent domain name: www.fullcirclerun.com where any runner can easily access and use the application!
+",,https://github.com/nickarnold97/FullCircle,https://s3.amazonaws.com/challengepost/zip_files/production/26635/zip_files/Final_Presentation.pdf,"Amazon Web Services - Best Use of AWS, Twilio — Best use of Twilio API, BU Spark — Diverse Team, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human, BU Spark — Social Good ","javascript, python, html, css, amazon-web-services, flask, google-maps, twilio, solaria-labs-api, bootstrap",Boston University,Amazon Web Services,,pablofer97,Boston University,3,genegrin,sshong19,davidgomez11,
+DataFace,https://bostonhacks-f17.devpost.com/submissions/80498-dataface,"Inspiration
+
+We were interested in using modern day technology to assist the general public in emergency situations. 
+
+What it does
+
+Our application allows the user to enter medical information and take an img folder of their faces. With this information, the application recognizes the faces and assigns it to the information that the user inputs.  
+
+How we built it
+
+We used opencv and python to create a desktop application.
+
+Challenges we ran into
+
+Our group ended up using different versions of python when programming their portion of the project. By the morning, we realized that there was not enough time to fix the issues that arose when trying to merge our portions into one large project.
+
+Accomplishments that we're proud of
+
+We managed to: recognize the face, apply attributes to the face, and train the program to recognize a face
+
+What we learned
+
+We learned a considerable amount from how to use opencv.
+
+What's next for DataFace
+
+We hope to merge our work to have the application to work as intended. Hopefully, we can allow the user to enter health information that you would put on a card for life threatening scenarios. For example, the user can enter whether he or she chooses to be an organ donor, has allegies, or if the user chooses not to consent to CPR.  Therefore, when another user of the application finds this individual in a life threatening situation, the user can immediately identify how to deal with the situation.
+",,https://github.com/adi218/BostonHack,https://s3.amazonaws.com/challengepost/zip_files/production/26625/zip_files/face-recog.zip,"BU Spark — Diverse Team, BU Spark — Fellowship, Optum — Healthcare/Wellness Solution, BU Spark — Social Good ","python, opencv",Rutgers University,,,adi218,"Rutgers, The State University of New Jersey",1,DianaSoltani,,,
+Studydate,https://bostonhacks-f17.devpost.com/submissions/80500-studydate,"Studydate
+
+Hi there, we are the developers of Studydate.  Ivan is well versed in various computer science languages as he has already published a few iOS apps as personal projects. Zack specializes in website programming while Frances helps us to put our ideas in words and images to present to all the hackers. 
+
+Since we are all hard-working and driven students, we have always found it difficult to balance our academic lives with social lives. Thus, the team decided that we could build a dating app that matches people with different academic interests within different institutions. We have coined the term a ""study date"" that has dual meanings. First, it means a date when you can study with others who are just as passionate about natural science or literature as you. Second, it can literarily mean a date when you just hang out with the other person while working on similar problem sets or engaging in a mind-boggling conversation about your preferences for certain computer science languages. 
+
+Since Bostonhacks is only two days, we decide that it is best to publish a website first and then continue to build our app in the following days. Thus, we registered a domain spent yesterday building functions and perfecting its aesthetic appeal.
+
+You should definitely check out our website: www.studydate.me
+
+(There is a demo of our app on the website, although the app is still under development :) )
+",,,,"BU Spark — Diverse Team, BU Spark — Fellowship, Best Domain Name from Domain.com, BU Spark — Social Good ","html, swift, css, python, phpmyadmin",Boston University,,,Zackhardtoname,Boston University,1,fsmyth21,,,
+Color Controlled VR controller,https://bostonhacks-f17.devpost.com/submissions/80501-color-controlled-vr-controller,"Inspiration
+
+We wanted to recreate Cooking Mama in virtual reality but without the use of controllers that make VR more inaccessible. Our ""controller"" is merely a colored paper on the back of the user's hand, which is tracked by the library tracking.js. 
+
+Try it yourself!
+
+Attach a bright yellow solid object to your hand, and go to the link provided. If you have a google cardboard, you can even it experience it in VR! It has to be a cardboard or something similar because our program relies upon the video input from your phone to track the colors. 
+",https://youtube.com/watch?v=Hy4dEivUfPw,https://connieye.com/Cooking-Mama/untitled.html,,,"aframe.js, javascript","Carnegie Mellon, Northeastern University, Tufts, Boston University",,,khanniie,"Carnegie Mellon University, Tufts University",1,wintan15,,,
+WhatDoesTwitterThink?,https://bostonhacks-f17.devpost.com/submissions/80502-whatdoestwitterthink,"Inspiration
+
+With the the rise of social media in the recent decade came a platform through which anyone can share their opinion on any topic. This leaves a formerly untapped resource of information, where surveys and case studies aren't the only ways to gauge how the public views any topic. Seeing this unfilled niche, we decided to create a way to poll recent tweets on a topic, and find the polarity of twitter users based on the query.
+
+What it does
+
+The brains of the operation are programmed in python, where a user passes a topic to our scripts. We poll twitter servers for the topic and scrape the most popular and relevant tweets in the past seven days. For each tweet we assign a polarity score, based on the sentiment and severity of the adjectives, verbs, adverbs, and grammatical structure of the text. These scores are then averaged together to create a Topic Polarity Score, which can be viewed as a positive, negative, and indifferent score.
+
+How we built it
+
+The scripts make use of natural language parsing, utilizing a pre-trained model of the English corpus to find the severity and connotation of each tweet. This is all passed to a front-end programmed in flask, which is exposed to the end user.
+
+Challenges we ran into
+
+One of the largest challenges encountered during the creation of this project was identifying grammatical structure  of a text. To solve this issue, a function designed to crawl through through a sentence and translate it into its grammatical subtree was created.
+
+Accomplishments that we're proud of
+
+We found the scripts to be both faster and more accurate than any similar programs on the web, which we think is something to be proud of for a group of first-timers to natural language processing.
+
+What we learned
+
+This was a crash course in NLP for all of us, and mapping out polarity values for different topics was extremely interesting.
+
+What's next for WhatDoesTwitterThink?
+
+In the future we plan to flesh out the user frontend as well as expand the search query from only twitter to other social media as well as search engines.
+",,http://whatdoestwitterthink.com,https://s3.amazonaws.com/challengepost/zip_files/production/26626/zip_files/sentiment-analyzer-master.zip,"BU Spark — Diverse Team, Liberty Mutual — Objectively Human, Best Domain Name from Domain.com, BU Spark — Social Good ","python, spacy, nltk, natural-language-processing",Boston University,Domain.com,,jbassin,Boston University,0,,,,
+Linguis,https://bostonhacks-f17.devpost.com/submissions/80503-linguis,"_ Presentation _
+link
+
+_ UI Experiences_
+link
+
+Inspiration
+
+Improving Education
+
+We started with the question, _ what is the future of education _. In the U.S., the quality of learning people receive is highly varied, with magnet and private schools often providing much more for students than their public counterparts. Now with access to powerful, immersive Augmented Reality experiences, Linguis is redefining what learning can be. Combining the virtual world with surrounding 3D space, Augmented Reality allows Linguis to provide an experience unlike any other, enabling students to collaborate with one another, study more effectively, and aggregate their classes and schedules. Linguis provides a complete educational experience, with a current focus on language students. Linguis is designed as a platform for any learning experience, with a vision for the future, expanding on technologies that are just coming to fruition.
+
+What it does
+
+What is Linguis
+
+Linguis has a multitude of features to enhance educational experiences. Using ARkit, Linguis offers four distinct module framework: _ holo _, _ grammer _, _ scan _, and _ writing _. With _ Holo _, Linguis projects virtual objects that users can interact with. With a current focus on language learning, Linguis integrates these projections in quizzes and study tools so users can describe what each projection is. Under the _ grammer _ module, users can move characters or objects in AR with image recognition, creating correct word spelling or completing puzzles. _ Scan _ creates translations of objects around you in AR, enabling users to learn the names of objects around them. And finally, the _ writing _ module allows for users to practice their writing characters efficiently. Each Linguis experience is tailored to the user's age, separating the learning experience of younger and older students. While these modules are focused on language learning currently, these frameworks can be applied to learning any subject - math, science, programming, etc. Linguis additionally has a calendar and notes organization system so users can monitor due-dates and classwork, look at their past recorded notes to study, watch videos from professors on subjects they are stuck in, and chat with friends to complete assignments.
+
+How I built it
+
+The Build Process""""
+
+The Linguis team used Apple ARkit extensively for the augmented reality experience, coding in swift on XCode. The team used Sketch 3 for developing the UI, created an interactive website, and implemented open-source libraries for machine learning and computer vision applications. Additionally, we used Blender and Solidworks for creating 3D assets for the _ holo _ module framework.
+
+Challenges I ran into
+
+Challenges:
+
+There were problems with code merging, exporting 3D files while maintaining color and other attributes, and bugs in the swift code and XCode.
+
+Accomplishments that I'm proud of
+
+Accomplishments
+
+The Linguis team is extremely proud of all of the things we were able to accomplish this weekend. The team basically built from scratch an application that focuses on AR, with a good working demo, a variety of 3D assets, an impressive website for marketing, and a fantastic UI experiences. We are extremely satisfied with all of the work that we accomplished.
+
+What I learned
+
+Lessons Learned
+
+We learned a lot from this project, from using new softwares such as Blender, Sketch 3, swift language, and machine learning libraries. We learned how to work well in a team dynamic, meeting deadlines and having an iterative development.
+
+What's next for Linguis
+
+What's next
+
+With such promising technology, Linguis is poised to dominate the educational market, beating competitors such as Duolingo and Rosetta Stone with strong, new core technologies. With a formidable business plan and market strategies, Linguis will redefine the educational landscape, with lofty goals for future development. Linguis will continue to refine its ideas and create assets for educators and students alike. We are open to offers of any size.
+",,https://github.com/byliuyang/Linguis.git,,Liberty Mutual — Objectively Human,swift,"Babson College, Boston University, Worcester Polytechnic Institute, Stevens Institute of Technology",,,jkong4,"Babson College, Boston University",1,myyan,,,
+GoudaTime,https://bostonhacks-f17.devpost.com/submissions/80504-goudatime,"Inspiration
+
+It is always hard deciding where you want to go for dinner, so we wanted to fix that!
+
+What it does
+
+Provides restaurant options for you to choose from!
+
+How we built it
+
+We used Django Framework to set everything up.
+
+Challenges we ran into
+
+Learning Django lol.
+
+Accomplishments that we're proud of
+
+Putting it all together!
+
+What we learned
+
+How Django works!
+
+What's next for GoudaTime
+
+We want to expand it and possibly even make an app for it!
+",,https://github.com/GFynbo/GoudaTime,,"BU Spark — Diverse Team, Liberty Mutual — Objectively Human, Best Domain Name from Domain.com",django,Boston University,Domain.com,,tatianadg,Boston University,0,,,,
+smartRPS,https://bostonhacks-f17.devpost.com/submissions/80505-smartrps,"Inspiration
+
+We were trying to develop a VR application for ADHD affected kids but we were not having laptops that were equipped to run VR, so we ended up in a game which combines both web development and machine learning
+
+What it does
+
+It uses MYO to take input to the web application and uses machine learning to play against the human player
+
+Challenges I ran into
+
+It was all obstacles on the way, but thankfully stack overflow helped us.
+",https://www.youtube.com/watch?v=bO0IylKLiQI&feature=youtu.be,https://github.com/rautmithil/rock-paper-myo,,,"python, amazon-web-services, node.js, html, bootstrap, firebase, linux, myo",Boston University,,,mars20,Boston University,0,,,,
+Twilio Dragonboard,https://bostonhacks-f17.devpost.com/submissions/80506-twilio-dragonboard,"Inspiration
+
+why not have a twilio server on all the time, and be battery efficient
+
+What it does
+
+reply to some phone calls and texts, very simply
+
+How we built it
+
+oine side python server, otherside hardware GPIO
+
+Challenges we ran into
+
+dragonboard libraries and hardware connections
+
+Accomplishments that we're proud of
+
+an led blinks wooo
+
+What we learned
+
+hardware can be really hard when the board is different
+
+What's next for Twilio Dragonboard
+
+speaker, more IO for dragonboard
+maybe an audio stream
+",,https://github.com/willwen/TwilioDragonboard,https://s3.amazonaws.com/challengepost/zip_files/production/26627/zip_files/TwilioDragonboard.rar,"Best IoT Hack Using a Qualcomm Device, Twilio — Best use of Twilio API",python,Boston University,,DragonBoard 410C,willwen,"Worcester Polytechnic Institute, Boston University",1,ashleycui,,,
+StockStalk,https://bostonhacks-f17.devpost.com/submissions/80507-stockstalk,"Inspiration
+
+In today's fast paced world, sometimes we can take information out of context. StockStalk provides important context about the companies that you read about and life among in real time.
+
+What it does
+
+A chrome extension that allows the user to hover over company names and instantly relevant stock information.
+
+How we built it
+
+It's a chrome extension built with standard javascript, along with node.js and npm implemented through some third party libraries.
+
+Challenges we ran into
+
+Stock data is surprisingly hard to find. Stock markets make their money on the distribution of information, and finding places to access realtime information for free was difficult.
+
+Also, implementing node libraries in a Chrome extension had many unforeseen complications.
+
+Accomplishments that we're proud of
+
+Our first Chrome extension, and a working product.
+
+What we learned
+
+A ton.
+",,https://github.com/JMichaelYang/StockStalk,https://s3.amazonaws.com/challengepost/zip_files/production/26628/zip_files/stockstalk.zip,,"javascript, html5, css, node.js",Northeastern University,,,JMichaelYang,Northeastern University,1,saifshaikh48,,,
+BUBot,https://bostonhacks-f17.devpost.com/submissions/80510-bubot,"Inspiration
+
+What it does
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for BUBot
+
+.
+",,https://github.com/dhennem/BUBot,,,javascript,Boston University,,,dhennem,Boston University,0,,,,
+Health and Wellness Meme Generator,https://bostonhacks-f17.devpost.com/submissions/80511-health-and-wellness-meme-generator,"What's the inspiration?
+
+If I'm having a bad day, I look up memes. If you're having a bad day, you look up memes too. Memes are very inspiring.
+
+What does it do?
+
+It returns a random meme and an accompanying health and wellness tip. Why not become healthier at the same time while you're brightening up your day?
+
+How did you build it?
+
+We used the Flask microframework to interact with the Twilio API, all written in Python.
+
+Did you run into any challenges?
+
+Finding the right memes proved to be challenging.
+
+Did you have any accomplishments that you're proud of?
+
+We built it, and we felt really good! It works, wow!
+
+What did we learn?
+
+We learned about how to use Flask and Twilio API, all while learning more about how to use Python.
+
+What's next for Health and Wellness Meme Generator?
+
+We're taking it to nationals. More health tips and more memes make the world go round!
+",,https://github.com/Arod15/Meme-Generator,,,"flask, python, twilio, random, internet, meme",Boston University,,,Arod15,Boston University,2,Hentear,Janicekwing,,
+GIFerty Mutual,https://bostonhacks-f17.devpost.com/submissions/80513-giferty-mutual,"Inspiration
+
+On a day to day basis, we never really see as many gifs as we do memes. To help the gif cause, we decided to create GIFerty Mutual, a web application built to not only let the user feel safe and secure, but also to bask in the glory of gifs.  
+
+What it does
+
+Utilizing the Liberty Mutual Shine API, we designed, implemented, and deployed a web application that takes in an input of user's address and returns the relative safety score of that address with a meme indicating the level of safety and security. 
+
+How we built it
+
+We built the app using flask and python, and a little bit of html, css, blood, sweat, and tears. 
+
+Challenges we ran into
+
+At first, we decided to do a mobile app, but to communicate with the various API, we had to use an apache HTTPclient that none of us really had exposure to. We decided gifs deserved better so we opted more towards a web application, since most of us were comfortable with python as a backend. 
+
+Accomplishments that we're proud of
+
+We are proud of creating our first flask app with API integration.
+
+What we learned
+
+Communicating between two different APIs.
+
+What's next for GIFerty Mutual
+
+Using the Google Maps API to take the address and return directions with potential parking meters within a set distance from the address. The two Google Maps API we would need to achieve this its Distance Matrix API, JavaScript API, and the Shine API.
+",,https://github.com/tkixi/BostonHacks,,Liberty Mutual — Objectively Human,"python, flask, love",Boston University,,,tonykim970,Boston University,2,yell0wu,janelljchen,,
+Text Your Roomba,https://bostonhacks-f17.devpost.com/submissions/80516-text-your-roomba,"Inspiration
+
+We were looking for fun/interesting hacks that we could do with our Roomba, and we decided it may be useful to control the roomba from our phones.
+
+What it does
+
+The hack allows users to send text messages containing commands for their Roomba, and receive text messages from the roomba with its status information. Commands include taking a picture with the webcam, receiving sensor data, battery levels, etc, and starting/stopping cleaning.
+
+How we built it
+
+We connected a raspberry pi's serial pins to the serial port of the Roomba, and we run a flask webserver on the pi to receive commands and send information using the twlio API
+
+Challenges we ran into
+
+It's hard getting a raspberry pi working with a Roomba (voltage issues, figuring out how to get the serial interface on the pi).
+
+Accomplishments that we're proud of
+
+We managed to get the pi hooked up to the Roomba, 
+
+What we learned
+
+We learned about the twlio api, and about serial interfaces.
+
+What's next for Text Your Roomba
+
+we'd like to extend the functionality to include more things like adding other sensors to the roomba, allowing the user to control the movement of the Roomba, and so on.
+",,https://github.com/armins88/IoT_Roomba,,"Twilio — Best use of Twilio API, BU Spark — Diverse Team","python, flask, twlio, raspberry-pi, roomba",Boston University,,,ccpowers,,0,,,,
+Give A Little Get A Little,https://bostonhacks-f17.devpost.com/submissions/80518-give-a-little-get-a-little,"Inspiration
+
+Gilit (Give A Little Get A Little) provides a platform to utilize human resources in a local community, allowing people to give and receive help without monetary incentives. Think StackOverflow for community resources! It aims to foster community engagement, spread kindness and promote well-ness in the world. We have prevention and intervention of sexual assaults, intoxication, and injuries for well-ness application in mind when creating the platform. Hence, when someone posts to ask for help for these reasons (bystanders included), a text message is sent out for immediate support. 
+
+What it does
+
+
+Prepare database for the first run
+Register for a free account, select your college campus
+Discover what people need help with on the community forum board
+Help out, wait for verification, gain points, build your total credit, and move up the status! (supporter-> hero -> superhero)
+Use your points to ask for help, unless it's a well-ness related situation, you don't need points
+When someone posts about a dangerous situation, a text message is sent out to the community via Twilio, with Google Maps directions to the location of the incident
+
+
+How we built it
+
+
+Web Technologies, caffeine, sugar, and love
+
+
+Challenges we ran into
+
+
+Working with a variety of technologies, an ambitious vision, sleep deprivation, and a limited team size
+
+
+Accomplishments that we're proud of
+
+
+We created a platform that embraces our shared philosophy of kindness
+
+
+What we learned
+
+
+PHP is a pain in the butt, learning how to work in a team under time pressure and low-key starvation
+
+
+What's next for GiLit
+
+
+Title IX mandatory, reporting, Green Dot certificate, more sophisticated verification mechanism, fraud report, more communities than college campus,... the sky is the limit
+
+",,https://github.com/knghiem/GiLit,,,"jquery, php5, html5, css3, javascript","Connecticut College, Bentley University, University of Pennsylvenia",,,KhanhNghiem,"Connecticut College, University of Pennsylvania",1,arjunrathreya,,,
+MalDetect,https://bostonhacks-f17.devpost.com/submissions/80520-maldetect,"Inspiration
+
+Instead of having device-level network security, we wanted security to be a fundamental part of the network itself; we built a machine learning tool that can be run at the router level to detect malicious network traffic.
+
+What it does
+
+MalDetect predicts network intrusion probability depending on which packets are detected as they are captured live from the computer.
+
+How we built it
+
+MalDetect is a k-means model trained on normal and malicious traffic using TensorFlow. At prediction time, the program continuously sniffs packets and classifies them into clusters. From this, it will send the client a message via Twilio if the packet is predicted to be malicious.
+
+Challenges we ran into
+
+Debugging TensorFlow is difficult due to the nature of the error tracebacks. Other challenges we ran into included lack of public malicious data to train on as well as trouble with the parsing of the .pcap files. 
+
+Accomplishments that we're proud of
+
+MalDetect accurately predicts whether a sequence of packets is malicious or not in realtime, and sends a message with the probability of network intrusion!
+
+What we learned
+
+We learned how network packets are structured, as well as how to capture network activity using WireShark. We also learned how to efficiently use TensorFlow, as well as effective model selection for modeling network activity (k-means). We also learned how locality-sensitive hashes work and why they are useful. 
+
+What's next for MalDetect
+
+
+Support for multiple types of malware
+Supervised learning implementation in place of clustering
+Integration with router (i.e. pfSense)
+
+",,https://github.com/chauhankaranraj/hackathon2017,,"Twilio — Best use of Twilio API, BU Spark — Diverse Team, BU Spark — Social Good ","python, tensorflow, twilio",Boston University,,,manzelli,Boston University,3,thakkarV,nfrumkin,chauhankaranraj,
+SmartCare,https://bostonhacks-f17.devpost.com/submissions/80522-smartcare,"Inspiration
+
+Estimated 40-75% elderly people miss timely medication resulting in hospitalization of an estimated 200,000 cases
+
+What it does
+
+Reminds elderly people to take medicines and assists them with the process and also notifies loved ones about their medication.
+
+How I built it
+
+Interfaced multiple platforms to provide simple working solution for elderly people.
+
+Challenges I ran into
+
+Multi-platform integration
+
+Accomplishments that I'm proud of
+
+Worked on 3 platforms in 24 hours
+
+What I learned
+
+Leveraging latest technology for healthcare industry.
+
+What's next for SmartCare
+
+Better compatibility and stability.
+",,,,"RedHat — Best hack using RedHat OpenShift, Twilio — Best use of Twilio API, BU Spark — Diverse Team, BU Spark — Fellowship, Optum — Healthcare/Wellness Solution, BU Spark — Social Good ","python, android-wear, jquery, twilio, openshift, redhat, google-assistant","UMass Lowell, NYU, Umass Lowell, BU",,,jmankani7,University of Massachusetts - Lowell,0,,,,
+Meet your Meal,https://bostonhacks-f17.devpost.com/submissions/80523-meet-your-meal,"When we search for our food we begin with the thing that really matters.
+Your Meal.
+
+We believe that in today’s world, your meal experience should be further tailored to satisfy your tastes 
+
+We begin with your meal.
+What kind of food are you feeling today?
+Are you searching on a budget or have a dietary restriction?
+We used Beautifulsoup to extract specific meals offered at local restaurants
+We then find your meal match using a machine learning solution
+
+We scraped Yelp to get meal information to add to our database. 
+We calculated the price ranges, dietary restrictions, and ratings of the meals.
+Using a process called Collaborative Filtering, we were able to give the user the best 5 meals based on another, similar, person’s interests and what meals they chose.
+",,https://drive.google.com/drive/folders/0B3fw0WDfDsfkLV9saHM1c1FFdDA?usp=sharing,,"ITG — Best FinTech Hack, Optum — Healthcare/Wellness Solution, Liberty Mutual — Objectively Human, Best Domain Name from Domain.com, BU Spark — Social Good ","python, java, r, javascript, internet","Boston University, WPI, NYIT, WIT",Domain.com,,benlague,"Butler University, New York Institute of Technology - Manhattan Campus",1,arane02,,,
+Git Resume ,https://bostonhacks-f17.devpost.com/submissions/80538-git-resume,"Inspiration
+
+Recruiters/Managers need stats/summary developer's Github activity. Although, Github has clean interface getting the important facts e.g. Owned Repos, Forked Repos, languages of Owned repos, Latest project that developer is working on is buried under the interface.      
+
+What it does
+
+Provide stats/facts about the developer's Github account. Shows basic profile information (e.g Names, email, website etc) and complex information such as Number of owned repositories and forked.  
+
+How we built it
+
+Use Github REST API with OAuth Token.
+React-Redux-ES6 with MongoDB under the hood.
+Postman to debug REST API calls.   
+
+Challenges we ran into
+
+
+Github Rate Limiting. (Personal Token access is limited to few calls :( )
+Fetching Complex Relational Data E.g Repo - Languages  one to many relationship firing so many calls further worsens the Rate Limit hitting 
+Some summaries are hard to fetch e.g. Github doesn't provide a REST call for finding which repositories has user contributed to. 
+
+
+Accomplishments that we're proud of
+
+
+We know Github REST API at back of the hand
+
+
+What we learned
+
+
+The API Wrappers out there needs more support for complex statistics. 
+
+
+What's next for Git Resume - Instant Git hub Summary for Recruiters
+
+
+Fetch complex stats about Last repository commit made. Active project working on
+Visuals charts for showing stats
+PR for wrappers out there from what we build now. 
+
+",,,,,"react, github, rest-api, postman",New Jersey Institute of Technology,,,inceptor,"New Jersey Institute of Technology, University of Houston - Clear Lake",3,sd593,vineethnalla,priyabigdata,
