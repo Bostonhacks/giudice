@@ -7,6 +7,10 @@ const VIEWS_PER_PROJ = 3; // How many judges should view a project?
 
 const PROJS_PER_JUDGE = TOTAL_JUDGING_TIME / TIME_PER_PROJ;
 
+// These are the tracks/categories that we do not want to assign judges to, such as sponsor tracks
+// TODO: populate this list in the front end, probably in a checklist
+const FILTERED_LIST = ['BU Spark — Social Good', 'RedHat — Best hack using RedHat OpenShift', 'Liberty Mutual — Objectively Human'];
+
 
 // Read judges file to put judge names in an array
 var fs = require('fs');
@@ -78,7 +82,7 @@ function giveProjectsToJudges(trackMap, judges) {
 }
 
 
-function findNumJudgements(trackMap) {
+function findNumJudgements(tracksMap) {
   // This is different than simply the # of projects and is needed to
   // calculate the number of judges we need.
   // Ex: At BostonHacks Fall 2017, we had 50 projects, but since many
@@ -86,9 +90,13 @@ function findNumJudgements(trackMap) {
   // judgements needed to be made.
 
   let total = 0;
-
-  for (var tableArr of Object.values(trackMap)) {
-    total += tableArr.length;
+  for (var trackTables of Object.entries(tracksMap)) {
+  	if (!FILTERED_LIST.includes(trackTables[0])) {
+    	total += trackTables[1].length;
+	} else {
+		// Get rid of this track in the global variable, because we filtered it out
+		delete trackMap[trackTables[0]];
+	}
   }
 
   return total;
@@ -108,7 +116,6 @@ csv()
   console.log("====================\n");
 
 
-  // TODO: Let us specify which tracks we should ignore. This is necessary because companies will be judging their prizes, not us.
   // TODO: Print out a list of tables for each sponsor track so that sponsors know what tables to judge at
 
   console.log("Running the numbers:");
