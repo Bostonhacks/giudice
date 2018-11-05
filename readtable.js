@@ -118,8 +118,9 @@ csv()
   console.log("done.\n");
 
   let numJudgements = findNumJudgements(trackMap);
-  let numJudges = findNumberOfJudges(numJudgements) + 2; // +2 is needed in case of edge case track and we have a judge judging only 1 project, TODO fix this
-  numJudges = Math.ceil(numJudges); // round up
+  let numJudges = findNumberOfJudges(numJudgements);
+  numJudges = Math.ceil(numJudges); // round up to integer
+  numJudges = numJudges + (VIEWS_PER_PROJ - numJudges % VIEWS_PER_PROJ); // Round up to nearest # of judges that is divisible by VIEWS_PER_PROJ
 
   console.log("Before we get started, here are your hackathon stats:");
   console.log("* There are %d projects total.", numTables);
