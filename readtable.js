@@ -7,7 +7,10 @@ const VIEWS_PER_PROJ = 3; // How many judges should view a project?
 
 const PROJS_PER_JUDGE = TOTAL_JUDGING_TIME / TIME_PER_PROJ;
 
-const judges = ["Warren", "Sarah", "Zuul", "Bandalf", "Mari", "Pikachu", "Eevee", "Rattata", "Spearow", "Pidgey", "Professor Oak", "Professor Wayne Snyder", "Caterpie", "Charizard", "Growlithe", "Judge 16", "Judge Dredd", "Hardcodo the Great", "That One Guy", "Dad", "Mom", "Your long lost brother", "Nemo", "Julius Caesar", "Brutus", "Romeo", "Juliet", "The Witch", "The Girl with the Dragon Tattoo", "Spiderman", "Thanos the Mad Titan", "Judge 33", "Dr. Strange", "Iron Man", "Black Widow", "Vision", "Bruce Banner", "Extra Judge 38", "Extra Judge 39"];
+
+// Read judges file to put judge names in an array
+var fs = require('fs');
+var judges = fs.readFileSync('judges.txt').toString().split("\r\n");
 
 
 function assignTables(projectsJson) {
@@ -132,8 +135,6 @@ csv()
   console.log("  * Each judge spends %d minutes at each table.\n", TIME_PER_PROJ);
 
   console.log("Given these judging assumptions, we calculate that we need %d judges.\n", numJudges);
-
-  // TODO: Get judges from external source instead of hardcoding them
 
   let judgeMap = giveProjectsToJudges(trackMap, judges);
   console.log("OK, here are the tracks each judge should judge for, and their corresponding tables:\n");
