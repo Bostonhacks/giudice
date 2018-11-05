@@ -11,6 +11,8 @@ const PROJS_PER_JUDGE = TOTAL_JUDGING_TIME / TIME_PER_PROJ;
 // TODO: populate this list in the front end, probably in a checklist
 const FILTERED_LIST = ['BU Spark — Social Good', 'RedHat — Best hack using RedHat OpenShift', 'Liberty Mutual — Objectively Human'];
 
+// This will give us a list of the tables that the tracks in the FILTERED_LIST have, ie the tables that each sponsor will be judging
+let sponsorTracks = {};
 
 // Read judges file to put judge names in an array
 var fs = require('fs');
@@ -94,6 +96,7 @@ function findNumJudgements(tracksMap) {
   	if (!FILTERED_LIST.includes(trackTables[0])) {
     	total += trackTables[1].length;
 	} else {
+		sponsorTracks[trackTables[0]] = trackTables[1];
 		// Get rid of this track in the global variable, because we filtered it out
 		delete trackMap[trackTables[0]];
 	}
@@ -115,8 +118,6 @@ csv()
   console.log("BostonHacks Giudice!");
   console.log("====================\n");
 
-
-  // TODO: Print out a list of tables for each sponsor track so that sponsors know what tables to judge at
 
   console.log("Running the numbers:");
   process.stdout.write("* Assigning table #s to projects...");
@@ -146,4 +147,7 @@ csv()
   let judgeMap = giveProjectsToJudges(trackMap, judges);
   console.log("OK, here are the tracks each judge should judge for, and their corresponding tables:\n");
   console.log(judgeMap);
+
+  console.log("\n\nHere are the project table numbers for the tracks that were not assigned judges:\n")
+  console.log(sponsorTracks);
 })
