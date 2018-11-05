@@ -7,7 +7,16 @@ const VIEWS_PER_PROJ = 3; // How many judges should view a project?
 
 const PROJS_PER_JUDGE = TOTAL_JUDGING_TIME / TIME_PER_PROJ;
 
-const judges = ["Warren", "Sarah", "Zuul", "Bandalf", "Mari", "Pikachu", "Eevee", "Rattata", "Spearow", "Pidgey", "Professor Oak", "Professor Wayne Snyder", "Caterpie", "Charizard", "Growlithe", "Judge 16", "Judge Dredd", "Hardcodo the Great", "That One Guy", "Dad", "Mom", "Your long lost brother", "Nemo", "Julius Caesar", "Brutus", "Romeo", "Juliet", "The Witch", "The Girl with the Dragon Tattoo", "Spiderman", "Thanos the Mad Titan", "Judge 33", "Dr. Strange", "Iron Man", "Black Widow", "Vision", "Bruce Banner", "Extra Judge 38", "Extra Judge 39"];
+// These are the tracks/categories that we do not want to assign judges to, such as sponsor tracks
+// TODO: populate this list in the front end, probably in a checklist
+const FILTERED_LIST = ['BU Spark — Social Good', 'RedHat — Best hack using RedHat OpenShift', 'Liberty Mutual — Objectively Human'];
+
+// This will give us a list of the tables that the tracks in the FILTERED_LIST have, ie the tables that each sponsor will be judging
+let sponsorTracks = {};
+
+// Read judges file to put judge names in an array
+var fs = require('fs');
+var judges = fs.readFileSync('judges.txt').toString().split("\r\n");
 
 
 function assignTables(projectsJson) {
@@ -75,7 +84,7 @@ function giveProjectsToJudges(trackMap, judges) {
 }
 
 
-function findNumJudgements(trackMap) {
+function findNumJudgements(tracksMap) {
   // This is different than simply the # of projects and is needed to
   // calculate the number of judges we need.
   // Ex: At BostonHacks Fall 2017, we had 50 projects, but since many
@@ -83,9 +92,14 @@ function findNumJudgements(trackMap) {
   // judgements needed to be made.
 
   let total = 0;
-
-  for (var tableArr of Object.values(trackMap)) {
-    total += tableArr.length;
+  for (var trackTables of Object.entries(tracksMap)) {
+  	if (!FILTERED_LIST.includes(trackTables[0])) {
+    	total += trackTables[1].length;
+	} else {
+		sponsorTracks[trackTables[0]] = trackTables[1];
+		// Get rid of this track in the global variable, because we filtered it out
+		delete trackMap[trackTables[0]];
+	}
   }
 
   return total;
@@ -104,9 +118,6 @@ csv()
   console.log("BostonHacks Giudice!");
   console.log("====================\n");
 
-
-  // TODO: Let us specify which tracks we should ignore. This is necessary because companies will be judging their prizes, not us.
-  // TODO: Print out a list of tables for each sponsor track so that sponsors know what tables to judge at
 
   console.log("Running the numbers:");
   process.stdout.write("* Assigning table #s to projects...");
@@ -133,9 +144,10 @@ csv()
 
   console.log("Given these judging assumptions, we calculate that we need %d judges.\n", numJudges);
 
-  // TODO: Get judges from external source instead of hardcoding them
-
   let judgeMap = giveProjectsToJudges(trackMap, judges);
   console.log("OK, here are the tracks each judge should judge for, and their corresponding tables:\n");
   console.log(judgeMap);
+
+  console.log("\n\nHere are the project table numbers for the tracks that were not assigned judges:\n")
+  console.log(sponsorTracks);
 })
