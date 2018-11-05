@@ -7,6 +7,9 @@ const VIEWS_PER_PROJ = 3; // How many judges should view a project?
 
 const PROJS_PER_JUDGE = TOTAL_JUDGING_TIME / TIME_PER_PROJ;
 
+const judges = ["Warren", "Sarah", "Zuul", "Bandalf", "Mari", "Pikachu", "Eevee", "Rattata", "Spearow", "Pidgey", "Professor Oak", "Professor Wayne Snyder", "Caterpie", "Charizard", "Growlithe", "Judge 16", "Judge Dredd", "Hardcodo the Great", "That One Guy", "Dad", "Mom", "Your long lost brother", "Nemo", "Julius Caesar", "Brutus", "Romeo", "Juliet", "The Witch", "The Girl with the Dragon Tattoo", "Spiderman", "Thanos the Mad Titan", "Judge 33", "Dr. Strange", "Iron Man", "Black Widow", "Vision", "Bruce Banner", "Extra Judge 38", "Extra Judge 39"];
+
+
 function assignTables(projectsJson) {
   // returns number of tables
 	let tableAssignmentIterator = 1;
@@ -21,32 +24,22 @@ function assignTables(projectsJson) {
 }
 
 
-
 function getListOfTracks(projectsJson) {
   trackMap = {} // K-V: K=track, V=array of judging tables in that track
-  //trackMap['General Prize'] = [] // This will contain every table (every project is considered for general prize)
 
   for (var project of projectsJson) { // Same as for..each but javascript
     tracks = project['Desired Prizes'].split(', '); // Make array of strings of prizes per team
     for (let i=0; i<tracks.length; i++) {
       if (!(tracks[i] in trackMap)) { // if track doesn't already exist in dictionary
         trackMap[tracks[i]] = [];
-        //console.log(trackMap);
       }
 
       trackMap[tracks[i]].push(project['table']); // Appends table to list of tables signed up for that track
     }
-
-    //trackMap['General Prize'].push(project['table']); // Append table to list of tables signed up for general prize
   }
-  //console.log(trackMap);
 
   return trackMap;
 }
-
-
-
-let judges = ["Warren", "Sarah", "Zuul", "Bandalf", "Mari", "Pikachu", "Eevee", "Rattata", "Spearow", "Pidgey", "Professor Oak", "Professor Wayne Snyder", "Caterpie", "Charizard", "Growlithe", "Judge 16", "Judge Dredd", "Hardcodo the Great", "That One Guy", "Dad", "Mom", "Your long lost brother", "Nemo", "Julius Caesar", "Brutus", "Romeo", "Juliet", "The Witch", "The Girl with the Dragon Tattoo", "Spiderman", "Thanos the Mad Titan", "Judge 33", "Dr. Strange", "Iron Man", "Black Widow", "Vision", "Bruce Banner"]; //37 judges lol hardcoding
 
 
 function giveProjectsToJudges(trackMap, judges) {
@@ -55,33 +48,22 @@ function giveProjectsToJudges(trackMap, judges) {
     judgeMap[judge] = {};
   }
 
-  // VIEWS_PER_PROJ we use this
-  let judgeIndex = 0;
-  let numTablesAssignedToCurrentJudge = 0;
+  let judgeIndex = 0; // Index in the judge array of the judges we are assigning
+  let numTablesAssignedToCurrentJudge = 0; // Keeps track of when we should stop assigning tables to a group of judges and increment judgeIndex
 
 
-  for (var track of Object.keys(trackMap)) {
-    console.log("PRINTING TRACKMAP:");
-    console.log(trackMap);
-    //console.log(track);
-    //console.log(trackMap[track]);
-    for (var table of Object.values(trackMap[track])) {
-      //console.log("PRINTING TABLE:");
-      console.log(table);
-      for (var i=judgeIndex; i<judgeIndex+VIEWS_PER_PROJ; i++) {
-        console.log("Judge we are trying to look at:");
-        console.log(judges[i]);
-        console.log("PRINTING JUDGEMAP:");
-        console.log(judgeMap);
-        if (!(track in judgeMap[judges[i]])) {
+  for (var track of Object.keys(trackMap)) { // For every track,
+    for (var table of Object.values(trackMap[track])) { // For every table in the track
+      for (var i=judgeIndex; i<judgeIndex+VIEWS_PER_PROJ; i++) { // Assign VIEWS_PER_PROJ judges at a time
+        if (!(track in judgeMap[judges[i]])) { // Prevents KeyError
           judgeMap[judges[i]][track] = [];
         }
 
-        console.log(judgeMap[judges[i]][track]);
-
         judgeMap[judges[i]][track].push(table);
       }
+
       numTablesAssignedToCurrentJudge++;
+
       if (numTablesAssignedToCurrentJudge >= PROJS_PER_JUDGE) {
         judgeIndex += VIEWS_PER_PROJ;
         numTablesAssignedToCurrentJudge = 0;
@@ -89,13 +71,7 @@ function giveProjectsToJudges(trackMap, judges) {
     }
   }
 
-  console.log(judgeMap);
-  // We give X judges the same schedule where X = # views per project
-  //for (var [track, tables] of Object.entries(trackMap)) {
-    //if (numTablesAssignedToCurrentJudge < VIEWS_PER_PROJ) {
-
-   // }
-  //}
+  return judgeMap;
 }
 
 
@@ -104,10 +80,8 @@ function findNumJudgements(trackMap) {
   // calculate the number of judges we need.
   // Ex: At BostonHacks Fall 2017, we had 50 projects, but since many
   // projects needed to be judged on multiple tracks, there were 121
-  // judgements needed to be made. We needed 37 judges but if we had used
-  // 50 for our calculations, we would have calculated needing 15 judges.
+  // judgements needed to be made.
 
-  //const reducer = (accumulator, currentProject) => accumulator + asdf;
   let total = 0;
 
   for (var tableArr of Object.values(trackMap)) {
@@ -118,16 +92,21 @@ function findNumJudgements(trackMap) {
 }
 
 
-function findNumberOfJudges(numJudgements){
+function findNumberOfJudges(numJudgements) {
   return (numJudgements * VIEWS_PER_PROJ)/(TOTAL_JUDGING_TIME / TIME_PER_PROJ);
 }
 
 
+// Main script:
 csv()
 .fromFile(csvFilePath)
 .then((jsonObj) => {
   console.log("BostonHacks Giudice!");
   console.log("====================\n");
+
+
+  // TODO: Let us specify which tracks we should ignore. This is necessary because companies will be judging their prizes, not us.
+  // TODO: Print out a list of tables for each sponsor track so that sponsors know what tables to judge at
 
   console.log("Running the numbers:");
   process.stdout.write("* Assigning table #s to projects...");
@@ -151,9 +130,11 @@ csv()
   console.log("  * Each project must be seen by %d judges per track (excluding the overall track, except for teams that only submitted to that track).", VIEWS_PER_PROJ);
   console.log("  * Each judge spends %d minutes at each table.\n", TIME_PER_PROJ);
 
-  console.log("Given these judging assumptions, we calculate that we need %d judges.", numJudges);
+  console.log("Given these judging assumptions, we calculate that we need %d judges.\n", numJudges);
 
-  // TODO: Get judges from json file
+  // TODO: Get judges from external source instead of hardcoding them
 
-  //giveProjectsToJudges(trackMap, judges);
+  let judgeMap = giveProjectsToJudges(trackMap, judges);
+  console.log("OK, here are the tracks each judge should judge for, and their corresponding tables:\n");
+  console.log(judgeMap);
 })
