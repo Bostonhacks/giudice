@@ -1,4 +1,4 @@
-Submission Title,Submission Url,Plain Description,Video,Website,File Url,Desired Prizes,Built With,Mlh Points   List All The Schools On Your Team!,Mlh Software Lab,Mlh Hardware Lab,Submitter Screen Name,Submitter First Name,Submitter Last Name,Submitter Email,College/Universities Of Team Members,Additional Team Member Count,Team Member 1 Screen Name,Team Member 1 First Name,Team Member 1 Last Name,Team Member 1 Email,...,,,,,,,,,,,
+Submission Title,Submission Url,Plain Description,Video,Website,File Url,Desired Prizes,Built With,Mlh Points   List All The Schools On Your Team!,Mlh Software Lab,Mlh Hardware Lab,Submitter Screen Name,Submitter First Name,Submitter Last Name,Submitter Email,College/Universities Of Team Members,Additional Team Member Count,Team Member 1 Screen Name,Team Member 1 First Name,Team Member 1 Last Name,Team Member 1 Email,...
 Venefits,https://bostonhacks-f2018.devpost.com/submissions/105697-venefits,"Inspiration
 
 Veteran Reintegration Problems
@@ -26,7 +26,7 @@ We learned how to manage different Job Search APIs such as Indeed
 What's next for Venefits
 
 Continue to optimize job placements for users.
-",,https://github.com/mkshcode/venefits,,[TRACK] Giving Back to Veterans Prize,"html, css, javascript, bootstrap, json, node.js, sql","Boston University, Harvard Business School, Northeastern University",,,mkshcode,Michael,Kim,mk.sh204@gmail.com,"Temple University, Boston University, Northeastern University",3,tianaxh3113,Tiana,Huynh,tianaxh3113@gmail.com,jfriend,jack,friend,jfriend@bu.edu,skamlangjai,Suwimol,Kamlangjai,skamlangjai@gmail.com,,,,
+",,https://github.com/mkshcode/venefits,,[TRACK] Giving Back to Veterans Prize,"html, css, javascript, bootstrap, json, node.js, sql","Boston University, Harvard Business School, Northeastern University","","",mkshcode,Michael,Kim,mk.sh204@gmail.com,"Temple University, Boston University, Northeastern University",3,tianaxh3113,Tiana,Huynh,tianaxh3113@gmail.com,jfriend,jack,friend,jfriend@bu.edu,skamlangjai,Suwimol,Kamlangjai,skamlangjai@gmail.com
 Wiki Links,https://bostonhacks-f2018.devpost.com/submissions/105707-wiki-links,"Inspiration
 
 Readability on wikipedia
@@ -42,7 +42,7 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Wiki Links
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/37840/zip_files/extract_wiki_links.c.zip,,c,McGill,,,joannambuck,joannambuck,,joannambuck@gmail.com,McGill University,1,hreed277,Hannah,Reed,hreed277@gmail.com,,,,,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/37840/zip_files/extract_wiki_links.c.zip,"",c,McGill,"","",joannambuck,joannambuck,,joannambuck@gmail.com,McGill University,1,hreed277,Hannah,Reed,hreed277@gmail.com
 ScreenPro,https://bostonhacks-f2018.devpost.com/submissions/105712-screenpro,"Inspiration
 
 I was tired of manually researching common indicators, and decided to automate the process to save myself time.
@@ -64,7 +64,7 @@ Initially, when running screens on large universes, up to 3000 HTTP requests may
 Accomplishments that I'm proud of
 
 The platform works, and I'm planning on using it personally after Boston Hacks.
-",,,,ITG - Best Fintech Hack,"python, iex, php, requests, cache",University of Waterloo,,,interwho,Justin,Paulin,hello@justinpaulin.com,University of Waterloo,0,,,,,,,,,,,,,,,,
+",,,,ITG - Best Fintech Hack,"python, iex, php, requests, cache",University of Waterloo,"","",interwho,Justin,Paulin,hello@justinpaulin.com,University of Waterloo,0
 Wink,https://bostonhacks-f2018.devpost.com/submissions/105726-wink,"Inspiration
 
 The team members were at a house party where there was quite a few people
@@ -105,7 +105,7 @@ What's next for Wink
 Package as an Android APK/IOS application
 integration into proper cameras
 Better UI
-",,https://github.com/YaanTzik/bostonhacks18_wink,https://s3.amazonaws.com/challengepost/zip_files/production/37847/zip_files/wink.zip,,"python, opencv, dlib, cmake, kivy",Boston University,,,YaanTzik,YaanTzik,,kanyaantzi@gmail.com,Boston University,3,vgunawan,Vivian,Gunawan,vgunawan@bu.edu,leonard2907,leonard2907,,leonardgunawan19@yahoo.com,adityawikara,adityawikara,,adityawikara@gmail.com,,,,
+",,https://github.com/YaanTzik/bostonhacks18_wink,https://s3.amazonaws.com/challengepost/zip_files/production/37847/zip_files/wink.zip,"","python, opencv, dlib, cmake, kivy",Boston University,"","",YaanTzik,YaanTzik,,kanyaantzi@gmail.com,Boston University,3,vgunawan,Vivian,Gunawan,vgunawan@bu.edu,leonard2907,leonard2907,,leonardgunawan19@yahoo.com,adityawikara,adityawikara,,adityawikara@gmail.com
 Battle Buddies,https://bostonhacks-f2018.devpost.com/submissions/105749-battle-buddies,"Inspiration
 
 I have served as a Korean soldier in US Army for two years, and one of my jobs was to help my fellow soldiers to transition into a civilian. Sadly, most of them were helpless during the transition, not because they didn't try, but because they didn't know how to. This is why, based on my experience, we decided to make a platform that is much more accessible to veterans.
@@ -129,7 +129,7 @@ Unlike other applications, we used Twilio and SMS only as the only interface of 
 What's next for Battle Buddies
 
 What we plan to do is getting the real data from veterans and NGOs to fill our forum with actual data. Also, we plan on applying similar methods to tutoring system for the general public. From this, we hope to relieve the overcrowded BU office hours. We desire to create a proper community where people could actively get involved, rather than just words of 'advice'.
-",,https://github.com/WHYjun/battle-buddies,,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","node.js, javascript, html5, css3, twilio, express.js, mongodb",Boston University,,,soohyeok,Soo Hyeok,Lee,soohyeok@bu.edu,Boston University,4,WHYjun,Young Jun,Choi,yjunchoi93@gmail.com,ByoungsulLee,Byoungsul,Lee,leeb@bu.edu,sj0726,sj0726,,123a556@naver.com,aisora1222,aisora1222,,jewoolee@bu.edu
+",,https://github.com/WHYjun/battle-buddies,,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","node.js, javascript, html5, css3, twilio, express.js, mongodb",Boston University,"","",soohyeok,Soo Hyeok,Lee,soohyeok@bu.edu,Boston University,4,WHYjun,Young Jun,Choi,yjunchoi93@gmail.com,ByoungsulLee,Byoungsul,Lee,leeb@bu.edu,sj0726,sj0726,,123a556@naver.com,aisora1222,aisora1222,,jewoolee@bu.edu
 NotYourAverageBank,https://bostonhacks-f2018.devpost.com/submissions/105753-notyouraveragebank,"Inspiration: Tired of not having time to do full analysis on bank account, need to automate
 
 What it does: Analyzes bank history for opportunities to invest and to save
@@ -143,7 +143,7 @@ Accomplishments that I'm proud of: using statistics to get useful results from j
 What I learned: the analytics are more complex than can be done in 24 hours
 
 What's next for NotYourAverageBank: advanced feature implementation including savings goals (long term and short term) and predictive analytics for purchases
-",,https://github.com/madjabal/notyouraveragebank,,"Best Domain Name from Domain.com, ITG - Best Fintech Hack","python, pandas, seaborn",Boston University,,,madjabal,madjabal,,madjabal@bu.edu,Boston University,1,jbassin,jbassin,,joshbassin98@gmail.com,,,,,,,,,,,,
+",,https://github.com/madjabal/notyouraveragebank,,"ITG - Best Fintech Hack, Best Domain Name from Domain.com","python, pandas, seaborn",Boston University,"","",madjabal,madjabal,,madjabal@bu.edu,Boston University,1,jbassin,jbassin,,joshbassin98@gmail.com
 doggo-disinfect,https://bostonhacks-f2018.devpost.com/submissions/105754-doggo-disinfect,"Doggo Disinfect
 
 The goal was to build something fun and useful and learn about APIs along the way. We decided upon a Google Chrome extension that uses Clarifai's image classification API to tag images and then filter them based on whether or not the images met certain user-specified conditions.
@@ -151,7 +151,7 @@ The goal was to build something fun and useful and learn about APIs along the wa
 Challenges and Future Directions
 
 While we were able to build a minimum viable product, we ran into a key issue: on pages with many images, the number of API calls causes the load time to be extremely high, making it impractical. This may require reworking our entire model.
-",,,,[Weekly Challenge] Best use of Clarifai’s API,"javascript, html",McGill University,,,TuOfTimes,Edward,Tu,edtuwork@gmail.com,McGill University,1,brendenkadota,brenden,kadota,brenden.kadota@gmail.com,,,,,,,,,,,,
+",,,,[Weekly Challenge] Best use of Clarifai’s API,"javascript, html",McGill University,"","",TuOfTimes,Edward,Tu,edtuwork@gmail.com,McGill University,1,brendenkadota,brenden,kadota,brenden.kadota@gmail.com
 Vetricle,https://bostonhacks-f2018.devpost.com/submissions/105758-vetricle,"Inspiration
 
 When returning from deployment, veterans often feel estranged from society. Gone is the rigorous structure, clear-cut purpose, and sense of camaraderie found within in the armed forces. Our team aimed to tackle this problem in order to give back to those who selflessly serve our country.
@@ -189,7 +189,7 @@ We learned how to create an app using React Native which allows for simultaneous
 What's next for Vetricle
 
 We hope to increase the app's functionality and grow its userbase. We would also like to create a fully trained Neural Autoencoder model using a large set of data for more streamlined recommendations. Additionally, we would like to incorporate more factors for recommendations (i.e mutual friends).
-",https://youtu.be/eQVBmxEVeI4,https://github.com/sonamghosh/boston_hacks_2018,https://s3.amazonaws.com/challengepost/zip_files/production/38024/zip_files/bhacks_2018.zip,"Best use of Algolia, IBM - Best Use of IBM Cloud, Best use of Google Cloud Platform, Best Domain Name from Domain.com, [TRACK] Giving Back to Veterans Prize","react, react-native, python, flask, algolia, pytorch, google-cloud, ibm-watson, firebase, pandas, love","Wentworth Institute of Technology, Boston University",,,luih,Halmon,Lui,luih@wit.edu,"Wentworth Institute of Technology, Boston University",3,sonamghosh,sonamghosh,,sonamghosh@gmail.com,mbuccat,Mariah,Buccat,mbuccat@bu.edu,nchen357,nchen357,,nchen357@bu.edu,,,,
+",https://youtu.be/eQVBmxEVeI4,https://github.com/sonamghosh/boston_hacks_2018,https://s3.amazonaws.com/challengepost/zip_files/production/38024/zip_files/bhacks_2018.zip,"Best use of Algolia, IBM - Best Use of IBM Cloud, Best use of Google Cloud Platform, Best Domain Name from Domain.com, [TRACK] Giving Back to Veterans Prize","react, react-native, python, flask, algolia, pytorch, google-cloud, ibm-watson, firebase, pandas, love","Wentworth Institute of Technology, Boston University","","",luih,Halmon,Lui,luih@wit.edu,"Wentworth Institute of Technology, Boston University",3,sonamghosh,sonamghosh,,sonamghosh@gmail.com,mbuccat,Mariah,Buccat,mbuccat@bu.edu,nchen357,nchen357,,nchen357@bu.edu
 Equal Neighborhoods,https://bostonhacks-f2018.devpost.com/submissions/105760-equal-neighborhoods,"Inspiration
 
 OUR INSPIRATION
@@ -217,7 +217,7 @@ Gained more experience with preliminary image processing.
 What's next for Equal Neighborhoods
 
 Our next step of improving our project is to implement machine learning into our data analysis. Using machine learning, we will be able to analyze the severity of the damage of the sidewalks and determine which sidewalk to prioritize. We should also focus on improving our algorithm in determining which sidewalk to prioritize. We should put different weight on each variable instead of prioritizing one variable over another.  
-",,http://equalneighborhoods.com/,,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Liberty Mutual  - Best Hack to Live Safe, [TRACK] Data for Urban Good Prize, Best Domain Name from Domain.com","javascript, html, css, photoshop, google-maps, jmp-pro-13, stata, rstudio, shine-api",Boston University,,,brianhe12,Brian,He,brian.he17@gmail.com,Boston University,4,ApolloLo,Apollo,Lo,apollol@bu.edu,nessa87878,Vanessa,Tsang,nessa87878@gmail.com,tky25,TK,Yuen,tky@bu.edu,bcjwong,Benjamin,Wong,bcjwong@bu.edu
+",,http://equalneighborhoods.com/,,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] Data for Urban Good Prize, Best Domain Name from Domain.com","javascript, html, css, photoshop, google-maps, jmp-pro-13, stata, rstudio, shine-api",Boston University,"","",brianhe12,Brian,He,brian.he17@gmail.com,Boston University,4,ApolloLo,Apollo,Lo,apollol@bu.edu,nessa87878,Vanessa,Tsang,nessa87878@gmail.com,tky25,TK,Yuen,tky@bu.edu,bcjwong,Benjamin,Wong,bcjwong@bu.edu
 AutoHome,https://bostonhacks-f2018.devpost.com/submissions/105761-autohome,"Inspiration
 
 We invest a lot of time and money making our homes work for us. Right from buying the house and buying smart appliances that save power and give you more control over the way you want your house to be setup to be comfortable for you, there's a large cost and involvement required. You lose a lot of time doing simple tasks such as adjusting the lights or adjusting the temperature in the house. These everyday tasks have a lot of scope for automation. Our project AutoHome presents a smart home solution that works for you by automating these everyday tasks. AutoHome is more a cost-effective, more efficient solution to operate all the devices at a home, monitor and control them remotely and securely.
@@ -245,11 +245,11 @@ We learned a lot from this project. Integrating all the hardware and using them 
 What's next for AutoHome
 
 We feel that AutoHome has large scale applications for a lot of people and belongs in a lot of homes. We would like to conduct testing of this device in a home and collect user feedback and look at ways to allow the user to interact with in various ways, and to integrate more technologies.
-",,https://github.com/rishab2113/AutoHome,,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Best use of Google Cloud Platform, Best Domain Name from Domain.com, Twilio — Best use of Twilio API","node.js, twilio, shine-api, raspberry-pi, gas-sensor, temperature/humidity-sensor, light-sensor, relay, python, firebase, vue.js, google-dialogflow, carbon-monoxide-sensor","University of Massachusetts Amherst, Boston University, George Washington University","Domain.com,Google Cloud Platform",,abhinavtripathy,Abhinav,Tripathy,abhinavtripathy99@gmail.com,"University of Massachusetts Amherst, Boston University, George Washington University",3,rishab2113,Rishab,Nayak,rishab_nayak@yahoo.com,aTibrewala,Alok,Tibrewala,alok@gwu.edu,KennethJusino,Kenneth,Jusino,kennethj@bu.edu,,,,
+",,https://github.com/rishab2113/AutoHome,,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] The Smart Home prize, Best use of Google Cloud Platform, Twilio — Best use of Twilio API, Best Domain Name from Domain.com","node.js, twilio, shine-api, raspberry-pi, gas-sensor, temperature/humidity-sensor, light-sensor, relay, python, firebase, vue.js, google-dialogflow, carbon-monoxide-sensor","University of Massachusetts Amherst, Boston University, George Washington University","Domain.com,Google Cloud Platform","",abhinavtripathy,Abhinav,Tripathy,abhinavtripathy99@gmail.com,"University of Massachusetts Amherst, Boston University, George Washington University",3,rishab2113,Rishab,Nayak,rishab_nayak@yahoo.com,aTibrewala,Alok,Tibrewala,alok@gwu.edu,KennethJusino,Kenneth,Jusino,kennethj@bu.edu
 Attractions!,https://bostonhacks-f2018.devpost.com/submissions/105764-attractions,"Webapp built with the Google Maps API. The idea was to display a map with markers to the current user, helping them to find attractions/restaurants/things to do in their area. The markers would display a description/info on the activity, as well as the amount of hearts it has (to show if others recommend it). Users would use the planner to pick activities, and after doing one, they could contribute and add their own input.  
 
 We were able to implement some parts of our idea, but we also ran into quite a few challenges. However, we learned a lot in doing this project, and hope to continue working on it in the future!
-",,https://github.com/kathy-tam/bostonHacks2018,,,"html, css, javascript",McGill University,,,kathytam,Kathy,Tam,kathy.tam@mail.mcgill.ca,McGill University,1,smcintyre890,smcintyre890,,sophiemcintyre@eastlink.ca,,,,,,,,,,,,
+",,https://github.com/kathy-tam/bostonHacks2018,,"","html, css, javascript",McGill University,"","",kathytam,Kathy,Tam,kathy.tam@mail.mcgill.ca,McGill University,1,smcintyre890,smcintyre890,,sophiemcintyre@eastlink.ca
 StreetJudge,https://bostonhacks-f2018.devpost.com/submissions/105776-streetjudge,"Inspiration
 
 We loved the StreetCaster's mission to the city of Boston and its residence. Ever since the inception of the 311 application, a huge number of citizens have submitted reports to make Boston a better place to live. However, not all reports are equally useful to the city. Some may be incorrectly categorized, others may include inconclusive pictures, and some can just serve no purpose at all. We wanted to make a tool to help 311 handle these use cases so that StreetCaster is as successful as possible!
@@ -277,7 +277,7 @@ We have learned a great deal regarding Python-Flask. However, the greatest lesso
 What's next for StreetJudge
 
 We want StreetJudge to be a full-suite of validation tools. This doesn't just include machine vision, but also leveraging data from the 2014 census to visualize trends. Seeing how StreetCaster has huge potential, we feel the same about StreetJudge's contribution to the mission.
-",https://www.youtube.com/watch?v=TxgasozFuOY&feature=youtu.be,https://github.com/KrishnaPatel1/bostonhacksfall18,,"[TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform","python, flask, google-cloud, google-automl",Concordia,Google Cloud Platform,,KrishnaPatel1,Krishna,Patel,krishna.patel1@hotmail.com,"Concordia University, Montreal, Concordia University",2,axelbogos,,,bogosaxel@gmail.com,alecadub,Alec,Adub,adub.alec@gmail.com,,,,,,,,
+",https://www.youtube.com/watch?v=TxgasozFuOY&feature=youtu.be,https://github.com/KrishnaPatel1/bostonhacksfall18,,"[TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform","python, flask, google-cloud, google-automl",Concordia,Google Cloud Platform,"",KrishnaPatel1,Krishna,Patel,krishna.patel1@hotmail.com,"Concordia University, Montreal, Concordia University",2,axelbogos,,,bogosaxel@gmail.com,alecadub,Alec,Adub,adub.alec@gmail.com
 Second Oath,https://bostonhacks-f2018.devpost.com/submissions/105784-second-oath,"Inspiration
 
 We were inspired by recently published research from Veterans Affairs Canada on the effectiveness of a self-assessment checklist for helping veterans identify potential personal problems in military-civilian transition. The outcome of the research seems perfect for a digital medium, and we believe this application could help a lot of people. (Research can be found here: http://www.veterans.gc.ca/eng/about-us/research-directorate/publications/reports/self-assessment-civilian-life)
@@ -309,7 +309,7 @@ What’s next for Second Oath
 We envision this app growing. The database would be continuously developed to cover more locations. In the future, a major improvement would be to collect satisfaction data from users and use machine learning to actually improve the checklist over time. This would doubly help connect more service providers to people who need them, while supplying Veterans Affairs and the government with useful administrative metadata tracking.
 
 We truly believed that initiating that small point of problem realization in a veteran can cause a cascade of healthy growth.
-",,https://github.com/CobaltM/BostonHacks,,"Best use of Google Cloud Platform, [TRACK] Giving Back to Veterans Prize","html, javascript, css, node.js, mongodb, adobe-illustrator, photoshop","Georgia State University, Sheridan College, Duke University",Google Cloud Platform,,scaldwell9,Samuel,Caldwell,scaldwell9@student.gsu.edu,"Georgia State University, Sheridan College",2,AlexandraThompson,Alexandra,Thompson,alelthompson@gmail.com,MichaelGallipo,Michael,Gallipo,michael.gallipo@gmail.com,,,,,,,,
+",,https://github.com/CobaltM/BostonHacks,,"Best use of Google Cloud Platform, [TRACK] Giving Back to Veterans Prize","html, javascript, css, node.js, mongodb, adobe-illustrator, photoshop","Georgia State University, Sheridan College, Duke University",Google Cloud Platform,"",scaldwell9,Samuel,Caldwell,scaldwell9@student.gsu.edu,"Georgia State University, Sheridan College",2,AlexandraThompson,Alexandra,Thompson,alelthompson@gmail.com,MichaelGallipo,Michael,Gallipo,michael.gallipo@gmail.com
 BigBrotherUrbanPlanningProject,https://bostonhacks-f2018.devpost.com/submissions/105805-bigbrotherurbanplanningproject,"DATA FOR URBAN HACK
 
 BIG BROTHER URBAN PLANNING PROJECT
@@ -332,7 +332,7 @@ APPROACH
  For each of the new coordinate, images of the street will be obtained via Google Street View API. At each point, a set of four photos is fetched to ensure a 360-degree field-of-view.
  The photos will be uploaded and processed on Google Cloud Vision API to identify the objects inside each image.
 
-",,https://github.com/felmoreno1726/BigBrotherUrbanPlanningProject,,[TRACK] Data for Urban Good Prize,python,"Boston University, MIT, Montreal University",,,quang-ha,Quang,Ha,qth20@bu.edu,"Boston University, Concordia University, Montreal, Chandigarh University, Massachusetts Institute of Technology",3,RahulMalhotra,Rahul,Malhotra,electronicsgrad@gmail.com,felmoreno1726,Felipe Ignacio Moreno,Santana,felipemoreno1626@gmail.com,gautamvignesh,Gautam,Gowrishankar,gautamvignesh@gmail.com,,,,
+",,https://github.com/felmoreno1726/BigBrotherUrbanPlanningProject,,[TRACK] Data for Urban Good Prize,python,"Boston University, MIT, Montreal University","","",quang-ha,Quang,Ha,qth20@bu.edu,"Boston University, Concordia University, Montreal, Chandigarh University, Massachusetts Institute of Technology",3,RahulMalhotra,Rahul,Malhotra,electronicsgrad@gmail.com,felmoreno1726,Felipe Ignacio Moreno,Santana,felipemoreno1626@gmail.com,gautamvignesh,Gautam,Gowrishankar,gautamvignesh@gmail.com
 Git Mess,https://bostonhacks-f2018.devpost.com/submissions/105886-git-mess,"Inspiration
 
 We all know people that are really great at using a computer- if the computer is from the 80's and doesn't have a GUI. However, it is important to introduce these people to such new technologies as SMS and even image messaging. What better tool to introduce them to instant messaging than version control software that they already use?
@@ -365,7 +365,7 @@ How to create git hooks and host a git server.
 What's next for Git Mess
 
 Additional integrations with WhatsApp, FB Messenger, etc.
-",,https://github.com/dmelcer9/git-sms,,Twilio — Best use of Twilio API,"python, git, twilio, git-hooks, flask, gitpython",Northeastern University,,,dmelcer9,Daniel,Melcer,dmelcer9@gmail.com,Northeastern University,0,,,,,,,,,,,,,,,,
+",,https://github.com/dmelcer9/git-sms,,Twilio — Best use of Twilio API,"python, git, twilio, git-hooks, flask, gitpython",Northeastern University,"","",dmelcer9,Daniel,Melcer,dmelcer9@gmail.com,Northeastern University,0
 Eddie,https://bostonhacks-f2018.devpost.com/submissions/105896-eddie,"Inspiration
 
 Smart home technology has been largely popularized by Amazon, Google, Microsoft, IBM, and others. However, we saw that there was little infrastructure in place for users who are deaf or hard of hearing. To increase the accessibility of smart home technology, we set out to create Eddie, named after Thomas Edison, the famous inventor who was also hard of hearing.
@@ -393,7 +393,7 @@ We learned how to work and create a project outside of our comfort zone, working
 What's next for Eddie
 
 There is a lot of room for growth for Eddie. In its ideal form, it could sense the hand movements from the user from farther distances anywhere in the room, rather than be limited to the relatively small radius from the LEAP motion sensor. In addition, Eddie in the future would have text message output capabilities.
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/37921/zip_files/Eddie.zip,"Spark! Fellowship Award, Best use of GIPHY API, [Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] The Smart Home prize","open-weather-map, news-api, giphy, leap-motion, javascript, html",Boston University,,Leap Motion,lindaluo,Linda,Luo,lindaluo@bu.edu,Boston University,2,lukasrosario,Lukas,,lukasrosario52699@gmail.com,chanben,Benjamin,Chan,chanben@bu.edu,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/37921/zip_files/Eddie.zip,"Spark! Fellowship Award, Best use of GIPHY API, [Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] The Smart Home prize","open-weather-map, news-api, giphy, leap-motion, javascript, html",Boston University,"",Leap Motion,lindaluo,Linda,Luo,lindaluo@bu.edu,Boston University,2,lukasrosario,Lukas,,lukasrosario52699@gmail.com,chanben,Benjamin,Chan,chanben@bu.edu
 Streamlining & Enhancing Boston's StreetCaster Program,https://bostonhacks-f2018.devpost.com/submissions/105899-streamlining-enhancing-boston-s-streetcaster-program,"Inspiration
 
 In 2014, City of Boston Public Works Department employees walked 1,600 miles to collect data on the quality of sidewalks in Boston. The process was time- and energy-intensive but contributed to the important realization that the current system of fixing sidewalks, which is prioritized based on 311 calls that citizens make themselves, has led to wealthy neighborhoods having sidewalks in much better condition than poorer neighborhoods. Our team worked on the development of an algorithm and app that would aid the City of Boston not only collect information on the state of sidewalks in Boston more efficiently but also equalize infrastructure accessibility and empower individuals to support the city's infrastructure programs. 
@@ -427,7 +427,7 @@ We certainly learned a lot about the basics of machine learning by teaching a co
 What's next for Streamlining & Enhancing Boston's StreetCaster Program
 
 Sleep! After that, we'd love to keep thinking about how we can continue to increase infrastructure accessibility and equality through future projects. 
-",https://youtu.be/CgHO9q7JedA,http://www.abilarsh.com/BostonHacks,https://s3.amazonaws.com/challengepost/zip_files/production/37925/zip_files/BostonHacks2018PPT.zip,"[Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] Data for Urban Good Prize","html, android-studio, java, python, custom-vision, powerpoint, google-streetview, esri","McGill University, McMaster University, Northeastern University",,,balletviolin15,Emily,Chen,balletviolin15@gmail.com,"McGill University, McMaster University, Northeastern University",3,abilarsh_viji,Abilarsh,Viji,vabilarsh@hotmail.ca,tatyanapak,Tatyana,Pak,tatyana.pak@mail.mcgill.ca,DrLaymen,Jing,Chen,jchenuni@gmail.com,,,,
+",https://youtu.be/CgHO9q7JedA,http://www.abilarsh.com/BostonHacks,https://s3.amazonaws.com/challengepost/zip_files/production/37925/zip_files/BostonHacks2018PPT.zip,"[Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] Data for Urban Good Prize","html, android-studio, java, python, custom-vision, powerpoint, google-streetview, esri","McGill University, McMaster University, Northeastern University","","",balletviolin15,Emily,Chen,balletviolin15@gmail.com,"McGill University, McMaster University, Northeastern University",3,abilarsh_viji,Abilarsh,Viji,vabilarsh@hotmail.ca,tatyanapak,Tatyana,Pak,tatyana.pak@mail.mcgill.ca,DrLaymen,Jing,Chen,jchenuni@gmail.com
 BostonCracks,https://bostonhacks-f2018.devpost.com/submissions/105900-bostoncracks,"BostonCracks
 
 This project focused on: 
@@ -476,7 +476,7 @@ The lack of a sizeable dataset is the greatest pressure point of this project. W
 
 Model Design in Summary:
 
-",,https://github.com/samc24/BostonCracks,,[TRACK] Data for Urban Good Prize,"pytorch, python, machine-learning, deeplabv3, keras, cnns, google-maps",Boston University,,,ddehueck,Devin,de Hueck,d.dehueck@gmail.com,Boston University,2,samc24,samc24,,sam.chaturvedi24@gmail.com,darcym,Darcy,Meyer,darcym@bu.edu,,,,,,,,
+",,https://github.com/samc24/BostonCracks,,[TRACK] Data for Urban Good Prize,"pytorch, python, machine-learning, deeplabv3, keras, cnns, google-maps",Boston University,"","",ddehueck,Devin,de Hueck,d.dehueck@gmail.com,Boston University,2,samc24,samc24,,sam.chaturvedi24@gmail.com,darcym,Darcy,Meyer,darcym@bu.edu
 Markdown Downloader,https://bostonhacks-f2018.devpost.com/submissions/105909-markdown-downloader,"Inspiration
 
 What it does
@@ -500,7 +500,7 @@ NodeJs and React
 What's next for nodeJSmarkdown
 
 hold this small project actually on the cloud.
-",,https://github.com/ShirleyLii/Markdown,https://s3.amazonaws.com/challengepost/zip_files/production/37929/zip_files/markdown.zip,,"node.js, react, css3, html5, webpack","Michigan State University, Stevens Institute of Technology",,,liyingfe,Yingfei,Li,liyingfe@msu.edu,Michigan State University,0,,,,,,,,,,,,,,,,
+",,https://github.com/ShirleyLii/Markdown,https://s3.amazonaws.com/challengepost/zip_files/production/37929/zip_files/markdown.zip,"","node.js, react, css3, html5, webpack","Michigan State University, Stevens Institute of Technology","","",liyingfe,Yingfei,Li,liyingfe@msu.edu,Michigan State University,0
 GIFS Against Humanity,https://bostonhacks-f2018.devpost.com/submissions/105948-gifs-against-humanity,"Inspiration
 
 We wanted to be creative with Giphy's API. We're also big fans of board games, and strongly got influenced by Cards Against Humanity :).
@@ -530,7 +530,7 @@ We learned how web sockets worked in order for multiple users to communicate to 
 What's next for GIFS Against Humanity
 
 Many cleanup, prettify-ing and optimization. ;) Add some voice coms!
-",,https://github.com/niiita/CardsAgainstGifs,,Best use of GIPHY API,"react, python, websockets, flask",Concordia University,,,Keverdose,Kevin,Ye,yekevin1995@hotmail.com,"Concordia University, Montreal",3,woozzie,Chris,Woo,chriskfwoo@gmail.com,mari3mmi,Amarisse,Brito-Martins,amarissemarie23@gmail.com,niiita,niiita,,nitachaska@gmail.com,,,,
+",,https://github.com/niiita/CardsAgainstGifs,,Best use of GIPHY API,"react, python, websockets, flask",Concordia University,"","",Keverdose,Kevin,Ye,yekevin1995@hotmail.com,"Concordia University, Montreal",3,woozzie,Chris,Woo,chriskfwoo@gmail.com,mari3mmi,Amarisse,Brito-Martins,amarissemarie23@gmail.com,niiita,niiita,,nitachaska@gmail.com
 UniCamp,https://bostonhacks-f2018.devpost.com/submissions/105949-unicamp,"Inspiration
 
 The app is inspired by Yelp and the beautiful camping sites in Canada.
@@ -558,7 +558,7 @@ Using front-end library saves so much time in development.
 What's next for UniCamp
 
 Add in comments on each campsite and enable the user authentications.
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/37946/zip_files/unicamp.zip,,"node.js, javascript, ejs, express.js, html5, css3, bootstrap, mongodb, mongoose",University of Toronto,,,bruce311,brucehou,,brucehou311@gmail.com,University of Toronto,0,,,,,,,,,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/37946/zip_files/unicamp.zip,"","node.js, javascript, ejs, express.js, html5, css3, bootstrap, mongodb, mongoose",University of Toronto,"","",bruce311,brucehou,,brucehou311@gmail.com,University of Toronto,0
 /map Google Maps Integrations,https://bostonhacks-f2018.devpost.com/submissions/105965-map-google-maps-integrations,"Inspiration
 
 If anyone uses Notion.so, they know it's great - you can add pretty much any type of block you want - creating your own personal dashboard, or an all-in-one space for their team. However, their Google Maps integrations are limited. Currently, you can embed a map that's centred around one place, but not much else. As someone who enjoys planning their trips (such as this one to Boston), I wanted to see more ways Google Maps can be used in the app. 
@@ -582,7 +582,7 @@ Going to Quincy Market and getting Clam Chowder
 What's next for /map Google Maps Integrations
 
 If Notion provides the ability for users to develop integrations into their current app, this would be a key one to tackle. It would also be very smart for Notion to do this since there has been SO many feature requests as their user base grows. 
-",,https://www.notion.so/queeniwu/Notion-Google-Maps-Integration-ba040d5a4a394398aa0aaf6129befcb2,,Best use of Google Cloud Platform,"google-cloud, javascript",University of Waterloo,Google Cloud Platform,,queeniwu,Queenie (Shuang),Wu,queeniwu2017@gmail.com,University of Waterloo,0,,,,,,,,,,,,,,,,
+",,https://www.notion.so/queeniwu/Notion-Google-Maps-Integration-ba040d5a4a394398aa0aaf6129befcb2,,Best use of Google Cloud Platform,"google-cloud, javascript",University of Waterloo,Google Cloud Platform,"",queeniwu,Queenie (Shuang),Wu,queeniwu2017@gmail.com,University of Waterloo,0
 RiderFly,https://bostonhacks-f2018.devpost.com/submissions/105966-riderfly,"Inspiration
 
 With raise of P2P economy, we think it should not be limited to the vehicle services or food delivery. It should also cover the small things to make everyday life easier.
@@ -636,7 +636,7 @@ Build a mobile app to provide more smooth and native experience
 Support more forms of payment
 Support scheduled delivery time for convenience
 
-",,https://riderfly.life,https://s3.amazonaws.com/challengepost/zip_files/production/38018/zip_files/Project_Wireframes.pdf,"Best use of Google Cloud Platform, Best Domain Name from Domain.com, Twilio — Best use of Twilio API","go, python, twilio, django, javascript, css, jquery, bootstrap, spectre, google-cloud, google-cloud-sql, twilio-verify, https, json, scrapy",Boston University,,,Unknwon,Jiahua,Chen,u@gogs.io,Boston University,4,TianrenLi,Tianren,Li,tli92@bu.edu,JunweiZhou,Junwei (Antony),Zhou,junwei23@bu.edu,caik20,Kunlin,Cai,caik20@bu.edu,jingyu98,Jing,Yu,jingyu98@bu.edu
+",,https://riderfly.life,https://s3.amazonaws.com/challengepost/zip_files/production/38018/zip_files/Project_Wireframes.pdf,"Best use of Google Cloud Platform, Twilio — Best use of Twilio API, Best Domain Name from Domain.com","go, python, twilio, django, javascript, css, jquery, bootstrap, spectre, google-cloud, google-cloud-sql, twilio-verify, https, json, scrapy",Boston University,"","",Unknwon,Jiahua,Chen,u@gogs.io,Boston University,4,TianrenLi,Tianren,Li,tli92@bu.edu,JunweiZhou,Junwei (Antony),Zhou,junwei23@bu.edu,caik20,Kunlin,Cai,caik20@bu.edu,jingyu98,Jing,Yu,jingyu98@bu.edu
 Coffee-Bot,https://bostonhacks-f2018.devpost.com/submissions/105975-coffee-bot,"Coffee-Bot
 
 Inspiration
@@ -658,7 +658,7 @@ A whole bunch of wires & servos :)
 What does our project do?
 
 Our project enables a user to have a new type of alarm clock, one that provides much more utility than the traditional kind. The user can either use our web-app to configure their new alarm clock, or, they can simply send a few text messages from their phone to achieve the same goal! After properly configuring their client devices, a user can simply set an alarm, and then never have to lift another finger. 15 minutes before their alarm is triggered, the backend will send a request to our custom built client prototyped with a Qualcomm 410C Dragonboard to trigger their coffee machine to make a pot of their desired brew of coffee (strong, or regular). When their alarm goes off, it will send a request via the Bose SoundTouch API to play music (any mp3 file!) on the user's Bose speaker, and will use the Twilio API to call their cell-phone, so they're sure to wake up! By the time they get out of bed, they'll have a fresh pot of coffee waiting for consumption, mmm...
-",,https://github.com/ForTheYin/coffee-bot,,"Best IoT Hack Using a Qualcomm Device, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","ruby-on-rails, python, c++, bose-soundtouch, arduino, qualcomm","Boston University, University of Waterloo, Worcester Polytechnic Institute",,DragonBoard 410C,avatarneil,Charles Neil,Goldader,avatarneil@gmail.com,"Boston University, University of Waterloo, Worcester Polytechnic Institute",2,ForTheYin,Andy,Yin,fortheyin@gmail.com,kandonie,kandonie,,kandonie@wpi.edu,,,,,,,,
+",,https://github.com/ForTheYin/coffee-bot,,"Best IoT Hack Using a Qualcomm Device, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","ruby-on-rails, python, c++, bose-soundtouch, arduino, qualcomm","Boston University, University of Waterloo, Worcester Polytechnic Institute","",DragonBoard 410C,avatarneil,Charles Neil,Goldader,avatarneil@gmail.com,"Boston University, University of Waterloo, Worcester Polytechnic Institute",2,ForTheYin,Andy,Yin,fortheyin@gmail.com,kandonie,kandonie,,kandonie@wpi.edu
 Cordelia,https://bostonhacks-f2018.devpost.com/submissions/105984-cordelia,"Inspiration
 
 While driving in a new city, you realize that you have arrived at your destination and all the available parking spaces have been taken. You have used up your data for the month and as you pull over, you realize that you can text Cordelia, an SMS-based chat-bot, for nearby parking spaces.
@@ -714,7 +714,7 @@ Our final suggestion for ways that we could build onto Cordelia would be to add 
 Built With
 
 Twilio API, express, Here.com API, Shine API, Node.js, JavaScript
-",,https://github.com/amorphouspanda/bostonhacks,https://s3.amazonaws.com/challengepost/zip_files/production/37995/zip_files/bostonhacks-master_%281%29.zip,"Best use of HERE.com, Liberty Mutual  - Best Hack to Live Safe, Twilio — Best use of Twilio API","javascript, twilio, shine, node.js, here",University of Waterloo,HERE.com,,FatimahAreola,Fatimah,Areola,fatimahyinka@gmail.com,University of Waterloo,2,jenniferyhwu,Jennifer,Wu,jenniferyhwu@gmail.com,kitkat222,kitkat222,,liangkathleen@gmail.com,,,,,,,,
+",,https://github.com/amorphouspanda/bostonhacks,https://s3.amazonaws.com/challengepost/zip_files/production/37995/zip_files/bostonhacks-master_%281%29.zip,"Best use of HERE.com, Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, Twilio — Best use of Twilio API","javascript, twilio, shine, node.js, here",University of Waterloo,HERE.com,"",FatimahAreola,Fatimah,Areola,fatimahyinka@gmail.com,University of Waterloo,2,jenniferyhwu,Jennifer,Wu,jenniferyhwu@gmail.com,kitkat222,kitkat222,,liangkathleen@gmail.com
 Aura,https://bostonhacks-f2018.devpost.com/submissions/106005-aura,"Inspiration
 
 Help make social media more accessible to people with disabilities.
@@ -742,7 +742,7 @@ Image processing with python.
 What's next for Aura
 
 Improving the algorithm to increase accuracy.
-",,https://github.com/RGPosadas/BostonHacks2018.git,,Best use of GIPHY API,"python, neural-net, javascript, giphy, jquery, flask, gunicorne, gif","McGill University, Concordia University",,,mansoorss,Mansoor,Said,mansoor-shah-said@hotmail.com,"Concordia University, Montreal, McGill University",1,KevinFi13,Kevin Ferrandiz,Izquierdo,kevinfi1396@gmail.com,,,,,,,,,,,,
+",,https://github.com/RGPosadas/BostonHacks2018.git,,Best use of GIPHY API,"python, neural-net, javascript, giphy, jquery, flask, gunicorne, gif","McGill University, Concordia University","","",mansoorss,Mansoor,Said,mansoor-shah-said@hotmail.com,"Concordia University, Montreal, McGill University",1,KevinFi13,Kevin Ferrandiz,Izquierdo,kevinfi1396@gmail.com
 Veteran Success,https://bostonhacks-f2018.devpost.com/submissions/106009-veteran-success,"Inspiration
 
 Zach, a team leader deployed in Afghanistan and now US army veteran, came to speak about the difficulties that many veterans face during the transition from military duty back to civilian life. Brian and I were impacted by Zach's stories and felt compelled to hack a solution and celebrate our Veterans on Veteran's Day, November 11, the day of the hackathon. 
@@ -770,7 +770,7 @@ We learned that mobile applications are easier to build and beautifully design t
 What's next for Veteran Success
 
 We didn't get to build out the functionality that we wanted for each of the pillars of life: living, finances, career, fun, and love. Next we will refine the functionality that we have built so far and build for the remaining pillars.
-",https://youtu.be/_wmv2P1aoyk,http://veterens4success.org,,"Best use of GIPHY API, [Weekly Challenge] Best Social Good Hack from Fidelity, Liberty Mutual  - Best Hack to Live Safe, Best use of Google Cloud Platform, Best Domain Name from Domain.com, ITG - Best Fintech Hack, [TRACK] Giving Back to Veterans Prize","javascript, react-native, shine-api, google-cloud, gyphy-api",Boston University,"Domain.com,Google Cloud Platform",,julesvs,Jules,Schenkel,julesvs@bu.edu,Boston University,1,brianfakhoury,Brian,Fakhoury,brianfakhoury@gmail.com,,,,,,,,,,,,
+",https://youtu.be/_wmv2P1aoyk,http://veterens4success.org,,"Best use of GIPHY API, [Weekly Challenge] Best Social Good Hack from Fidelity, Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, Best use of Google Cloud Platform, ITG - Best Fintech Hack, Best Domain Name from Domain.com, [TRACK] Giving Back to Veterans Prize","javascript, react-native, shine-api, google-cloud, gyphy-api",Boston University,"Domain.com,Google Cloud Platform","",julesvs,Jules,Schenkel,julesvs@bu.edu,Boston University,1,brianfakhoury,Brian,Fakhoury,brianfakhoury@gmail.com
 BoltAction,https://bostonhacks-f2018.devpost.com/submissions/106016-boltaction,"Inspiration
 
 I lot of people like me are left out from the courts or the fields because of various reasons like skill level, accessibility or even age
@@ -798,7 +798,7 @@ How event management or real time database works, along with some really cool AP
 What's next for BoltAction
 
 Completing the app and helping people to go out there and play. It will also help to organize competitions later and would be a great way to bring people together.
-",,https://github.com/aryansingh12/BoltAction,,"Best use of Algolia, Twilio — Best use of Twilio API","android-studio, android, java, xml",Umass Amherst,,,aryansingh,Aryan,Singh,aryansingh@umass.edu,University of Massachusetts Amherst,0,,,,,,,,,,,,,,,,
+",,https://github.com/aryansingh12/BoltAction,,"Best use of Algolia, Twilio — Best use of Twilio API","android-studio, android, java, xml",Umass Amherst,"","",aryansingh,Aryan,Singh,aryansingh@umass.edu,University of Massachusetts Amherst,0
 Tiphy,https://bostonhacks-f2018.devpost.com/submissions/106018-tiphy,"Inspiration
 
 Tiphy was inspired by the dating app, Tinder, and cute gifs. We decided to combine the two so that you can rate gifs and find like-minded individuals who share your taste in gifs! 
@@ -822,7 +822,7 @@ We made a functioning website!
 What's next for Tiphy
 
 Next is the ability to chat with other users about the GIPHYs, and add in more memes, such as images and text. 
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/37988/zip_files/Tiphy.zip,"Best use of GIPHY API, Best Domain Name from Domain.com","giphy-api, node.js, jade, css, mongodb",McGill University,,,heatherboz,heatherboz,,heather.bosiljevac@gmail.com,McGill University,2,hpatel1223,Harsh,Patel,hpatel1223@gmail.com,lvgut,lvgut,,liora@gutim.org,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/37988/zip_files/Tiphy.zip,"Best use of GIPHY API, Best Domain Name from Domain.com","giphy-api, node.js, jade, css, mongodb",McGill University,"","",heatherboz,heatherboz,,heather.bosiljevac@gmail.com,McGill University,2,hpatel1223,Harsh,Patel,hpatel1223@gmail.com,lvgut,lvgut,,liora@gutim.org
 DreamCatcher,https://bostonhacks-f2018.devpost.com/submissions/106021-dreamcatcher,"BostonHacks Submission 2018
 
 John Alling and Marissa D'Alonzo
@@ -846,7 +846,7 @@ Further Work
 To extend our solution further, we would first like to export the sensors measuring user informtation to a wearable band using
 Bluetooth. We would also acquire more components, including a EKG sensor to measure heartbeat and higher-quality speakers.
 We would also like to incorporate a chatbot for the user to speak with about the dream if it was too upsetting to go back to sleep. 
-",,https://github.com/dalonzom/BostonHacks,,"Best IoT Hack Using a Qualcomm Device, [Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] Giving Back to Veterans Prize","python, c++",Northeastern University,,DragonBoard 410C,dalonzom,Marissa,D'Alonzo,dalonzo.m@husky.neu.edu,Northeastern University,0,,,,,,,,,,,,,,,,
+",,https://github.com/dalonzom/BostonHacks,,"Best IoT Hack Using a Qualcomm Device, [Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] Giving Back to Veterans Prize","python, c++",Northeastern University,"",DragonBoard 410C,dalonzom,Marissa,D'Alonzo,dalonzo.m@husky.neu.edu,Northeastern University,0
 Offline Googlemaps Search,https://bostonhacks-f2018.devpost.com/submissions/106023-offline-googlemaps-search,"First, a miserable story
 
 Last spring break my friends and I was driving to Killington Ski Area. After we left the Airbnb apartment we lost internet connection. There was a vehicle navigation system with GPS only, but none of us remembered the address :(
@@ -866,7 +866,7 @@ What's next for Offline Googlemaps Search
 We're trying to attach a snapshot of the map according to the search response. We believe an image provides much useful information for our users.
 
 Text (617) 286-3590 to try it out
-",,,,Twilio — Best use of Twilio API,,Boston University,,,LenkaHao,LenkaHao,,jthao@bu.edu,Boston University,1,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu,,,,,,,,,,,,
+",,,,Twilio — Best use of Twilio API,"",Boston University,"","",LenkaHao,LenkaHao,,jthao@bu.edu,Boston University,1,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu
 PALingo,https://bostonhacks-f2018.devpost.com/submissions/106026-palingo,"Inspiration
 
 telephone game
@@ -884,7 +884,7 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for PALingo
-",,https://github.com/frumsy/palingo-site,https://s3.amazonaws.com/challengepost/zip_files/production/37990/zip_files/palingo-site.zip,,"javascript, html, css",Umass Amherst,,,alezsun,Alex,Sun,alexsun851210@gmail.com,University of Massachusetts Amherst,1,frumsy,Liam,Britt,liambritt3@gmail.com,,,,,,,,,,,,
+",,https://github.com/frumsy/palingo-site,https://s3.amazonaws.com/challengepost/zip_files/production/37990/zip_files/palingo-site.zip,"","javascript, html, css",Umass Amherst,"","",alezsun,Alex,Sun,alexsun851210@gmail.com,University of Massachusetts Amherst,1,frumsy,Liam,Britt,liambritt3@gmail.com
 ParknGo,https://bostonhacks-f2018.devpost.com/submissions/106027-parkngo,"Inspiration
 
 Downtown Boston’s BS parking situation.
@@ -930,7 +930,7 @@ What's next for Park n Go
 A user-friendly mobile application deployed on iOS and Android platforms
 A review and rating system generated by acquiring reviews by spot renters for each park spot they booked and use, in order to have a competitive and transparent environment for renters and lenders.
 
-",https://www.youtube.com/watch?v=NJTbg9Rk4ks&feature=youtu.be,,,"Best use of HERE.com, Best use of Authorize.net, Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform","html5, css3, javascript, here.com, google-cloud, authorize.net, node.js, mongodb, mlab, jquery, express.js, gcp, google-app-engine",University of Western Ontario; Boston University,"Google Cloud Platform,HERE.com,Authorize.net",,AndyDuLy,Andy,Du Ly,aandy.duly@gmail.com,"University of Western Ontario, Boston University",3,oindrillac,Oindrilla,Chatterjee,oc@bu.edu,leebond,Guanhua,,leebond_guanhua@hotmail.com,amalrkrishna,Amal,Krishna R,amalrkrishna94@gmail.com,,,,
+",https://www.youtube.com/watch?v=NJTbg9Rk4ks&feature=youtu.be,,,"Best use of HERE.com, Best use of Authorize.net, Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform","html5, css3, javascript, here.com, google-cloud, authorize.net, node.js, mongodb, mlab, jquery, express.js, gcp, google-app-engine",University of Western Ontario; Boston University,"Google Cloud Platform,HERE.com,Authorize.net","",AndyDuLy,Andy,Du Ly,aandy.duly@gmail.com,"University of Western Ontario, Boston University",3,oindrillac,Oindrilla,Chatterjee,oc@bu.edu,leebond,Guanhua,,leebond_guanhua@hotmail.com,amalrkrishna,Amal,Krishna R,amalrkrishna94@gmail.com
 Screenstaver,https://bostonhacks-f2018.devpost.com/submissions/106029-screenstaver,"Inspiration
 
 Fin
@@ -952,7 +952,7 @@ Accomplishments that I'm proud of
 What I learned
 
 What's next for Screenstaver
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/37991/zip_files/post.zip,ITG - Best Fintech Hack,c#,a,,,retvc2c,Warren,/,retvc2c@hotmail.com,Boston University,0,,,,,,,,,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/37991/zip_files/post.zip,ITG - Best Fintech Hack,c#,a,"","",retvc2c,Warren,/,retvc2c@hotmail.com,Boston University,0
 Muse,https://bostonhacks-f2018.devpost.com/submissions/106030-muse,"Inspiration
 
 Our inspiration for this app was our interest in finding the right music for every mood. We wanted to create a way to always have music to match the mood of your environment as you are roaming your city. 
@@ -981,7 +981,7 @@ Over the course of this hackathon, we learned a lot about data parsing and the i
 What's next for Muse
 
 Our end goal for Muse is to have a music streaming service that will add songs to the queue based on your location. This means that if you are roaming through different locations, your music will roam along with you and stay in tune with your surroundings. We hope to continue working on Muse until it reaches this functionallity. As previously stated, we also hope to finish incorporating the Spotify API to have more personal choices for music and recommendations for our playlists. 
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/37992/zip_files/PlaylistMaker.zip,[TRACK] Data for Urban Good Prize,"java, android-studio, spotify",Northeastern University,,,grainnecasey,Grainne,Casey,g_r_casey@live.com,Northeastern University,1,MahemaS27,MahemaS27,,mahemafire99@gmail.com,,,,,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/37992/zip_files/PlaylistMaker.zip,[TRACK] Data for Urban Good Prize,"java, android-studio, spotify",Northeastern University,"","",grainnecasey,Grainne,Casey,g_r_casey@live.com,Northeastern University,1,MahemaS27,MahemaS27,,mahemafire99@gmail.com
 EventBikes,https://bostonhacks-f2018.devpost.com/submissions/106032-eventbikes,"Inspiration
 
 My father was an interesting man; he was born a shoemaker but had such a love for bicycles. But after constant words of discouragement, he abandoned it. Until I revived his dream with this project.
@@ -1009,7 +1009,7 @@ Boston Hacks needs more fruit snacks. Flask is trash; React all the way. We need
 What's next for EventBikes
 
 Just like they say it in Spanish: ""Despacito. Ya tu sabes."" Hopefully, we will matured in our skills so that our next endeavor could have some more success.
-",,https://github.com/5-Soylents-Later/BostonHacks2018,,,"google-maps, python, flask",Boston University,,,adeshiel,Ashley,Deshields,ashley.deshields.2016@gmail.com,Boston University,3,kevinkbyte,Kevin,Liang,kliang80@bu.edu,Arod15,Andres,Rodriguez,arod1198@gmail.com,NaginiChen,Brandon,Chen,naginichen@gmail.com,,,,
+",,https://github.com/5-Soylents-Later/BostonHacks2018,,"","google-maps, python, flask",Boston University,"","",adeshiel,Ashley,Deshields,ashley.deshields.2016@gmail.com,Boston University,3,kevinkbyte,Kevin,Liang,kliang80@bu.edu,Arod15,Andres,Rodriguez,arod1198@gmail.com,NaginiChen,Brandon,Chen,naginichen@gmail.com
 GFood,https://bostonhacks-f2018.devpost.com/submissions/106033-gfood,"Inspiration
 
 What it does
@@ -1035,7 +1035,7 @@ We learnt about how to use multiple API's. Working in team for a long period of 
 What's next for GFood
 
 Mobile version, Location based, adding bigger dataset, creating profile for likes,
-",,https://github.com/TangMichael/GFood-BostonHacks,https://s3.amazonaws.com/challengepost/zip_files/production/38003/zip_files/GFood-BostonHacks-master_%281%29.zip,"[Weekly Challenge] Best use of Clarifai’s API, Best use of Algolia, Twilio — Best use of Twilio API","c#, react, algolia, clarifai, twilio, yelp",Concordia University,"Algolia,Clarifai",,TangMichael,Michael,Tang,tangmichael6@hotmail.com,"Concordia University, Montreal, Concordia University",3,eyitsKevin,eyitsKevin,,kevinateur@hotmail.com,Zhen-Yee,Zhen-Yee,,davster2@gmail.com,phistanx,Tristan,,phistan007@gmail.com,,,,
+",,https://github.com/TangMichael/GFood-BostonHacks,https://s3.amazonaws.com/challengepost/zip_files/production/38003/zip_files/GFood-BostonHacks-master_%281%29.zip,"[Weekly Challenge] Best use of Clarifai’s API, Best use of Algolia, Twilio — Best use of Twilio API","c#, react, algolia, clarifai, twilio, yelp",Concordia University,"Algolia,Clarifai","",TangMichael,Michael,Tang,tangmichael6@hotmail.com,"Concordia University, Montreal, Concordia University",3,eyitsKevin,eyitsKevin,,kevinateur@hotmail.com,Zhen-Yee,Zhen-Yee,,davster2@gmail.com,phistanx,Tristan,,phistan007@gmail.com
 PiggyHack,https://bostonhacks-f2018.devpost.com/submissions/106037-piggyhack,"PiggyHack (aka FeetShare)
 
 This app aims to be the Uber for piggy back rides, allowing people to request
@@ -1057,7 +1057,7 @@ We used Google Maps to show people where they are
 
 
 So don't get carried away, but it's no pig deal. It won't break your piggy bank ;)
-",,https://github.com/NEUDitao/PiggyHack,,,"javascript, racket, react-native, giphy-api, twilio, google-maps",Northeastern University,,,NEUDitao,Edward,Li,edward.d.li@gmail.com,Northeastern University,2,sarah-witt,Sarah,Witt,witt.s@husky.neu.edu,TalUsvyatsky,TalUsvyatsky,,tal.usvyatsky@gmail.com,,,,,,,,
+",,https://github.com/NEUDitao/PiggyHack,,"Best use of GIPHY API, Best use of Google Cloud Platform, Twilio — Best use of Twilio API","javascript, racket, react-native, giphy-api, twilio, google-cloud",Northeastern University,"","",NEUDitao,Edward,Li,edward.d.li@gmail.com,Northeastern University,2,sarah-witt,Sarah,Witt,witt.s@husky.neu.edu,TalUsvyatsky,TalUsvyatsky,,tal.usvyatsky@gmail.com
 Dem Smart,https://bostonhacks-f2018.devpost.com/submissions/106040-dem-smart,"Inspiration
 
 The inspiration for this project came from personal experiences. One of our members had a family member suffering from Alzheimer's and understands personally the traumatizing effects it has on a family.
@@ -1085,7 +1085,7 @@ We learned about Bose SoundTouch Audio Notification API and more about the Googl
 What's next for Dem Smart
 
 We are taking over the neuroscience industry.
-",,https://github.com/adityadutta/BostonHacksFall18,https://s3.amazonaws.com/challengepost/zip_files/production/37996/zip_files/BostonHacksFall18-master.zip,"Bose - Most creative use of Bose SoundTouch Speaker API, Liberty Mutual  - Best Hack to Live Safe","html, python, css","York University, Brown University, Boston University, Humber College",,,AdityaDutta,Aditya,Dutta,aditya.dutta10@gmail.com,"Humber College Institute of Inforamtion Technology and Advanced Learning, Brown University, York University, Boston University",4,anya_li,Anya,Li,anya_li@brown.edu,RyanGuido,Ryan,Guido,ryanguido29@gmail.com,AndrewLiu312,AndrewLiu12,,liua@bu.edu,rosolomo,Robel,Solomon,rosolomo@bu.edu
+",,https://github.com/adityadutta/BostonHacksFall18,https://s3.amazonaws.com/challengepost/zip_files/production/37996/zip_files/BostonHacksFall18-master.zip,"Bose - Most creative use of Bose SoundTouch Speaker API, Liberty Mutual  - Best Hack to Live Safe, More Secure Lives","html, python, css","York University, Brown University, Boston University, Humber College","","",AdityaDutta,Aditya,Dutta,aditya.dutta10@gmail.com,"Humber College Institute of Inforamtion Technology and Advanced Learning, Brown University, York University, Boston University",4,anya_li,Anya,Li,anya_li@brown.edu,RyanGuido,Ryan,Guido,ryanguido29@gmail.com,AndrewLiu312,AndrewLiu12,,liua@bu.edu,rosolomo,Robel,Solomon,rosolomo@bu.edu
 BostonHacks18,https://bostonhacks-f2018.devpost.com/submissions/106041-bostonhacks18,"BostonHacks18
 
 Boston Hacks 2018
@@ -1113,7 +1113,7 @@ This would allow for more efficient police deployment, and more safety for the p
 
 Web app located in init.py
 mobile app in BostonHacks2018
-",,https://github.com/ericirenzhang/BostonHacks18,,"Liberty Mutual  - Best Hack to Live Safe, Twilio — Best use of Twilio API","javascript, python, html, css, swift","Boston University, Northeastern University",,,ericirenzhang,ericirenzhang,,zhaeric@bu.edu,Boston University,2,GauthamKumarRavichandran,Gautham Kumar,Ravichandran,gautham.8b@gmail.com,theoneandonlyferrisli,theoneandonlyferrisli,,li.yuefeng.ferris@icloud.com,,,,,,,,
+",,https://github.com/ericirenzhang/BostonHacks18,,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, Twilio — Best use of Twilio API","javascript, python, html, css, swift","Boston University, Northeastern University","","",ericirenzhang,ericirenzhang,,zhaeric@bu.edu,Boston University,2,GauthamKumarRavichandran,Gautham Kumar,Ravichandran,gautham.8b@gmail.com,theoneandonlyferrisli,theoneandonlyferrisli,,li.yuefeng.ferris@icloud.com
 Weather Interact,https://bostonhacks-f2018.devpost.com/submissions/106042-weather-interact,"Inspiration
 
 We wanted to create a project where everybody could enjoy and to an extent, feel and actually see what today's weather will be like through GIFs. Current weather applications and websites are boring, so we wanted to add a sprinkle of spice to make it interactive for the user.
@@ -1141,9 +1141,9 @@ We learned how to make API calls, how to use data from another source and use it
 What's next for Weather Interact
 
 We would improve the UI of the website and definitely add more functions to weather interact as right now, we are only showing temperature.
-",,https://github.com/jinyoungbang/bostonhacks2018,,Best use of GIPHY API,"python, html, css, flask",Boston University,,,jybang,Jin Young (Alex),Bang,jybang@bu.edu,Boston University,0,,,,,,,,,,,,,,,,
+",,https://github.com/jinyoungbang/bostonhacks2018,,Best use of GIPHY API,"python, html, css, flask",Boston University,"","",jybang,Jin Young (Alex),Bang,jybang@bu.edu,Boston University,0
 Hotel Safety Checker,https://bostonhacks-f2018.devpost.com/submissions/106043-hotel-safety-checker,"Our chrome extension's goal is to use the Shine API to give you a safety rating of hotel locations. It's in progress at the moment!!!
-",,https://github.com/stevennx/HomeSafety,,Liberty Mutual  - Best Hack to Live Safe,"javascript, css",University of Waterloo,,,chs3578,chs3578,,chs3578@gmail.com,University of Waterloo,3,Azymic,Amy,Lu,amylu2009@gmail.com,stevennx,stevennx,,steven.xu1589@gmail.com,jxtu,JingXiu,Tu,jxtu@uwaterloo.ca,,,,
+",,https://github.com/stevennx/HomeSafety,,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives","javascript, css",University of Waterloo,"","",chs3578,chs3578,,chs3578@gmail.com,University of Waterloo,3,Azymic,Amy,Lu,amylu2009@gmail.com,stevennx,stevennx,,steven.xu1589@gmail.com,jxtu,JingXiu,Tu,jxtu@uwaterloo.ca
 Genetic Algorithm Data Optimizer,https://bostonhacks-f2018.devpost.com/submissions/106047-genetic-algorithm-data-optimizer,"Inspiration
 
 The ""Data for Urban Good"" stream at BostonHacks 2018.
@@ -1183,7 +1183,7 @@ Sometimes the program would peak at certain values over time in one simulation b
 What's next for Genetic Algorithm Data Optimizer
 
 By switching values in the program such as the cost of production, selling price, supply and demand, with real world datasets, we can optimize sales for use in the work world. For example, The cost of production and selling prices of inventory items can be modified to be specific per department, thus making the goal of the program to allocate the optimal amount of funds in each department. Although this program is far from being perfect, it demonstrates a working example of a simple machine learning algorithm in one of its many applications to the real world.
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/37999/zip_files/Optimizer.zip,[TRACK] Data for Urban Good Prize,"javascript, html5","McMaster University, University of Toronto, Sheridan College",,,RayanHussain,Rayan,Hussain,rayanh_99@yahoo.com,"McMaster University, Sheridan College",2,bonewill1999,bonewill1999,,tej20bone@gmail.com,PabloPicazo,Pablo,Picazo,pablodolphin22@gmail.com,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/37999/zip_files/Optimizer.zip,[TRACK] Data for Urban Good Prize,"javascript, html5","McMaster University, University of Toronto, Sheridan College","","",RayanHussain,Rayan,Hussain,rayanh_99@yahoo.com,"McMaster University, Sheridan College",2,bonewill1999,bonewill1999,,tej20bone@gmail.com,PabloPicazo,Pablo,Picazo,pablodolphin22@gmail.com
 SherLock,https://bostonhacks-f2018.devpost.com/submissions/106048-sherlock,"Inspiration
 
 We started by brainstorming around the topic of ""Smart home."" We were originally inspired by seeking to optimize a user's experience in the most widely used area of the home: the kitchen. 
@@ -1211,7 +1211,7 @@ Much.
 What's next for SherLock
 
 There's so much room for expansion! This is only one use case that's barely fleshed out, but there could be many many more.
-",,https://github.com/BANK-C/Sherlock,https://s3.amazonaws.com/challengepost/zip_files/production/38000/zip_files/index.html,"IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, ibm-cloud, html, twilio, bose-soundtouch, webcam",Cornell University,,,karenf288,Karen,Fang,kf288@cornell.edu,Cornell University,4,aec273,April,Chen,aec273@cornell.edu,ChipDale729,ChipDale729,,cm749@cornell.edu,nl356,Nathalia,Lie,nl356@cornell.edu,beaubeau,,,bs655@cornell.edu
+",,https://github.com/BANK-C/Sherlock,https://s3.amazonaws.com/challengepost/zip_files/production/38000/zip_files/index.html,"IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, ibm-cloud, html, twilio, bose-soundtouch, webcam",Cornell University,"","",karenf288,Karen,Fang,kf288@cornell.edu,Cornell University,4,aec273,April,Chen,aec273@cornell.edu,ChipDale729,ChipDale729,,cm749@cornell.edu,nl356,Nathalia,Lie,nl356@cornell.edu,beaubeau,,,bs655@cornell.edu
 Panic/React,https://bostonhacks-f2018.devpost.com/submissions/106049-panic-react,"Inspiration
 
 Millions of veterans struggle with the debilitating effects of PTSD, including panic attacks that can freeze someone in terror and stress at a moment's notice. We wanted to help these individuals who risked their lives for our country and put our tech to doing good.
@@ -1245,7 +1245,7 @@ We learned a lot about the OAuth process, as well as the benefits and challenges
 What's next for Panic/React
 
 The prototype in python does not allow for low-latency data usage, so porting this proof-of-concept into an onboard FitBit + companion mobile application or companion smart speaker application would be the next step. We also hope to incorporate more of a backend so that the threshold heart rate can be dynamically calculated as a deviance from the average, which is more consistent with the science of anxiety attacks.
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/38026/zip_files/PR.zip,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","twilio, python, spotify, fitbit, vlc","Brown University, Boston University, Concordia University",,FitBit Ionic,june_ge,June,Ge,june_ge@brown.edu,"Brown University, Concordia University, Boston University",2,MadReza,Reza,M,rezmaza@gmail.com,ysman,Sing Yu,Yeung,ysman@bu.edu,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/38026/zip_files/PR.zip,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","twilio, python, spotify, fitbit, vlc","Brown University, Boston University, Concordia University","",FitBit Ionic,june_ge,June,Ge,june_ge@brown.edu,"Brown University, Concordia University, Boston University",2,MadReza,Reza,M,rezmaza@gmail.com,ysman,Sing Yu,Yeung,ysman@bu.edu
 djSafewhey,https://bostonhacks-f2018.devpost.com/submissions/106052-djsafewhey,"Safewhey
 
 Google Maps + Liberty Mutual Insurance API for recommending safe routes
@@ -1265,7 +1265,7 @@ Run mac os
 $ python3 server.py
 
 Open localhost:5000 on a web browser
-",,https://github.com/cumason123/Safewhey,,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform","javascript, python, html, flask, shine-api",Boston University,,,wisdomtt,Curtis,Mason,curtismichaelmason@gmail.com,Boston University,2,nasencio,Nicholas,Asencio,nasencio@bu.edu,djphilip,Damani,Philip,djphilip@bu.edu,,,,,,,,
+",,https://github.com/cumason123/Safewhey,,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform","javascript, python, html, flask, shine-api",Boston University,"","",wisdomtt,Curtis,Mason,curtismichaelmason@gmail.com,Boston University,2,nasencio,Nicholas,Asencio,nasencio@bu.edu,djphilip,Damani,Philip,djphilip@bu.edu
 ScamBusters,https://bostonhacks-f2018.devpost.com/submissions/106053-scambusters,"Inspiration
 
 Our team wanted to build something to solve a real problem and increase safety in our society. A common experience for all of us was receiving scam calls but not knowing whether they should be answered and how to respond. So we decided to tackle this problem by building an Android App specifically to detect these calls and notify you before you give away important information.
@@ -1293,7 +1293,7 @@ So much! We learned how to work as a team, new frameworks and lots of concepts i
 What's next for ScamBusterz
 
 Building a safer world and equipping average people to fight back against scam. In our next iteration, we'll build a feature to tell you in real time whether the incoming number is a known scam.
-",,https://github.com/ScamBusterz/ScamBusterz,,"Liberty Mutual  - Best Hack to Live Safe, Twilio — Best use of Twilio API","java, python, twilio, android-studio","Boston University, Northeastern, Western University, University of Toronto",,,xkatharinerussell,Katharine,Russell,katharinezrussell@gmail.com,,0,,,,,,,,,,,,,,,,
+",,https://github.com/ScamBusterz/ScamBusterz,,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, Twilio — Best use of Twilio API","java, python, twilio, android-studio","Boston University, Northeastern, Western University, University of Toronto","","",xkatharinerussell,Katharine,Russell,katharinezrussell@gmail.com,"",0
 valU,https://bostonhacks-f2018.devpost.com/submissions/106054-valu,"According to Forbes.com, GenZ defined by their ability to rewrite ""rules that favor liberal viewpoints on things like race, gender, identity, and sexuality."" Values are an increasingly important aspect of new job seekers' efforts to join the work-force, and many companies consequently emphasize corporate culture and core values while marketing available roles. 
 
 ValU provides a curated resource for individuals to learn about companies that may align with their top ranked values and priorities with regards to corporate culture. Our website provides visual displays of information scraped from Indeed and other data sets regarding corporate diversity, so that user's may hear directly from others like them in a visual, clear, and easily discernible manner. 
@@ -1316,7 +1316,7 @@ https://webkul.com/blog/iterate-through-jsonobject-in-java-android/
 https://cloud.google.com/shell/docs/
 https://cloud.google.com/natural-language/docs/analyzing-syntax
 
-",,https://github.com/Snehaskr/valU,,Best use of Google Cloud Platform,"html, css, java, javascript, r, sqlite",Northeastern University,Google Cloud Platform,,amrita-suresh,amrita-suresh,,suresh.am@husky.neu.edu,Northeastern University,4,sbps1,,,like.c@husky.neu.edu,snehaskr,Sneha,Shivakumar,snehaskr@gmail.com,madiha247,madiha247,,alamm3@bxscience.edu,SeldereyFeed,SeldereyFeed,,latukhin.m@husky.neu.edu
+",,https://github.com/Snehaskr/valU,,Best use of Google Cloud Platform,"html, css, java, javascript, r, sqlite",Northeastern University,Google Cloud Platform,"",amrita-suresh,amrita-suresh,,suresh.am@husky.neu.edu,Northeastern University,4,sbps1,,,like.c@husky.neu.edu,snehaskr,Sneha,Shivakumar,snehaskr@gmail.com,madiha247,madiha247,,alamm3@bxscience.edu,SeldereyFeed,SeldereyFeed,,latukhin.m@husky.neu.edu
 Victory,https://bostonhacks-f2018.devpost.com/submissions/106056-victory,"Inspiration
 
 Veterans risked their lives to let us sit in the comfort of our home. It’s time to give back and create solutions for problems countless veterans face every day.
@@ -1344,7 +1344,7 @@ We came across a lot of new APIs and interfaces that we integrated with our appl
 What's next for Victory
 
 We plan to research and get more information about problems faced by the veterans and come up with more effcient solutions. We also plan to improve the payment gateway and make payment transactions easier to track.
-",,https://github.com/Abhisathy/Victory,,"Best use of Algolia, Best use of Authorize.net, [Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","python, flask, html5, w3, css3, authorize.net, google-cloud, firebase, twilio, algolia",Boston University,"Google Cloud Platform,Algolia,Authorize.net",,Abhisathy,Abhinav,Sathiamoorthy,abhisat@bu.edu,Boston University,2,harshad16,Harshad Reddy,Nalla,harshadreddy16@gmail.com,samba693,Sambasiva Rao,Gangineni,sambasivarao693@gmail.com,,,,,,,,
+",,https://github.com/Abhisathy/Victory,,"Best use of Algolia, Best use of Authorize.net, [Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","python, flask, html5, w3, css3, authorize.net, google-cloud, firebase, twilio, algolia",Boston University,"Google Cloud Platform,Algolia,Authorize.net","",Abhisathy,Abhinav,Sathiamoorthy,abhisat@bu.edu,Boston University,2,harshad16,Harshad Reddy,Nalla,harshadreddy16@gmail.com,samba693,Sambasiva Rao,Gangineni,sambasivarao693@gmail.com
 mo0w,https://bostonhacks-f2018.devpost.com/submissions/106058-mo0w,"Inspiration
 
 Often I share giffs with friends and family to express emotions that could not otherwise be expressed in words. The motivation of the project was to use image recognition to classify emotion of 'selfies' and to recommend to you giffs to share (from giphy) to others to let them know how you are feeling.
@@ -1375,7 +1375,7 @@ Refining the recommendation service. Creating several more features (including c
 For the future, enable those who may have a difficult time understanding other peoples emotions 
 (based on non-verbal cues i.e. some on the Autistic Spectrum) 
 by allowing them to take pictures and see expressions in movement (through playful giffs) to aid in understanding what others may be feeling. 
-",,https://m-o-0-w.firebaseapp.com/,,"Spark! Fellowship Award, Best use of GIPHY API","microsoft-computer-vision-api, giphy-search-api, html, css, fun",Boston University,,,qpotos,Richard,K,qpotos@gmail.com,Boston University,0,,,,,,,,,,,,,,,,
+",,https://m-o-0-w.firebaseapp.com/,,"Spark! Fellowship Award, Best use of GIPHY API","microsoft-computer-vision-api, giphy-search-api, html, css, fun",Boston University,"","",qpotos,Richard,K,qpotos@gmail.com,Boston University,0
 Pipes,https://bostonhacks-f2018.devpost.com/submissions/106059-pipes,"Inspiration
 
 Right now, there are apps like Facebook that allow users to report their immediate locations to their friends, and allow them to meet-up. However, with the raising concerns of privacy in our day and age, trusting large corporations on extremely sensitive data like current location might not be everyone's cup of tea.
@@ -1404,7 +1404,7 @@ We learned about how websockets can be useful and provide a very good user exper
 What's next for Pipes
 
 With the main functionality implemented, we could focus on some additional features like finding the fastest route to meet between 2 users, or a chatroom where details of the location can be exchanged (3rd floor, near landmark, etc).
-",,https://github.com/Wai-Lau/pipes,,"[Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform","ruby-on-rails, javascript, google-maps, docker, html, erb, websockets",Concordia University,Google Cloud Platform,,amawai,Amanda,Wai,amawai@hotmail.com,"Concordia University, Montreal, Concordia University",3,thelowhangingfruit,Aman,Bhandal,aman_bhandal@live.ca,roger_lu_dude,SunXP,,roger_lu_dude@hotmail.com,Wai-Lau,Wai Lun,Lau,wl.wailau@gmail.com,,,,
+",,https://github.com/Wai-Lau/pipes,,"[Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform","ruby-on-rails, javascript, google-maps, docker, html, erb, websockets",Concordia University,Google Cloud Platform,"",amawai,Amanda,Wai,amawai@hotmail.com,"Concordia University, Montreal, Concordia University",3,thelowhangingfruit,Aman,Bhandal,aman_bhandal@live.ca,roger_lu_dude,SunXP,,roger_lu_dude@hotmail.com,Wai-Lau,Wai Lun,Lau,wl.wailau@gmail.com
 Watch Dog,https://bostonhacks-f2018.devpost.com/submissions/106060-watch-dog,"Inspiration
 
 Having veteran relatives, we were all aware of the types of hardships they deal with on a daily basis during their transition back into civilian life. An astounding amount of veterans coming back from serving their country suffer from PTSD. According to The U.S. Department of Veterans Affairs, it affects 31% of Vietnam veterans, 10% of Gulf War veterans, and 11% of Afghanistan veterans. Despite these high numbers, only around 8% of the 5 million veterans using VA care have been diagnosed with the disorder. This leaves a wide margin of veterans who do not undergo treatment for their PTSD, and who could benefit from an app like WatchDog. Apart from just veterans though, we were also well aware that many Americans suffer from general anxiety attacks every year. According to the Anxiety and Depression Assosiation of America, Anxiety disorders are the most common mental illness in the United States. Researching this information, it was clear that we as developers could develop some application to help the people around and truly make a difference in the effects of Anxiety Disorders and PTSD.
@@ -1436,7 +1436,23 @@ We learned a lot about WatchKit, HealthKit, and the limitations of both. WatchOS
 What's next for Watch Dog
 
 If time permited, we would love to add the ability to sync your panic attack data with healthkit, and take notes as to your surroundings when the panic attack begun. This would allow users to learn from each attack, and hopefully pinpoint what kind of situations are causing them to have an episode. Empowering them with this data could enable them to either avoid these situations to the best of their ability, or seek targeted treatment from a [psychologist/psychiatrist]. The beauty of all of this is this data could be gathered from just their Apple Watch and their iPhone, which puts it in the hands of countless people suffering from PTSD and Anxiety Disorders.
-",,https://bitbucket.org/holmecomputer/watchdog/src/master/,,[TRACK] Giving Back to Veterans Prize,"swift, healthkit, watchkit, watchos",UMass Dartmouth and UMass Amherst,,,jakeholme,Jacob,Holme,jakeholme@icloud.com,"University of Massachusetts - Dartmouth, University of Massachusetts Amherst",2,joshuaholme19,Joshua,Holme,joshuaholme19@icloud.com,sdubois18,Sam,DuBois,samdubois18@icloud.com,,,,,,,,
+",,https://bitbucket.org/holmecomputer/watchdog/src/master/,,[TRACK] Giving Back to Veterans Prize,"swift, healthkit, watchkit, watchos",UMass Dartmouth and UMass Amherst,"","",jakeholme,Jacob,Holme,jakeholme@icloud.com,"University of Massachusetts - Dartmouth, University of Massachusetts Amherst",2,joshuaholme19,Joshua,Holme,joshuaholme19@icloud.com,sdubois18,Sam,DuBois,samdubois18@icloud.com
+smartdoor_impenetrable,https://bostonhacks-f2018.devpost.com/submissions/106063-smartdoor_impenetrable,"Inspiration
+
+security is so important for all people!
+
+What it does
+
+recognizes faces. unlocks door if correct
+
+Accomplishments that we're proud of
+
+it is very secure
+
+What's next for smartdoor_impenetrable
+
+sky's the limit
+",https://www.youtube.com/watch?v=1FOODP0iwso,https://github.com/jake1k/smartdoor_impenetrable,https://s3.amazonaws.com/challengepost/zip_files/production/38004/zip_files/src.zip,"[Weekly Challenge] Best Social Good Hack from Fidelity, Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, opencv, twilio","Boston University, Northeastern University, University of Toronto","","",JakeKaplow,Jake,Kaplow,jkaplow@me.com,"Boston University, University of Toronto, Northeastern University",2,MichaelGesuale,Michael,Gesuale,michael.gesuale@mail.utoronto.ca,takezoj,takezoj,,johnsontakezo@gmail.com
 no stress parking,https://bostonhacks-f2018.devpost.com/submissions/106064-no-stress-parking,"Inspiration
 
 Many of us have a driver license, and we should all know how annoying it is of finding a parking spot when you try to chase on something. So we decided to build this app to help people finding a parking spot nearby.
@@ -1467,7 +1483,7 @@ What's next for no stress parking
 
 Request real-time street view for our parking recognition model
 Integrate our ML model to the App
-",,https://github.com/bhavrish/NSP,,,"swift, python, opencv, tensorflow",University of waterloo University of Ryerson,,,bryenxie,Bryen,Xie,bryenxie@hotmail.com,University of Waterloo,0,,,,,,,,,,,,,,,,
+",,https://github.com/bhavrish/NSP,,"","swift, python, opencv, tensorflow",University of waterloo University of Ryerson,"","",bryenxie,Bryen,Xie,bryenxie@hotmail.com,University of Waterloo,0
 OurZic,https://bostonhacks-f2018.devpost.com/submissions/106069-ourzic,"Ourzic
 
 Ally Zhu, Kai Washer, Théo Penavaire, Tigran Karapetyan, Victor Debray
@@ -1494,7 +1510,7 @@ Half of the application is for the host. The other half is dedicated to the gues
 Challenges we ran into
 
 We had challenges integrating all technologies together.
-",,https://github.com/theo-pnv/OurZic,,"Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize","javascript, react-native","Concordia University (QC), Brown University (RI)",,,theo_pnv,Théo,Penavaire,tpenavaire@yahoo.fr,"Concordia University, Montreal, Brown University",4,VictorDebray,Victor,Debray,victor.debray@epitech.eu,Tigrankar,Tigrankar,,tigrankara@hotmail.com,kaidar457,Kai,Washer,kaiwasher1998@gmail.com,allyszhu,,,ally_zhu@brown.edu
+",,https://github.com/theo-pnv/OurZic,,"Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize","javascript, react-native","Concordia University (QC), Brown University (RI)","","",theo_pnv,Théo,Penavaire,tpenavaire@yahoo.fr,"Concordia University, Montreal, Brown University",4,VictorDebray,Victor,Debray,victor.debray@epitech.eu,Tigrankar,Tigrankar,,tigrankara@hotmail.com,kaidar457,Kai,Washer,kaiwasher1998@gmail.com,allyszhu,,,ally_zhu@brown.edu
 Buddy-Squad,https://bostonhacks-f2018.devpost.com/submissions/106071-buddy-squad,"Inspiration
 
 After hearing the Veteran speech we understood the need for veterans to feel a sense of purpose and meaning in their life after returning from deployment. 
@@ -1522,11 +1538,11 @@ collaborating with new friends and learning to work in a team under a very stric
 What's next for Buddy-Squad
 
 A messaging service.
-",,https://github.com/Cheeth-Keeth/Buddy-Squad,,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] Giving Back to Veterans Prize","springboot, heroku, maven, java, postgressql, android-studio, eclipse","McGill,",,,Ethanitovitch,,,ethan.itovitch@mail.mcgill.ca,McGill University,3,dishayadav,,,dishayadav106@gmail.com,sgdantas,Stefano,Dantas,sgdantas1@gmail.com,BSzwimer,Benjamin,Szwimer,benji.szwimer@gmail.com,,,,
+",,https://github.com/Cheeth-Keeth/Buddy-Squad,,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] Giving Back to Veterans Prize","springboot, heroku, maven, java, postgressql, android-studio, eclipse","McGill,","","",Ethanitovitch,,,ethan.itovitch@mail.mcgill.ca,McGill University,3,dishayadav,,,dishayadav106@gmail.com,sgdantas,Stefano,Dantas,sgdantas1@gmail.com,BSzwimer,Benjamin,Szwimer,benji.szwimer@gmail.com
 Fishvolution,https://bostonhacks-f2018.devpost.com/submissions/106073-fishvolution,"BostonHacks2018
 
 Using machine learning, our project is meant to train a model to swim like a fish towards a destination in Unity. We used Tensorflow and wrote the scripting within Unity using C#. The Tensorflow training is written in Python, then converted into C#. We achieve fish-like motion through dividing our ""fish"" into a series of rectangular prisms connected by hinge joints. This is then inserted into simulated Unity water physics, and given a ""goal"" space to swim towards, which rewards the machine learning algorithm during the training stages. The algorithm is discouraged from moving too far away from the goal through assigning negative reward points.
-",,https://github.com/juliusfrost/BostonHacks2018,,,"c#, python, css, jupyter-notebook, dockerfile, html, batchfile, unity",Boston University,,,delainerogers,Delaine,Rogers,hello_delaine@yahoo.com,Boston University,2,juliusfbu,Julius,Frost,juliusf@bu.edu,benjisg,,,benjisg@bu.edu,,,,,,,,
+",,https://github.com/juliusfrost/BostonHacks2018,,"","c#, python, css, jupyter-notebook, dockerfile, html, batchfile, unity",Boston University,"","",delainerogers,Delaine,Rogers,hello_delaine@yahoo.com,Boston University,2,juliusfbu,Julius,Frost,juliusf@bu.edu,benjisg,,,benjisg@bu.edu
 meet me,https://bostonhacks-f2018.devpost.com/submissions/106077-meet-me,"Inspiration more and more poole meet on tinder or craiglist and want a netural safe meeting loction
 
 one user makes a short code, next user clicks on it and the app picks nearby bars and hotel rooms, that are equal distance from each perosn to make it 'fair'
@@ -1544,7 +1560,7 @@ Mixing logic in front nad back end leads to tears, I need to think of even simpl
 What's next for meet me
 
 RUBY ON RAILS ITS FASRTER
-",,http://meetingspot.xyz,,,"django, javascript, css3, html5",york u,,,jacob-ryb,ja,Rybalsky,jacob.rybalsky@gmail.com,York University,0,,,,,,,,,,,,,,,,
+",,http://meetingspot.xyz,,"","django, javascript, css3, html5",york u,"","",jacob-ryb,ja,Rybalsky,jacob.rybalsky@gmail.com,York University,0
 PartyQ,https://bostonhacks-f2018.devpost.com/submissions/106079-partyq,"Inspiration
 
 What it does
@@ -1560,7 +1576,7 @@ What I learned
 What's next for PartyQ
 
 much
-",,https://github.com/mdrobnjak/BostonHacks2018,https://s3.amazonaws.com/challengepost/zip_files/production/38009/zip_files/BostonHacks2018.zip,Twilio — Best use of Twilio API,,"Farmingdale State College, Northeastern",,,MarkDrobnjak,Mark,Drobnjak,drobnjak.crh@gmail.com,SUNY Farmingdale,0,,,,,,,,,,,,,,,,
+",,https://github.com/mdrobnjak/BostonHacks2018,https://s3.amazonaws.com/challengepost/zip_files/production/38009/zip_files/BostonHacks2018.zip,Twilio — Best use of Twilio API,"","Farmingdale State College, Northeastern","","",MarkDrobnjak,Mark,Drobnjak,drobnjak.crh@gmail.com,SUNY Farmingdale,0
 moodSwinger,https://bostonhacks-f2018.devpost.com/submissions/106081-moodswinger,"Inspiration
 
 We have seen veteran families where a person is too tired to be angry, he talks about the innocence and honor of young soldiers. Then he may suddenly cry and the heart of the family members breaks all over again. We developed this application where a family member can click a picture of the person and using the Bose soundtouch, it will play music based their emotional state without bothering them.
@@ -1590,7 +1606,7 @@ We learnt pretty new things during this hackathon. We learnt about Spotify and b
 What's next for moodSwinger
 
 We can improve the performance by increasing the training data set for more accurate results and we can also use speech recognition along with emotion recognition to have a better perspective of behaviour.
-",https://youtu.be/jT6flYuRLRo,https://github.com/ag6288/BostonHack-2018-MoodSwinger,https://s3.amazonaws.com/challengepost/zip_files/production/38011/zip_files/BostonHack2018.zip,"[Weekly Challenge] Best Social Good Hack from Fidelity, IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best Domain Name from Domain.com, [TRACK] Giving Back to Veterans Prize","python, javascript, node.js, bose-soundtouch, spotify, ibm-watson, ibm-watson-services, ibm-cloud",New York University,Domain.com,,ag6288,Archit,Goyal,ag6288@nyu.edu,New York University,1,as10950,Anshul,Sharma,as10950@nyu.edu,,,,,,,,,,,,
+",https://youtu.be/jT6flYuRLRo,https://github.com/ag6288/BostonHack-2018-MoodSwinger,https://s3.amazonaws.com/challengepost/zip_files/production/38011/zip_files/BostonHack2018.zip,"[Weekly Challenge] Best Social Good Hack from Fidelity, IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best Domain Name from Domain.com, [TRACK] Giving Back to Veterans Prize","python, javascript, node.js, bose-soundtouch, spotify, ibm-watson, ibm-watson-services, ibm-cloud",New York University,Domain.com,"",ag6288,Archit,Goyal,ag6288@nyu.edu,New York University,1,as10950,Anshul,Sharma,as10950@nyu.edu
 placeholder,https://bostonhacks-f2018.devpost.com/submissions/106089-placeholder,"Inspiration
 
 placeholder
@@ -1606,7 +1622,7 @@ Accomplishments that I'm proud of
 What I learned
 
 What's next for placeholder
-",,,,,,Boston University,,,ctrinh98,Christopher,Trinh,ctrinh@bu.edu,Boston University,0,,,,,,,,,,,,,,,,
+",,,,"","",Boston University,"","",ctrinh98,Christopher,Trinh,ctrinh@bu.edu,Boston University,0
 Olympus,https://bostonhacks-f2018.devpost.com/submissions/106093-olympus,"Inspiration
 
 Many current smart-home devices, such as automated vacuum cleaners, perform poorly without human intervention. Our team decided we would come up with a solution to this problem. 
@@ -1634,7 +1650,7 @@ We learned how to develop for a virtual reality environment, transfer applicatio
 What's next for Olympus
 
 This application is intended to be a proof of concept. A real product could use data from a house to assist in drawing a path matching the room the robot is located in. Also, we envision the ability to design and save preset paths for the robot to follow on a schedule.
-",,https://github.com/zachbodi/OculusRobotControl/releases/tag/v1.0,,[TRACK] The Smart Home prize,"unity, raspberry-pi, python, google-cloud, oculus, leap-motion, c#",Boston University,,"Leap Motion,Oculus Rift",zachbodi,Zach,Bodi,zachbodi@bu.edu,Boston University,1,blabel3,Blake,Abel,blakecabel@gmail.com,,,,,,,,,,,,
+",https://youtu.be/BBqFPujMG5I,https://github.com/zachbodi/OculusRobotControl/releases/tag/v1.0,,[TRACK] The Smart Home prize,"unity, raspberry-pi, python, google-cloud, oculus, leap-motion, c#",Boston University,"","Leap Motion,Oculus Rift",zachbodi,Zach,Bodi,zachbodi@bu.edu,Boston University,1,blabel3,Blake,Abel,blakecabel@gmail.com
 Bumpify,https://bostonhacks-f2018.devpost.com/submissions/106095-bumpify,"Inspiration
 
 We wanted to make something funny and entertaining, while learning new technologies such as recurring neural networks along the way.
@@ -1656,7 +1672,7 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Bumpify
-",,http://bumpify.org,https://s3.amazonaws.com/challengepost/zip_files/production/38013/zip_files/Bumpify_App.zip,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best Domain Name from Domain.com","python, flask, genius-api, recurring-neural-network",Northeastern University,Domain.com,,steinc,Charles,Stein,stein.c@husky.neu.edu,Northeastern University,0,,,,,,,,,,,,,,,,
+",,http://bumpify.org,https://s3.amazonaws.com/challengepost/zip_files/production/38013/zip_files/Bumpify_App.zip,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, [TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best Domain Name from Domain.com","python, flask, genius-api, recurring-neural-network",Northeastern University,Domain.com,"",steinc,Charles,Stein,stein.c@husky.neu.edu,Northeastern University,0
 P2Poll,https://bostonhacks-f2018.devpost.com/submissions/106097-p2poll,"Inspiration
 
 Accusations and suspicions in regards to the integrity of elections have always been an issue, but in recent years, we have seen an increasing distrust in the voting process. Several controversies surrounded the recent midterm elections, from ballot harvesting and registration fraud to voter suppression. Online voting and decentralizing elections through blockchain technologies will not only boost voter participation but also allow for greater transparency in the voting process.
@@ -1680,7 +1696,7 @@ What we learned
 In adapting the blockchain model for cryptocurrency to work for voting, we had to really understand the advantages and drawbacks of online transactions and a decentralized network. While there are indeed risks of outside interference from malicious hackers, this project mitigates the problems of voter suppression and voter fraud.
 
 What's next for P2Poll
-",,http://www.p2poll.com,,Best Domain Name from Domain.com,"python, flask, javascript, bootstrap","Boston University, McGill University, Ryerson University, The University of Waterloo",,,WilliamPine,William,Pine,wpine215@gmail.com,"Boston University, Ryerson University, McGill University, University of Waterloo",4,6561,Bartholomew,C.,bartconsidine@gmail.com,jeffrey-hui,Jeff,Hui,jeffrey.kl.hui@gmail.com,juliama,Julia,Ma,julia.ma@mail.mcgill.ca,YiruiRuan,Yirui,Ruan,ruanyirui@gmail.com
+",,http://www.p2poll.com,,Best Domain Name from Domain.com,"python, flask, javascript, bootstrap","Boston University, McGill University, Ryerson University, The University of Waterloo","","",WilliamPine,William,Pine,wpine215@gmail.com,"Boston University, Ryerson University, McGill University, University of Waterloo",4,6561,Bartholomew,C.,bartconsidine@gmail.com,jeffrey-hui,Jeff,Hui,jeffrey.kl.hui@gmail.com,juliama,Julia,Ma,julia.ma@mail.mcgill.ca,YiruiRuan,Yirui,Ruan,ruanyirui@gmail.com
 Iota,https://bostonhacks-f2018.devpost.com/submissions/106099-iota,"Inspiration
 
 We were deeply moved by the image of dedicated data scientists spending all of there time walking the streets just to collect data. With 2 future data scientists on our team, we knew there had to be a better way to collect this data. So we accepted the difficult challenge of finding a new, easier way to collect data that can be completed far more often. As data junkies, we want as much data as possible.
@@ -1714,7 +1730,7 @@ How to divide work, how to communicate, how to overcome intense confusion togeth
 What's next for Iota
 
 Develop of decent front end, working on more detailed image recognition.
-",,https://github.com/MeganFantes/Iota,,[TRACK] Data for Urban Good Prize,"python, google-maps, google-streetview-api, google-cloud, machine-learning, gis, jmp",Boston University,,,meganfantes,Megan,Fantes,meganfantes@gmail.com,Boston University,4,asifrahman479,Asif,Rahman,asifrahman479@gmail.com,keshavm02,,,km02@bu.edu,RahulArasikere,Rahul,Arasikere,arasikere.rahul@gmail.com,xingehu,Xinge,Hu,xingehu@bu.edu
+",,https://github.com/MeganFantes/Iota,,[TRACK] Data for Urban Good Prize,"python, google-maps, google-streetview-api, google-cloud, machine-learning, gis, jmp",Boston University,"","",meganfantes,Megan,Fantes,meganfantes@gmail.com,Boston University,4,asifrahman479,Asif,Rahman,asifrahman479@gmail.com,keshavm02,,,km02@bu.edu,RahulArasikere,Rahul,Arasikere,arasikere.rahul@gmail.com,xingehu,Xinge,Hu,xingehu@bu.edu
 Decentralized DJ,https://bostonhacks-f2018.devpost.com/submissions/106100-decentralized-dj,"Inspiration
 
 Have you ever been at a party/event and really wanted to hear a specific song? Well, with Decentralized DJ, anyone can now can hear their favorite music! 
@@ -1749,7 +1765,7 @@ Through this project, we learned how to and how not to use the Bose SoundTouch c
 What's next for Decentralized DJ
 
 In the future, we would like to continue to add more control functionality (other playback features). We would also like to integrate a rating system for the songs, so that people can let the DJ know what kind of music they are enjoying. We would also like to explore the zone controls from the BOSE api, and see how we can utilize those to improve our app.
-",,https://github.com/gdgrin/bhacks18-ddj,,"Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, bose-soundtouch, spotify, centos7, twilio, ngrok, flask",Boston University,,,TaylorRabbitt,Taylor,Rabbitt,trabbitt@bu.edu,Boston University,2,genegrin,Gene,Grinberg,genegrin@bu.edu,yllescas,Gabriel,Yllescas,yllescas@bu.edu,,,,,,,,
+",,https://github.com/gdgrin/bhacks18-ddj,,"Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, bose-soundtouch, spotify, centos7, twilio, ngrok, flask",Boston University,"","",TaylorRabbitt,Taylor,Rabbitt,trabbitt@bu.edu,Boston University,2,genegrin,Gene,Grinberg,genegrin@bu.edu,yllescas,Gabriel,Yllescas,yllescas@bu.edu
 Origin,https://bostonhacks-f2018.devpost.com/submissions/106104-origin,"Inspiration
 
 Tax payers in each country deserve to know where their money is spent
@@ -1777,7 +1793,7 @@ Blockchain has many use cases one of them being immutability which I used for my
 What's next for Origin
 
 Acquire latest datasets on tax money to make real use of this proof of concept
-",,https://github.com/arpitdalmia/origin,,"Spark! Fellowship Award, Best use of Google Cloud Platform, Best Domain Name from Domain.com, ITG - Best Fintech Hack","blockchain, node.js, google-cloud, postgresql",University of Toronto,"Domain.com,Google Cloud Platform",,arpitdalmia,Arpit,Dalmia,arpit.dalmia@mail.utoronto.ca,University of Toronto,0,,,,,,,,,,,,,,,,
+",,https://github.com/arpitdalmia/origin,,"Spark! Fellowship Award, Best use of Google Cloud Platform, ITG - Best Fintech Hack, Best Domain Name from Domain.com","blockchain, node.js, google-cloud, postgresql",University of Toronto,"Domain.com,Google Cloud Platform","",arpitdalmia,Arpit,Dalmia,arpit.dalmia@mail.utoronto.ca,University of Toronto,0
 Lighten Müd,https://bostonhacks-f2018.devpost.com/submissions/106105-lighten-mud,"Inspiration
 
 Conversation goes sour when you are passionate about the subject. This bot job is to make sure that you don't hurt your relationships and go past the point of no return with your colleague.
@@ -1813,11 +1829,11 @@ What's next for Lighten Müd
 Progress tracking of the conversation. To follow the user and see their sentiment progression. From there, send meaningful gifs to enhance their mood further.
 
 Would be nice to also be on different devices.
-",,,,"Best use of GIPHY API, Best use of Google Cloud Platform","python, giphy, slack, google, google-cloud, google-cloud-language, sentiment-analysis","brown university, concordia university, boston university",,,MadReza,Reza,M,rezmaza@gmail.com,"Concordia University, Brown University, Boston University",2,june_ge,June,Ge,june_ge@brown.edu,ysman,Sing Yu,Yeung,ysman@bu.edu,,,,,,,,
+",,,,"Best use of GIPHY API, Best use of Google Cloud Platform","python, giphy, slack, google, google-cloud, google-cloud-language, sentiment-analysis","brown university, concordia university, boston university","","",MadReza,Reza,M,rezmaza@gmail.com,"Concordia University, Brown University, Boston University",2,june_ge,June,Ge,june_ge@brown.edu,ysman,Sing Yu,Yeung,ysman@bu.edu
 CoderKonnect,https://bostonhacks-f2018.devpost.com/submissions/106106-coderkonnect,"CoderKonnect
 
 This project was created for Boston Hacks 2018. When you visit a hackathon, the biggest central idea is to find a team, and work on a project. However, the process of finding a project for you to work on can be difficult. CoderKonnect aims to simplify the process of finding projects to work on. It will automatically match developers to projects based on pre-configured criterias such as preferred language and category of project.
-",,https://github.com/AesirOfTheSol/CoderKonnect,https://s3.amazonaws.com/challengepost/zip_files/production/38021/zip_files/CoderKonnect.zip,,"html, php, bootstrap",Salem State University,,,AesirOfTheSol,AesirOfTheSol,,nickmotta38@gmail.com,Salem State University,1,jerrys123111,Muhammed Imraan,Shaikh,jerrys123111@gmail.com,,,,,,,,,,,,
+",,https://github.com/AesirOfTheSol/CoderKonnect,https://s3.amazonaws.com/challengepost/zip_files/production/38021/zip_files/CoderKonnect.zip,"","html, php, bootstrap",Salem State University,"","",AesirOfTheSol,AesirOfTheSol,,nickmotta38@gmail.com,Salem State University,1,jerrys123111,Muhammed Imraan,Shaikh,jerrys123111@gmail.com
 issue-map,https://bostonhacks-f2018.devpost.com/submissions/106110-issue-map,"Inspiration
 
 We wanted to create a website that would show the issues that people care about most. We had hoped this could eventually be expanded into something that policymakers could use to help them understand what their constituents actually care about. The IssueMap that we built is a first step toward that.
@@ -1845,17 +1861,17 @@ We gained experience in React and Node.js, as well as using the Google Maps API 
 What's next for issue-map
 
 We hope to add a translation feature so that the sentiment analysis can be applied to non-English tweets. In addition, changing the format from live collection of Tweets to being able to see the ""issue map"" for any time period would make IssueMap much more useful.
-",,https://github.com/hanabatio/issue-map,,,"apis, google-maps, react, node.js",boston university,,,hanabatio,hanabatio,,hbatio@bu.edu,"Boston University, Brown University",1,reedbrown,,,reed_brown@brown.edu,,,,,,,,,,,,
+",,https://github.com/hanabatio/issue-map,,"","apis, google-maps, react, node.js",boston university,"","",hanabatio,hanabatio,,hbatio@bu.edu,"Boston University, Brown University",1,reedbrown,,,reed_brown@brown.edu
 Barrier Free,https://bostonhacks-f2018.devpost.com/submissions/106112-barrier-free,"Our project allows its users to say something to the Bose speaker and the speaker will then transform the audio input into text. The text will then be translated to another language through the IBM API. Then, it will be transformed back into an audio for the speaker to output. As the translation occurs, we use Giphy API to search for related gifs to be depicted in the VR headset. This helps the user to have a clearer understanding of the translation.
 
 Our team's inspiration was to ease the communication issue that people have especially in the scenario when people are attempting to communicate when they aren't proficient in the same language. Furthermore, a tool such as this would help people attempting to learn  a new language.
 
 Some accomplishments that we are proud of is working and creating unique and detailed scenes in Unity and working with numerous API's to create the final project. Thanks to working with a diverse group with different skillset, we were all able to learn some new topics such as Unity, working with API, and using Oculus Rift.
-",,https://github.com/jiexunxu/Barrier-Free,,"Best use of GIPHY API, [Weekly Challenge] Best Social Good Hack from Fidelity, IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Best Domain Name from Domain.com","unity, vr, ibm-watson, giphy, bose-soundtouch, flask, java, c#","University of Toronto, Connecticut College, Cornell University, Boston University, McMaster University",Domain.com,Oculus Rift,jiexunxu,jiexunxu,,jxx1311@yahoo.com,"Cornell University, University of Toronto, Connecticut College",2,SmitRao,Smit,Rao,smit.rao@mail.utoronto.ca,TaigoNakazawa,Taigo,Nakazawa,taigonakazawa@yahoo.com,,,,,,,,
+",,https://github.com/jiexunxu/Barrier-Free,,"Best use of GIPHY API, [Weekly Challenge] Best Social Good Hack from Fidelity, IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Best Domain Name from Domain.com","unity, vr, ibm-watson, giphy, bose-soundtouch, flask, java, c#","University of Toronto, Connecticut College, Cornell University, Boston University, McMaster University",Domain.com,Oculus Rift,jiexunxu,jiexunxu,,jxx1311@yahoo.com,"Cornell University, University of Toronto, Connecticut College",2,SmitRao,Smit,Rao,smit.rao@mail.utoronto.ca,TaigoNakazawa,Taigo,Nakazawa,taigonakazawa@yahoo.com
 Ursus,https://bostonhacks-f2018.devpost.com/submissions/106113-ursus,"Ursus
 
 More and more people are wanting the convenience, elegance, and simplicity of a smart-home device, but without the costs, maintenance, and difficulty of installation. As opposed to drilling through your wall to attach a separate segment to your lights; Ursus can be directly attached onto any single toggle light switch. Utilizing the Twilio cloud communication and ngrok's servers, Ursus is a fully-functional text message based light system. Through Ursus, you can turn the lights in any room on or off at any time from anywhere. This feature is great because it means that Ursus can help you save energy by minimizing the time of light usage in your house. Ursus even comes with a ""Status"" command that tells you if your lights are currently on or off. You could even execute commands through text to set a time to set Ursus to activate the lights or deactivate the lights: ""Ursus, can you turn on the lights in 5 minutes?"" or ""Lights off in 10 mins."".
-",,https://github.com/paschaligusti/Ursus,,,"python, twilio, ngrok, raspberry-pi, servo, flask",Boston University,,"Arduino 101,DragonBoard 410C",paschali,Paschal,Igusti,paschali@bu.edu,Boston University,3,henrywu,Hsin-Hung,Wu,henrywu@bu.edu,nawachk,Nawach,Kuptimanus,nawachk@bu.edu,heykjk,Kenneth,Kim,heykjk@bu.edu,,,,
+",,https://github.com/paschaligusti/Ursus,,"","python, twilio, ngrok, raspberry-pi, servo, flask",Boston University,"","Arduino 101,DragonBoard 410C",paschali,Paschal,Igusti,paschali@bu.edu,Boston University,3,henrywu,Hsin-Hung,Wu,henrywu@bu.edu,nawachk,Nawach,Kuptimanus,nawachk@bu.edu,heykjk,Kenneth,Kim,heykjk@bu.edu
 BoseULTIMATE,https://bostonhacks-f2018.devpost.com/submissions/106115-boseultimate,"Inspiration
 
 How might we use the Bose SoundTouch Notification API to improve the way we start the day?
@@ -1896,7 +1912,7 @@ Learned more about the IBM Watson Text to Speech API
 What's next for BoseULTIMATE
 
 In the future, we will implement an improved alarm system that the user can set up via the platform. The platform will be able to play a song as an alarm clock, notifying the weather, and the events that you have on your calendar.
-",,https://github.com/peggyxli/bostonhacks2018,,,"flask, python, html, css, ibm-bluemix-weather-api, google-calendar-api, soundtouch-audio-notification-api","City College of New York, New York University, Brooklyn College",,,LaisaBarros,Laisa,Barros,laisa.barros26@gmail.com,"The City College of New York, City College of New York of the City University of New York, The, Brooklyn College of the City University of New York, Beloit College, New York University",4,StephenWang,Stephen,Wang,wangsteven3@gmail.com,peggyxli,Peggy,Li,xpeggyxli@gmail.com,ChloeMeng,Chloe,Meng,lm3226@nyu.edu,yanlawrencee,Yan,Lawrence,yanlawrencee@gmail.com
+",,https://github.com/peggyxli/bostonhacks2018,,"","flask, python, html, css, ibm-bluemix-weather-api, google-calendar-api, soundtouch-audio-notification-api","City College of New York, New York University, Brooklyn College","","",LaisaBarros,Laisa,Barros,laisa.barros26@gmail.com,"The City College of New York, City College of New York of the City University of New York, The, Brooklyn College of the City University of New York, Beloit College, New York University",4,StephenWang,Stephen,Wang,wangsteven3@gmail.com,peggyxli,Peggy,Li,xpeggyxli@gmail.com,ChloeMeng,Chloe,Meng,lm3226@nyu.edu,yanlawrencee,Yan,Lawrence,yanlawrencee@gmail.com
 Greencycle,https://bostonhacks-f2018.devpost.com/submissions/106117-greencycle,"Inspiration
 
 Greencycle is a project meant to help Alexa users rethink their recycling habits and carbon impact on the planet. Instead of reinventing the recycling process, we got to start changes in the minds of people, stimulating them to make smarter solutions about their recycling and sustainability daily activities.
@@ -1926,13 +1942,13 @@ I have learnt to create amazon alexa skills
 What's next for Greencycle
 
 Statistics display and data storage, improving the alexa skill functionality 
-",,https://github.com/Juliafines/greencycle,,,"swift, alexa",Boston University,,,JuliaIgosheva,Julia,Igosheva,iiuaavi21@gmail.com,Boston University,0,,,,,,,,,,,,,,,,
+",,https://github.com/Juliafines/greencycle,,"","swift, alexa",Boston University,"","",JuliaIgosheva,Julia,Igosheva,iiuaavi21@gmail.com,Boston University,0
 FinBlock,https://bostonhacks-f2018.devpost.com/submissions/106120-finblock,"Many people share the view that there are no ""good"" ads. Those people prefer to not see any ads at all.
 
 The problem is that the blank space taken up by the blocked ads remains unused. Our project seeks to make use of the unused space by replacing it with useful content. We will build a browser extention that will replace adds with most breaking Fintech industry news.
 
 We called our extention FinBlock.
-",,,,,javascript,Boston University,,,mkorovkin2,Michael,Korovkin,mckoro@bu.edu,Boston University,1,alexvarda,Alexander,Vardanyan,alexander.vardanyan@gmail.com,,,,,,,,,,,,
+",,,,"",javascript,Boston University,"","",mkorovkin2,Michael,Korovkin,mckoro@bu.edu,Boston University,1,alexvarda,Alexander,Vardanyan,alexander.vardanyan@gmail.com
 Mood2Food,https://bostonhacks-f2018.devpost.com/submissions/106124-mood2food,"Mood2Food
 
 -Our goal
@@ -2009,7 +2025,7 @@ http://naturallysavvy.com/eat/9-foods-that-calm-your-nerves-and-mind
 
 The recipes come from: 
 www.yummy.com
-",,https://github.com/afly6899/Mood2Food,,[TRACK] The Smart Home prize,"javascript, react-native, atom, sqlite, python","Northeastern University, Wellesley College",,Dell XPS,malcolmbec,Rebecca,Malcolm,malcolm.r@husky.neu.edu,"Northeastern University, Wellesley College",3,funingyang,,,fyang3@wellesley.edu,AnnieL66,AnnieL66,,lannie9400@gmail.com,afly6899,Audrey,Lai,lai.au@husky.neu.edu,,,,
+",,https://github.com/afly6899/Mood2Food,,[TRACK] The Smart Home prize,"javascript, react-native, atom, sqlite, python","Northeastern University, Wellesley College","",Dell XPS,malcolmbec,Rebecca,Malcolm,malcolm.r@husky.neu.edu,"Northeastern University, Wellesley College",3,funingyang,,,fyang3@wellesley.edu,AnnieL66,AnnieL66,,lannie9400@gmail.com,afly6899,Audrey,Lai,lai.au@husky.neu.edu
 LoserFountain,https://bostonhacks-f2018.devpost.com/submissions/106125-loserfountain,"Inspiration
 
 We were inspired by the Twilio demo so we, knew we wanted to include the Twilio API in our project! We wanted to make a fun project to show off some of our skills while learning some new APIs!
@@ -2039,7 +2055,7 @@ We learned how to use Flask and the Twilio api. None of us really had any experi
 What's next for LoserFountain
 
 Get fully functional updating on the website for LoserFountain, so players can see the updates of their story!
-",,https://github.com/omeedth/LoserFountain,https://s3.amazonaws.com/challengepost/zip_files/production/38042/zip_files/LoserFountain.zip,Twilio — Best use of Twilio API,"flask, python, javascript, html5, css3, twilio",Boston University,,,omeedth,Alex,Thomas,aothomas@bu.edu,Boston University,3,petegilb,Peter,Gilbert,petegilb@bu.edu,Lkchau,Leo,Chau,lkbchau@gmail.com,rhodesrm,rhodesrm,,rhodesr@bu.edu,,,,
+",,https://github.com/omeedth/LoserFountain,https://s3.amazonaws.com/challengepost/zip_files/production/38042/zip_files/LoserFountain.zip,Twilio — Best use of Twilio API,"flask, python, javascript, html5, css3, twilio",Boston University,"","",omeedth,Alex,Thomas,aothomas@bu.edu,Boston University,3,petegilb,Peter,Gilbert,petegilb@bu.edu,Lkchau,Leo,Chau,lkbchau@gmail.com,rhodesrm,Robin,Rhodes,rhodesr@bu.edu
 TruPhase,https://bostonhacks-f2018.devpost.com/submissions/106128-truphase,"Inspiration
 
 We wanted to increase the life of the speakers by estimating the health of the drivers and Hardware. 
@@ -2070,7 +2086,7 @@ We learned that apart from coding efficiently, team-work,time-management and sea
 What's next for TruPhase
 
 We hope to take this to another level and make it big by implementing numerous API's and making the world a safer space for our beloved Bose speakers.
-",,https://github.com/anant-j/TruPhase,,"Bose - Most creative use of Bose SoundTouch Speaker API, OneDB - Best Use of OneDB Platform, [TRACK] The Smart Home prize","css, javascript, html, python, api",McMaster University,,,anant-j,Anant,Jain,anant.j2409@gmail.com,McMaster University,1,TANEJS4,Shivam,,tanejs4@mcmaster.ca,,,,,,,,,,,,
+",,https://github.com/anant-j/TruPhase,,"Bose - Most creative use of Bose SoundTouch Speaker API, OneDB - Best Use of OneDB Platform, [TRACK] The Smart Home prize","css, javascript, html, python, api",McMaster University,"","",anant-j,Anant,Jain,anant.j2409@gmail.com,McMaster University,1,TANEJS4,Shivam,,tanejs4@mcmaster.ca
 Gotta Go!,https://bostonhacks-f2018.devpost.com/submissions/106130-gotta-go,"Inspiration
 
 When you gotta go, you gotta go. Not every place has easily accessible bathrooms. There are times when we really needed to use the toilet, but there was no place to go. When you really need to use the bathroom, nothing is ever fun. Our idea solves these issues with the push of a button. 
@@ -2106,7 +2122,7 @@ What's next for Gotta Go!
 In the future, we plan on creating more of the SolidWorks components. We want to implement the crane in order to remove the portable potties from the docking station. That would be a good next step. 
 
 As for coding, we want to finalize our algorithm in finding the right place to stop and unload the toilets. 
-",,https://github.com/lxie27/gotta-go,,,"python, google-maps, dmatrix, googlemaps-api, solidworks, arduino",Northeastern University,,Arduino 101,livinglee,,,lee.marcu@husky.neu.edu,Northeastern University,0,,,,,,,,,,,,,,,,
+",,https://github.com/lxie27/gotta-go,,"","python, google-maps, dmatrix, googlemaps-api, solidworks, arduino",Northeastern University,"",Arduino 101,livinglee,,,lee.marcu@husky.neu.edu,Northeastern University,0
 Kirby Dodgeball,https://bostonhacks-f2018.devpost.com/submissions/106132-kirby-dodgeball,"Inspiration
 
 We wanted to make a fun survival based game in ISL.
@@ -2134,7 +2150,7 @@ ISL+ is not that bad. 2/10. GIMP is helpful as well.
 What's next for Kirby Dodgeball
 
 Fixing collisions.
-",,,,,isl,Northeastern University,,,keic,Christopher,Kei,kei.c@husky.neu.edu,Northeastern University,0,,,,,,,,,,,,,,,,
+",,,,"",isl,Northeastern University,"","",keic,Christopher,Kei,kei.c@husky.neu.edu,Northeastern University,0
 jobs4veterans,https://bostonhacks-f2018.devpost.com/submissions/106134-jobs4veterans,"Inspiration
 
 Giving Back to Veterans  
@@ -2189,7 +2205,7 @@ We plan to add a lot more features like-
 Advanced search with more filters
 Machine Learning and Natural Language Processing algorithms to automatically match the veterans with their desired jobs and companies
 
-",,https://github.com/kev5/getVet,,,"html5, css3, python, django",Boston University,,,ddyson1,Devin,Dyson,ddyson1@ithaca.edu,"Ithaca College, Boston University",1,kev5,Keval,Khara,kevalkhara95@gmail.com,,,,,,,,,,,,
+",,https://github.com/kev5/getVet,,"","html5, css3, python, django",Boston University,"","",ddyson1,Devin,Dyson,ddyson1@ithaca.edu,"Ithaca College, Boston University",1,kev5,Keval,Khara,kevalkhara95@gmail.com
 Emergency Alert,https://bostonhacks-f2018.devpost.com/submissions/106136-emergency-alert,"Inspiration
 
 There are many stories where people don't get immediate emergency care when they need it due to cell phones not being accurate.
@@ -2217,7 +2233,7 @@ Learned to work as a team to accomplish our tasks, how to program using Android 
 What's next for Emergency Alert
 
 Introducing more features, such as the elevation of the user.
-",,,,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] Data for Urban Good Prize","java, xml, android-studio","McGill, Western, Sheridan, BU",,,David00,David,Quan,david.q778@gmail.com,Western University,0,,,,,,,,,,,,,,,,
+",,,,"Liberty Mutual  - Best Hack to Live Safe, More Secure Lives, [TRACK] Data for Urban Good Prize","java, xml, android-studio","McGill, Western, Sheridan, BU","","",David00,David,Quan,david.q778@gmail.com,Western University,0
 Crime-Lite.com,https://bostonhacks-f2018.devpost.com/submissions/106137-crime-lite-com,"Inspiration
 
 We wanted to find data that was relevant to communities and gave them information they may need at any time.
@@ -2247,7 +2263,7 @@ How to learn with big data, how to convert from programming languages
 What's next for Crime-Lite.com
 
 Many more revisions including more data sets, streets, and more!
-",,http://crime-lite.com,,[TRACK] Data for Urban Good Prize,"python, javascript, html5, css, jdon",Northeastern,,,Koalacards,Koalacards,,deangelis.h@husky.neu.edu,Northeastern University,4,MathiasKools,Mathias,Kools,kools.m@husky.neu.edu,BolajiRotibi,Bolaji,Rotibi,brotibi@gmail.com,daio,Oliver,Dai,dai.o@husky.neu.edu,JovanJ22,JovanJ22,,psvitajj@gmail.com
+",,http://crime-lite.com,,[TRACK] Data for Urban Good Prize,"python, javascript, html5, css, jdon",Northeastern,"","",Koalacards,Koalacards,,deangelis.h@husky.neu.edu,Northeastern University,4,MathiasKools,Mathias,Kools,kools.m@husky.neu.edu,BolajiRotibi,Bolaji,Rotibi,brotibi@gmail.com,daio,Oliver,Dai,dai.o@husky.neu.edu,JovanJ22,JovanJ22,,psvitajj@gmail.com
 TwiNotify,https://bostonhacks-f2018.devpost.com/submissions/106140-twinotify,"About a week or so back, a few Northeastern Dorms caught fire, and Northeastern has an emergency message notification service that basically sends alerts related to any emergencies near Northeastern University.  
 
 Taking inspiration from this idea, we came up with TwiNotify.  
@@ -2289,7 +2305,7 @@ We use Twilio’s SMS API to then broadcast messages that we have selected.
 Scope: 
 
 The scope of the project is currently limited to disaster-related information, but later can be broadened to other topics of interest.  
-",,https://github.com/kaleketan07/TwiNotify,https://s3.amazonaws.com/challengepost/zip_files/production/38030/zip_files/TwiNotify-master.zip,"[TRACK] Data for Urban Good Prize, Twilio — Best use of Twilio API","python, numpy, pandas, sklearn, tweepy, scipy, cloud, twilio",Northeastern University,,,GrishmaAtulThakkar,Grishma Atul,Thakkar,thakkar.grishma95@gmail.com,Northeastern University,0,,,,,,,,,,,,,,,,
+",,https://github.com/kaleketan07/TwiNotify,https://s3.amazonaws.com/challengepost/zip_files/production/38030/zip_files/TwiNotify-master.zip,"[TRACK] Data for Urban Good Prize, Twilio — Best use of Twilio API","python, numpy, pandas, sklearn, tweepy, scipy, cloud, twilio",Northeastern University,"","",GrishmaAtulThakkar,Grishma Atul,Thakkar,thakkar.grishma95@gmail.com,Northeastern University,0
 WUT Traffic Optimizer,https://bostonhacks-f2018.devpost.com/submissions/106145-wut-traffic-optimizer,"Inspiration
 
 Facilitate everyday lives of the users by creating software that is easy to use and that does some good to the city by optimizing the traffic at peak hours!
@@ -2319,7 +2335,7 @@ What we learned
 Link to secondary files
 
 https://github.com/KetillG/boston-hacks-traffic-auth
-",,https://github.com/KetillG/boston-hacks-traffic-optimizer,,"[TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform, Twilio — Best use of Twilio API","python, node.js, react, redux, scikit-learn, twilio",boston uni,,,nikhilesh19,nikhilesh1906,,nikm@bu.edu,Boston University,3,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu,sjzhao,shijie,zhao,sjzhao@bu.edu,KetillGudmundsson,Ketill,Guðmundsson,ketillgudmunds@gmail.com,,,,
+",,https://github.com/KetillG/boston-hacks-traffic-optimizer,,"[TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform, Twilio — Best use of Twilio API","python, node.js, react, redux, scikit-learn, twilio",boston uni,"","",nikhilesh19,nikhilesh1906,,nikm@bu.edu,Boston University,3,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu,sjzhao,shijie,zhao,sjzhao@bu.edu,KetillGudmundsson,Ketill,Guðmundsson,ketillgudmunds@gmail.com
 Momo,https://bostonhacks-f2018.devpost.com/submissions/106146-momo,"Inspiration
 
 We miss tomigochis and wish they could text when they were about to die so we could have saved them
@@ -2345,7 +2361,7 @@ Virtual pets are nice companions for people who are lonely
 What's next for Momo
 
 We want momo to be able to call you!
-",,https://github.com/maxCut/Momo,,,"java, twilio",Boston University,,,sumara523,sumara523,,sumaraali523@gmail.com,Boston University,0,,,,,,,,,,,,,,,,
+",,https://github.com/maxCut/Momo,,"","java, twilio",Boston University,"","",sumara523,sumara523,,sumaraali523@gmail.com,Boston University,0
 text-line,https://bostonhacks-f2018.devpost.com/submissions/106153-text-line,"Inspiration
 
 News and data offline
@@ -2373,13 +2389,13 @@ NLP
 What's next for text-line
 
 Stock trends and Web-App
-",,https://github.com/chaitali-ladikkar/text-line,https://s3.amazonaws.com/challengepost/zip_files/production/38034/zip_files/BostonHacks2.zip,"Best Domain Name from Domain.com, Twilio — Best use of Twilio API, ITG - Best Fintech Hack","nltk, twilio, python","Northeastern University, GWU",,,ChaitaliLadikkar,Chaitali,Ladikkar,chaitali.ladikkar@gmail.com,"Northeastern University, George Washington University",1,aTibrewala,Alok,Tibrewala,alok@gwu.edu,,,,,,,,,,,,
+",,https://github.com/chaitali-ladikkar/text-line,https://s3.amazonaws.com/challengepost/zip_files/production/38034/zip_files/BostonHacks2.zip,"Twilio — Best use of Twilio API, ITG - Best Fintech Hack, Best Domain Name from Domain.com","nltk, twilio, python","Northeastern University, GWU","","",ChaitaliLadikkar,Chaitali,Ladikkar,chaitali.ladikkar@gmail.com,"Northeastern University, George Washington University",1,aTibrewala,Alok,Tibrewala,alok@gwu.edu
 CracksInMaps,https://bostonhacks-f2018.devpost.com/submissions/106157-cracksinmaps,"We saw that there is a disconnect between the data collected and real life visuals. In order to combat this problem we wanted to overlay this data into google maps to properly see all of this data. By having a visualization, we hope to continue on with this project with machine learning to determine what is a crack just from pictures taken with Google Maps. 
 
 We have faced several challenges, but we found that Google APIs were essential in our program and helped us overcome these issues. 
 
 We're proud that as two unexperienced computer science students we are able to submit a project on a topic that we are highly interested in. We have learned a lot in this weekend and hope to continue to develop these skills in the future. 
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/38035/zip_files/cracksInMaps.html,,"javascript, html, googleapis",BU,,,AnAttemptWasMade,,,mahichy@bu.edu,Boston University,1,gglee,Gloria,Lee,gglee@bu.edu,,,,,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/38035/zip_files/cracksInMaps.html,"","javascript, html, googleapis",BU,"","",AnAttemptWasMade,,,mahichy@bu.edu,Boston University,1,gglee,Gloria,Lee,gglee@bu.edu
 Musical Therapy,https://bostonhacks-f2018.devpost.com/submissions/106158-musical-therapy,"Inspiration
 
 What it does
@@ -2395,9 +2411,30 @@ What I learned
 What's next for Musical Therapy
 
 f
-",,,,,,boston univeristy,,,LeithlandKilburn,Leithland,Kilburn,rochester.royal@yahoo.com,,0,,,,,,,,,,,,,,,,
+",,,,"","",boston univeristy,"","",LeithlandKilburn,Leithland,Kilburn,rochester.royal@yahoo.com,"",0
 Snake,https://bostonhacks-f2018.devpost.com/submissions/106159-snake,"The classic arcade game
-",,http://brianch.uk/snake,,,javascript,new York University,,,devchuk,Brian,Chuk,brian_chuk@yahoo.com,,0,,,,,,,,,,,,,,,,
+",,http://brianch.uk/snake,,"",javascript,new York University,"","",devchuk,Brian,Chuk,brian_chuk@yahoo.com,"",0
+Please Don't Trash My House,https://bostonhacks-f2018.devpost.com/submissions/106173-please-don-t-trash-my-house,"We are a team from Montreal, where car sharing is an increasing aspect of the city's transportation. One of those companies let you see the available cars nearby and take the one you prefer. The car is unlocked from the app and locks as you leave. The inspiration came when we all realized that finding a place to sleep when traveling should be a similar experience without having to pay the large fees of hotels.
+
+What does it do:
+We have a web app that shows you the available rooms near your location. When selected, the app will ask you for a code that is displayed on an LCD on the door lock. When entered correctly, the payment passes and the door unlocks. 
+
+How did we build it:
+We used 3 components. One arduino that uses an IOT microcontroller to control the lock. A spring boot backend to control the flux of data. An Angular front end to show the map and interact with the rentals.
+
+Problems encountered:
+Compiler DO matter.
+Frameworks don't always do what they promise.
+Spring boot is hard to setup!
+
+What are we proud of:
+We did an incredible teamwork job and are very proud of our product and the possible scalability
+
+We learned:
+Perseverance.
+
+What's next for Please Dont trash my house: More features, a cleaner experience and accept payments. 
+",https://www.youtube.com/watch?v=4u-HuBaod_A&feature=share,https://github.com/EtienneBerube/BostonHacks18,,Best Domain Name from Domain.com,"arduino, google-maps, angular.js, nodemcu, github, netbeans, visual-studio, spring-boot",Concordia University,Google Cloud Platform,"",ferdousara-parvin,Ferdousara,Parvin,parvin.ferdousara@gmail.com,"Concord University, Concordia University, Montreal",4,thomasgauvin,Thomas,,thomasgauvin.cu@gmail.com,StevenIacobellis,Steven,Iacobellis,steveniacobellis1@gmail.com,viveanban,,,viveka98@hotmail.ca,tiennebrb,Etienne,Berube,tiennebrb@gmail.com
 Joke Generator,https://bostonhacks-f2018.devpost.com/submissions/106182-joke-generator,"Inspiration
 
 At the beginning we were thinking about making something a little different and interesting. Then we came up with the idea of Joke Generator, which we believe is quite unconventional.
@@ -2429,7 +2466,7 @@ NLP. SQL. JSON. SWING.
 What's next for Joke Generator
 
 A more sophisticated model; we are currently thinking about RNN.
-",,https://github.com/StrongerXi/Joke-Generator,,,"java, python, json, csv, sql, swing",Northeastern University,,,StrongerXi,Ryan,Go,ryan.guo99@gmail.com,Northeastern University,2,guptasam,Samedh,Gupta,gupta.sam@husky.neu.edu,danijj89,Danijj,,zhan.d@husky.neu.edu,,,,,,,,
+",,https://github.com/StrongerXi/Joke-Generator,,"","java, python, json, csv, sql, swing",Northeastern University,"","",StrongerXi,Ryan,Go,ryan.guo99@gmail.com,Northeastern University,2,guptasam,Samedh,Gupta,gupta.sam@husky.neu.edu,danijj89,Danijj,,zhan.d@husky.neu.edu
 VESPARK,https://bostonhacks-f2018.devpost.com/submissions/106184-vespark,"BostonHacks-veteran-social-app
 
 An open-source social experience to help veterans to readjust to civilian life
@@ -2438,5 +2475,8 @@ We have been working on creating a social app for veterans to make the transitio
 
 To achieve this we needed to create and app that gave Vets purpose. We decided to bring an interactive experience to real life. Vets can track their progress in completing ""Missions"", tasks that can be worked on daily that drive success in a new and unfamiliar environment. Tasks range from ""Brush up your resume"" to ""Call and old friend to catch up"". It is important to restore a sense of connection with the people in civilian life, with VESPARK its possible. In addition to missions, Veterans will be able to meet other members of the Military. Establishing connections is fun and a great way to feel welcome in an often lonely part of a veterans life. To help fuel connections on the platform, users can ""Request a Mentor"", where they will then appear in the Mentor Feed of other users in the country to reach out by message or connection request. Finally, we understand there are days that are harder than others. Sometimes all someone needs is a friend to talk to. We have created a ""LifeLine"" function to notify other users in the area, this will spark other users to reach out in help. 
 
-{Add Work description}
-",,https://github.com/CraftingGamerTom/BostonHacks-veteran-social-app,,[TRACK] Giving Back to Veterans Prize,"java, kotlin, spring, android-studio, android",Worcester State,,,ThomasRokicki,Thomas,Rokicki,tcrokicki@gmail.com,Worcester State University,1,arlumaal17,Arisha,Jahan,arlumaal17@gmail.com,,,,,,,,,,,,
+
+
+We definitely bit off a lot of a team pretty new to web and app development. We broke up the project into three parts. Each member had their own part: Backend (API), SDK (to be used by the app), and an Android app as a demo. We collaborated to ensure all of our pieces would work together when the time came. The internet problems hindered our ability to get started. It took from 1pm to almost 10pm to download Android Studio and the needed Android SDKs to get started. We took the time to plan our database structure and create a framework for our backend. We also started with a tutorial Android app module. We set up an Ubuntu EC2 instance on AWS to host our MongoDB and API Service.
+Ultimately we were unable to get a working demo. We have bits and pieces of the three parts that would need a few more hours to complete. We have the framework for success. This was a great, fun, learning experience.
+",,https://github.com/CraftingGamerTom/BostonHacks-veteran-social-app,,[TRACK] Giving Back to Veterans Prize,"java, kotlin, spring, android-studio, android",Worcester State,"","",ThomasRokicki,Thomas,Rokicki,tcrokicki@gmail.com,Worcester State University,1,arlumaal17,Arisha,Jahan,arlumaal17@gmail.com
