@@ -9,7 +9,7 @@ const PROJS_PER_JUDGE = TOTAL_JUDGING_TIME / TIME_PER_PROJ;
 
 // These are the tracks/categories that we do not want to assign judges to, such as sponsor tracks
 // TODO: populate this list in the front end, probably in a checklist
-const FILTERED_LIST = ['BU Spark — Social Good', 'RedHat — Best hack using RedHat OpenShift', 'Liberty Mutual — Objectively Human'];
+const FILTERED_LIST = ['Spark! Fellowship Award', 'ITG - Best Fintech Hack', '[Weekly Challenge] Best Social Good Hack from Fidelity', 'Best use of Google Cloud Platform', 'Best use of GIPHY API', 'Liberty Mutual  - Best Hack to Live Safe', 'Twilio — Best use of Twilio API', 'Best use of Algolia', 'Best Domain Name from Domain.com', 'Best IoT Hack Using a Qualcomm Device', '[Weekly Challenge] Best Chat Bot using Botkit & Cisco Webex Teams', 'Best use of HERE.com', '[Weekly Challenge] Best use of Clarifai\'s API', '[Weekly Challenge] Snap Kit Weekly Challenge', '[Weekly Challenge] Best Social Good Hack from Fidelity', 'Best use of Authorize.net', 'Bose - Most creative use of Bose SoundTouch Speaker API', 'IBM - Best Use of IBM Cloud', 'ITG - Best Fintech Hack', 'OneDB - Best Use of OneDB Platform'];
 
 // This will give us a list of the tables that the tracks in the FILTERED_LIST have, ie the tables that each sponsor will be judging
 let sponsorTracks = {};
@@ -54,9 +54,10 @@ function getListOfTracks(projectsJson) {
 function giveProjectsToJudges(trackMap, judges) {
   judgeMap = {};
   for (var judge of judges) {
+    // console.log(judge);
     judgeMap[judge] = {};
   }
-
+  
   let judgeIndex = 0; // Index in the judge array of the judges we are assigning
   let numTablesAssignedToCurrentJudge = 0; // Keeps track of when we should stop assigning tables to a group of judges and increment judgeIndex
 
@@ -65,6 +66,7 @@ function giveProjectsToJudges(trackMap, judges) {
     for (var table of Object.values(trackMap[track])) { // For every table in the track
       for (var i=judgeIndex; i<judgeIndex+VIEWS_PER_PROJ; i++) { // Assign VIEWS_PER_PROJ judges at a time
         if (!(track in judgeMap[judges[i]])) { // Prevents KeyError
+          // console.log(judgeMap);
           judgeMap[judges[i]][track] = [];
         }
 
