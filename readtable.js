@@ -27,6 +27,7 @@ function assignTables(projectsJson) {
     var project = projectsJson[i]
     project.table = tableAssignmentIterator;
 		tableAssignmentIterator++;
+    console.log(project['Submission Title'], project.table);
   }
 
   return tableAssignmentIterator - 1; // Minus 1 because it will be 1 too big when exiting the loop
@@ -57,7 +58,7 @@ function giveProjectsToJudges(trackMap, judges) {
     // console.log(judge);
     judgeMap[judge] = {};
   }
-  
+
   let judgeIndex = 0; // Index in the judge array of the judges we are assigning
   let numTablesAssignedToCurrentJudge = 0; // Keeps track of when we should stop assigning tables to a group of judges and increment judgeIndex
 
@@ -125,6 +126,7 @@ csv()
   process.stdout.write("* Assigning table #s to projects...");
   let numTables = assignTables(jsonObj);
   console.log("done.");
+
 
   process.stdout.write("* Mapping prize tracks to table #s...");
   let trackMap = getListOfTracks(jsonObj);
