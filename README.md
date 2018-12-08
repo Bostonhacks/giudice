@@ -59,9 +59,8 @@ $ ./scripts/run-flask.sh
 
 To run tests, use the following command:
 ```bash
-$ python -c 'from tests.main_tests import *; print test_assign_judges()'
+$ ./scripts/run-tests.sh
 ```
-Replace `main_tests` with the appropriate file name, and `test_assign_judges()` with the appropriate function.
 
 
 ## Contribution Guidelines :wave:
@@ -98,7 +97,7 @@ Other types beyond 'int' include, but are not limited to, 'bool', 'dict' and 'st
 If you feel that your code is unclear as to WHAT you changed as well, only then is it necessary to state the "what" in the commit message, or if the "why" is self-evident.
 Please see the [BostonHacks code guidelines](https://github.com/Bostonhacks/guidelines) for more details on proper formatting.
 
-* Write a test in the `tests` directory for new significant functions
+* Write a test in the `tests` directory for new significant functions.  Call the new test in the `run_tests()` function so that the testing script runs properly.
 
 
 
