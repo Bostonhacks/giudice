@@ -1,39 +1,49 @@
-Warren
-Sarah
-Zuul
-Bandalf
-Mari
-Pikachu
-Eevee
-Rattata
-Spearow
-Pidgey
-Professor Oak
-Professor Wayne Snyder
-Caterpie
-Charizard
-Growlithe
+Judge 1
+Judge 2
+Judge 3
+Judge 4
+Judge 5
+Judge 6
+Judge 7
+Judge 8
+Judge 9
+Judge 10
+Judge 11
+Judge 12
+Judge 13
+Judge 14
+Judge 15
 Judge 16
-Judge Dredd
-Hardcodo the Great
-That One Guy
-Dad
-Mom
-Your long lost brother
-Nemo
-Julius Caesar
-Brutus
-Romeo
-Juliet
-The Witch
-The Girl with the Dragon Tattoo
-Spiderman
-Thanos the Mad Titan
+Judge 17
+Judge 18
+Judge 19
+Judge 20
+Judge 21
+Judge 22
+Judge 23
+Judge 24
+Judge 26
+Judge 27
+Judge 28
+Judge 29
+Judge 30
+Judge 31
+Judge 32
 Judge 33
-Dr. Strange
-Iron Man
-Black Widow
-Vision
-Bruce Banner
-Extra Judge 38
-Extra Judge 39
+Judge 34
+Judge 35
+Judge 36
+Judge 37
+Judge 38
+Judge 39
+Judge 40
+Judge 41
+Judge 42
+Judge 43
+Judge 44
+Judge 45
+Judge 46
+Judge 47
+Judge 48
+Judge 49
+Judge 50

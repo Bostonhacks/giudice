@@ -129,7 +129,7 @@ Unlike other applications, we used Twilio and SMS only as the only interface of 
 What's next for Battle Buddies
 
 What we plan to do is getting the real data from veterans and NGOs to fill our forum with actual data. Also, we plan on applying similar methods to tutoring system for the general public. From this, we hope to relieve the overcrowded BU office hours. We desire to create a proper community where people could actively get involved, rather than just words of 'advice'.
-",,https://github.com/WHYjun/battle-buddies,,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","node.js, javascript, html5, css3, twilio, express.js, mongodb",Boston University,,,soohyeok,Soo Hyeok,Lee,soohyeok@bu.edu,Boston University,4,WHYjun,Young Jun,Choi,yjunchoi93@gmail.com,ByoungsulLee,Byoungsul,Lee,leeb@bu.edu,sj0726,sj0726,,123a556@naver.com,aisora1222,aisora1222,,jewoolee@bu.edu
+",,https://github.com/WHYjun/battle-buddies,,"Spark! Fellowship Award, [Weekly Challenge] Best Social Good Hack from Fidelity, Twilio Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","node.js, javascript, html5, css3, twilio, express.js, mongodb",Boston University,,,soohyeok,Soo Hyeok,Lee,soohyeok@bu.edu,Boston University,4,WHYjun,Young Jun,Choi,yjunchoi93@gmail.com,ByoungsulLee,Byoungsul,Lee,leeb@bu.edu,sj0726,sj0726,,123a556@naver.com,aisora1222,aisora1222,,jewoolee@bu.edu
 NotYourAverageBank,https://bostonhacks-f2018.devpost.com/submissions/105753-notyouraveragebank,"Inspiration: Tired of not having time to do full analysis on bank account, need to automate
 
 What it does: Analyzes bank history for opportunities to invest and to save
@@ -245,7 +245,7 @@ We learned a lot from this project. Integrating all the hardware and using them 
 What's next for AutoHome
 
 We feel that AutoHome has large scale applications for a lot of people and belongs in a lot of homes. We would like to conduct testing of this device in a home and collect user feedback and look at ways to allow the user to interact with in various ways, and to integrate more technologies.
-",,https://github.com/rishab2113/AutoHome,,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Best use of Google Cloud Platform, Twilio — Best use of Twilio API, Best Domain Name from Domain.com","node.js, twilio, shine-api, raspberry-pi, gas-sensor, temperature/humidity-sensor, light-sensor, relay, python, firebase, vue.js, google-dialogflow, carbon-monoxide-sensor","University of Massachusetts Amherst, Boston University, George Washington University","Domain.com,Google Cloud Platform",,abhinavtripathy,Abhinav,Tripathy,abhinavtripathy99@gmail.com,"University of Massachusetts Amherst, Boston University, George Washington University",3,rishab2113,Rishab,Nayak,rishab_nayak@yahoo.com,aTibrewala,Alok,Tibrewala,alok@gwu.edu,KennethJusino,Kenneth,Jusino,kennethj@bu.edu,,,,
+",,https://github.com/rishab2113/AutoHome,,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Best use of Google Cloud Platform, Twilio Best use of Twilio API, Best Domain Name from Domain.com","node.js, twilio, shine-api, raspberry-pi, gas-sensor, temperature/humidity-sensor, light-sensor, relay, python, firebase, vue.js, google-dialogflow, carbon-monoxide-sensor","University of Massachusetts Amherst, Boston University, George Washington University","Domain.com,Google Cloud Platform",,abhinavtripathy,Abhinav,Tripathy,abhinavtripathy99@gmail.com,"University of Massachusetts Amherst, Boston University, George Washington University",3,rishab2113,Rishab,Nayak,rishab_nayak@yahoo.com,aTibrewala,Alok,Tibrewala,alok@gwu.edu,KennethJusino,Kenneth,Jusino,kennethj@bu.edu,,,,
 Attractions!,https://bostonhacks-f2018.devpost.com/submissions/105764-attractions,"Webapp built with the Google Maps API. The idea was to display a map with markers to the current user, helping them to find attractions/restaurants/things to do in their area. The markers would display a description/info on the activity, as well as the amount of hearts it has (to show if others recommend it). Users would use the planner to pick activities, and after doing one, they could contribute and add their own input.  
 
 We were able to implement some parts of our idea, but we also ran into quite a few challenges. However, we learned a lot in doing this project, and hope to continue working on it in the future!
@@ -365,7 +365,7 @@ How to create git hooks and host a git server.
 What's next for Git Mess
 
 Additional integrations with WhatsApp, FB Messenger, etc.
-",,https://github.com/dmelcer9/git-sms,,Twilio — Best use of Twilio API,"python, git, twilio, git-hooks, flask, gitpython",Northeastern University,,,dmelcer9,Daniel,Melcer,dmelcer9@gmail.com,Northeastern University,0,,,,,,,,,,,,,,,,
+",,https://github.com/dmelcer9/git-sms,,Twilio Best use of Twilio API,"python, git, twilio, git-hooks, flask, gitpython",Northeastern University,,,dmelcer9,Daniel,Melcer,dmelcer9@gmail.com,Northeastern University,0,,,,,,,,,,,,,,,,
 Eddie,https://bostonhacks-f2018.devpost.com/submissions/105896-eddie,"Inspiration
 
 Smart home technology has been largely popularized by Amazon, Google, Microsoft, IBM, and others. However, we saw that there was little infrastructure in place for users who are deaf or hard of hearing. To increase the accessibility of smart home technology, we set out to create Eddie, named after Thomas Edison, the famous inventor who was also hard of hearing.
@@ -636,7 +636,7 @@ Build a mobile app to provide more smooth and native experience
 Support more forms of payment
 Support scheduled delivery time for convenience
 
-",,https://riderfly.life,https://s3.amazonaws.com/challengepost/zip_files/production/38018/zip_files/Project_Wireframes.pdf,"Best use of Google Cloud Platform, Twilio — Best use of Twilio API, Best Domain Name from Domain.com","go, python, twilio, django, javascript, css, jquery, bootstrap, spectre, google-cloud, google-cloud-sql, twilio-verify, https, json, scrapy",Boston University,,,Unknwon,Jiahua,Chen,u@gogs.io,Boston University,4,TianrenLi,Tianren,Li,tli92@bu.edu,JunweiZhou,Junwei (Antony),Zhou,junwei23@bu.edu,caik20,Kunlin,Cai,caik20@bu.edu,jingyu98,Jing,Yu,jingyu98@bu.edu
+",,https://riderfly.life,https://s3.amazonaws.com/challengepost/zip_files/production/38018/zip_files/Project_Wireframes.pdf,"Best use of Google Cloud Platform, Twilio Best use of Twilio API, Best Domain Name from Domain.com","go, python, twilio, django, javascript, css, jquery, bootstrap, spectre, google-cloud, google-cloud-sql, twilio-verify, https, json, scrapy",Boston University,,,Unknwon,Jiahua,Chen,u@gogs.io,Boston University,4,TianrenLi,Tianren,Li,tli92@bu.edu,JunweiZhou,Junwei (Antony),Zhou,junwei23@bu.edu,caik20,Kunlin,Cai,caik20@bu.edu,jingyu98,Jing,Yu,jingyu98@bu.edu
 Coffee-Bot,https://bostonhacks-f2018.devpost.com/submissions/105975-coffee-bot,"Coffee-Bot
 
 Inspiration
@@ -658,7 +658,7 @@ A whole bunch of wires & servos :)
 What does our project do?
 
 Our project enables a user to have a new type of alarm clock, one that provides much more utility than the traditional kind. The user can either use our web-app to configure their new alarm clock, or, they can simply send a few text messages from their phone to achieve the same goal! After properly configuring their client devices, a user can simply set an alarm, and then never have to lift another finger. 15 minutes before their alarm is triggered, the backend will send a request to our custom built client prototyped with a Qualcomm 410C Dragonboard to trigger their coffee machine to make a pot of their desired brew of coffee (strong, or regular). When their alarm goes off, it will send a request via the Bose SoundTouch API to play music (any mp3 file!) on the user's Bose speaker, and will use the Twilio API to call their cell-phone, so they're sure to wake up! By the time they get out of bed, they'll have a fresh pot of coffee waiting for consumption, mmm...
-",,https://github.com/ForTheYin/coffee-bot,,"Best IoT Hack Using a Qualcomm Device, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","ruby-on-rails, python, c++, bose-soundtouch, arduino, qualcomm","Boston University, University of Waterloo, Worcester Polytechnic Institute",,DragonBoard 410C,avatarneil,Charles Neil,Goldader,avatarneil@gmail.com,"Boston University, University of Waterloo, Worcester Polytechnic Institute",2,ForTheYin,Andy,Yin,fortheyin@gmail.com,kandonie,kandonie,,kandonie@wpi.edu,,,,,,,,
+",,https://github.com/ForTheYin/coffee-bot,,"Best IoT Hack Using a Qualcomm Device, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio Best use of Twilio API","ruby-on-rails, python, c++, bose-soundtouch, arduino, qualcomm","Boston University, University of Waterloo, Worcester Polytechnic Institute",,DragonBoard 410C,avatarneil,Charles Neil,Goldader,avatarneil@gmail.com,"Boston University, University of Waterloo, Worcester Polytechnic Institute",2,ForTheYin,Andy,Yin,fortheyin@gmail.com,kandonie,kandonie,,kandonie@wpi.edu,,,,,,,,
 Cordelia,https://bostonhacks-f2018.devpost.com/submissions/105984-cordelia,"Inspiration
 
 While driving in a new city, you realize that you have arrived at your destination and all the available parking spaces have been taken. You have used up your data for the month and as you pull over, you realize that you can text Cordelia, an SMS-based chat-bot, for nearby parking spaces.
@@ -714,7 +714,7 @@ Our final suggestion for ways that we could build onto Cordelia would be to add 
 Built With
 
 Twilio API, express, Here.com API, Shine API, Node.js, JavaScript
-",,https://github.com/amorphouspanda/bostonhacks,https://s3.amazonaws.com/challengepost/zip_files/production/37995/zip_files/bostonhacks-master_%281%29.zip,"Best use of HERE.com, Liberty Mutual  - Best Hack to Live Safe, Twilio — Best use of Twilio API","javascript, twilio, shine, node.js, here",University of Waterloo,HERE.com,,FatimahAreola,Fatimah,Areola,fatimahyinka@gmail.com,University of Waterloo,2,jenniferyhwu,Jennifer,Wu,jenniferyhwu@gmail.com,kitkat222,kitkat222,,liangkathleen@gmail.com,,,,,,,,
+",,https://github.com/amorphouspanda/bostonhacks,https://s3.amazonaws.com/challengepost/zip_files/production/37995/zip_files/bostonhacks-master_%281%29.zip,"Best use of HERE.com, Liberty Mutual  - Best Hack to Live Safe, Twilio Best use of Twilio API","javascript, twilio, shine, node.js, here",University of Waterloo,HERE.com,,FatimahAreola,Fatimah,Areola,fatimahyinka@gmail.com,University of Waterloo,2,jenniferyhwu,Jennifer,Wu,jenniferyhwu@gmail.com,kitkat222,kitkat222,,liangkathleen@gmail.com,,,,,,,,
 Aura,https://bostonhacks-f2018.devpost.com/submissions/106005-aura,"Inspiration
 
 Help make social media more accessible to people with disabilities.
@@ -798,7 +798,7 @@ How event management or real time database works, along with some really cool AP
 What's next for BoltAction
 
 Completing the app and helping people to go out there and play. It will also help to organize competitions later and would be a great way to bring people together.
-",,https://github.com/aryansingh12/BoltAction,,"Best use of Algolia, Twilio — Best use of Twilio API","android-studio, android, java, xml",Umass Amherst,,,aryansingh,Aryan,Singh,aryansingh@umass.edu,University of Massachusetts Amherst,0,,,,,,,,,,,,,,,,
+",,https://github.com/aryansingh12/BoltAction,,"Best use of Algolia, Twilio Best use of Twilio API","android-studio, android, java, xml",Umass Amherst,,,aryansingh,Aryan,Singh,aryansingh@umass.edu,University of Massachusetts Amherst,0,,,,,,,,,,,,,,,,
 Tiphy,https://bostonhacks-f2018.devpost.com/submissions/106018-tiphy,"Inspiration
 
 Tiphy was inspired by the dating app, Tinder, and cute gifs. We decided to combine the two so that you can rate gifs and find like-minded individuals who share your taste in gifs! 
@@ -866,7 +866,7 @@ What's next for Offline Googlemaps Search
 We're trying to attach a snapshot of the map according to the search response. We believe an image provides much useful information for our users.
 
 Text (617) 286-3590 to try it out
-",,,,Twilio — Best use of Twilio API,,Boston University,,,LenkaHao,LenkaHao,,jthao@bu.edu,Boston University,1,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu,,,,,,,,,,,,
+",,,,Twilio Best use of Twilio API,,Boston University,,,LenkaHao,LenkaHao,,jthao@bu.edu,Boston University,1,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu,,,,,,,,,,,,
 PALingo,https://bostonhacks-f2018.devpost.com/submissions/106026-palingo,"Inspiration
 
 telephone game
@@ -1035,7 +1035,7 @@ We learnt about how to use multiple API's. Working in team for a long period of 
 What's next for GFood
 
 Mobile version, Location based, adding bigger dataset, creating profile for likes,
-",,https://github.com/TangMichael/GFood-BostonHacks,https://s3.amazonaws.com/challengepost/zip_files/production/38003/zip_files/GFood-BostonHacks-master_%281%29.zip,"[Weekly Challenge] Best use of Clarifai’s API, Best use of Algolia, Twilio — Best use of Twilio API","c#, react, algolia, clarifai, twilio, yelp",Concordia University,"Algolia,Clarifai",,TangMichael,Michael,Tang,tangmichael6@hotmail.com,"Concordia University, Montreal, Concordia University",3,eyitsKevin,eyitsKevin,,kevinateur@hotmail.com,Zhen-Yee,Zhen-Yee,,davster2@gmail.com,phistanx,Tristan,,phistan007@gmail.com,,,,
+",,https://github.com/TangMichael/GFood-BostonHacks,https://s3.amazonaws.com/challengepost/zip_files/production/38003/zip_files/GFood-BostonHacks-master_%281%29.zip,"[Weekly Challenge] Best use of Clarifai’s API, Best use of Algolia, Twilio Best use of Twilio API","c#, react, algolia, clarifai, twilio, yelp",Concordia University,"Algolia,Clarifai",,TangMichael,Michael,Tang,tangmichael6@hotmail.com,"Concordia University, Montreal, Concordia University",3,eyitsKevin,eyitsKevin,,kevinateur@hotmail.com,Zhen-Yee,Zhen-Yee,,davster2@gmail.com,phistanx,Tristan,,phistan007@gmail.com,,,,
 PiggyHack,https://bostonhacks-f2018.devpost.com/submissions/106037-piggyhack,"PiggyHack (aka FeetShare)
 
 This app aims to be the Uber for piggy back rides, allowing people to request
@@ -1057,7 +1057,7 @@ We used Google Maps to show people where they are
 
 
 So don't get carried away, but it's no pig deal. It won't break your piggy bank ;)
-",,https://github.com/NEUDitao/PiggyHack,,"Best use of GIPHY API, Best use of Google Cloud Platform, Twilio — Best use of Twilio API","javascript, racket, react-native, giphy-api, twilio, google-cloud",Northeastern University,,,NEUDitao,Edward,Li,edward.d.li@gmail.com,Northeastern University,2,sarah-witt,Sarah,Witt,witt.s@husky.neu.edu,TalUsvyatsky,TalUsvyatsky,,tal.usvyatsky@gmail.com,,,,,,,,
+",,https://github.com/NEUDitao/PiggyHack,,"Best use of GIPHY API, Best use of Google Cloud Platform, Twilio Best use of Twilio API","javascript, racket, react-native, giphy-api, twilio, google-cloud",Northeastern University,,,NEUDitao,Edward,Li,edward.d.li@gmail.com,Northeastern University,2,sarah-witt,Sarah,Witt,witt.s@husky.neu.edu,TalUsvyatsky,TalUsvyatsky,,tal.usvyatsky@gmail.com,,,,,,,,
 Dem Smart,https://bostonhacks-f2018.devpost.com/submissions/106040-dem-smart,"Inspiration
 
 The inspiration for this project came from personal experiences. One of our members had a family member suffering from Alzheimer's and understands personally the traumatizing effects it has on a family.
@@ -1113,7 +1113,7 @@ This would allow for more efficient police deployment, and more safety for the p
 
 Web app located in init.py
 mobile app in BostonHacks2018
-",,https://github.com/ericirenzhang/BostonHacks18,,"Liberty Mutual  - Best Hack to Live Safe, Twilio — Best use of Twilio API","javascript, python, html, css, swift","Boston University, Northeastern University",,,ericirenzhang,ericirenzhang,,zhaeric@bu.edu,Boston University,2,GauthamKumarRavichandran,Gautham Kumar,Ravichandran,gautham.8b@gmail.com,theoneandonlyferrisli,theoneandonlyferrisli,,li.yuefeng.ferris@icloud.com,,,,,,,,
+",,https://github.com/ericirenzhang/BostonHacks18,,"Liberty Mutual  - Best Hack to Live Safe, Twilio Best use of Twilio API","javascript, python, html, css, swift","Boston University, Northeastern University",,,ericirenzhang,ericirenzhang,,zhaeric@bu.edu,Boston University,2,GauthamKumarRavichandran,Gautham Kumar,Ravichandran,gautham.8b@gmail.com,theoneandonlyferrisli,theoneandonlyferrisli,,li.yuefeng.ferris@icloud.com,,,,,,,,
 Weather Interact,https://bostonhacks-f2018.devpost.com/submissions/106042-weather-interact,"Inspiration
 
 We wanted to create a project where everybody could enjoy and to an extent, feel and actually see what today's weather will be like through GIFs. Current weather applications and websites are boring, so we wanted to add a sprinkle of spice to make it interactive for the user.
@@ -1211,7 +1211,7 @@ Much.
 What's next for SherLock
 
 There's so much room for expansion! This is only one use case that's barely fleshed out, but there could be many many more.
-",,https://github.com/BANK-C/Sherlock,https://s3.amazonaws.com/challengepost/zip_files/production/38000/zip_files/index.html,"IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, ibm-cloud, html, twilio, bose-soundtouch, webcam",Cornell University,,,karenf288,Karen,Fang,kf288@cornell.edu,Cornell University,4,aec273,April,Chen,aec273@cornell.edu,ChipDale729,ChipDale729,,cm749@cornell.edu,nl356,Nathalia,Lie,nl356@cornell.edu,beaubeau,,,bs655@cornell.edu
+",,https://github.com/BANK-C/Sherlock,https://s3.amazonaws.com/challengepost/zip_files/production/38000/zip_files/index.html,"IBM - Best Use of IBM Cloud, Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio Best use of Twilio API","python, ibm-cloud, html, twilio, bose-soundtouch, webcam",Cornell University,,,karenf288,Karen,Fang,kf288@cornell.edu,Cornell University,4,aec273,April,Chen,aec273@cornell.edu,ChipDale729,ChipDale729,,cm749@cornell.edu,nl356,Nathalia,Lie,nl356@cornell.edu,beaubeau,,,bs655@cornell.edu
 Panic/React,https://bostonhacks-f2018.devpost.com/submissions/106049-panic-react,"Inspiration
 
 Millions of veterans struggle with the debilitating effects of PTSD, including panic attacks that can freeze someone in terror and stress at a moment's notice. We wanted to help these individuals who risked their lives for our country and put our tech to doing good.
@@ -1245,7 +1245,7 @@ We learned a lot about the OAuth process, as well as the benefits and challenges
 What's next for Panic/React
 
 The prototype in python does not allow for low-latency data usage, so porting this proof-of-concept into an onboard FitBit + companion mobile application or companion smart speaker application would be the next step. We also hope to incorporate more of a backend so that the threshold heart rate can be dynamically calculated as a deviance from the average, which is more consistent with the science of anxiety attacks.
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/38026/zip_files/PR.zip,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","twilio, python, spotify, fitbit, vlc","Brown University, Boston University, Concordia University",,FitBit Ionic,june_ge,June,Ge,june_ge@brown.edu,"Brown University, Concordia University, Boston University",2,MadReza,Reza,M,rezmaza@gmail.com,ysman,Sing Yu,Yeung,ysman@bu.edu,,,,,,,,
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/38026/zip_files/PR.zip,"Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Twilio Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","twilio, python, spotify, fitbit, vlc","Brown University, Boston University, Concordia University",,FitBit Ionic,june_ge,June,Ge,june_ge@brown.edu,"Brown University, Concordia University, Boston University",2,MadReza,Reza,M,rezmaza@gmail.com,ysman,Sing Yu,Yeung,ysman@bu.edu,,,,,,,,
 djSafewhey,https://bostonhacks-f2018.devpost.com/submissions/106052-djsafewhey,"Safewhey
 
 Google Maps + Liberty Mutual Insurance API for recommending safe routes
@@ -1293,7 +1293,7 @@ So much! We learned how to work as a team, new frameworks and lots of concepts i
 What's next for ScamBusterz
 
 Building a safer world and equipping average people to fight back against scam. In our next iteration, we'll build a feature to tell you in real time whether the incoming number is a known scam.
-",,https://github.com/ScamBusterz/ScamBusterz,,"Liberty Mutual  - Best Hack to Live Safe, Twilio — Best use of Twilio API","java, python, twilio, android-studio","Boston University, Northeastern, Western University, University of Toronto",,,xkatharinerussell,Katharine,Russell,katharinezrussell@gmail.com,,0,,,,,,,,,,,,,,,,
+",,https://github.com/ScamBusterz/ScamBusterz,,"Liberty Mutual  - Best Hack to Live Safe, Twilio Best use of Twilio API","java, python, twilio, android-studio","Boston University, Northeastern, Western University, University of Toronto",,,xkatharinerussell,Katharine,Russell,katharinezrussell@gmail.com,,0,,,,,,,,,,,,,,,,
 valU,https://bostonhacks-f2018.devpost.com/submissions/106054-valu,"According to Forbes.com, GenZ defined by their ability to rewrite ""rules that favor liberal viewpoints on things like race, gender, identity, and sexuality."" Values are an increasingly important aspect of new job seekers' efforts to join the work-force, and many companies consequently emphasize corporate culture and core values while marketing available roles. 
 
 ValU provides a curated resource for individuals to learn about companies that may align with their top ranked values and priorities with regards to corporate culture. Our website provides visual displays of information scraped from Indeed and other data sets regarding corporate diversity, so that user's may hear directly from others like them in a visual, clear, and easily discernible manner. 
@@ -1344,7 +1344,7 @@ We came across a lot of new APIs and interfaces that we integrated with our appl
 What's next for Victory
 
 We plan to research and get more information about problems faced by the veterans and come up with more effcient solutions. We also plan to improve the payment gateway and make payment transactions easier to track.
-",,https://github.com/Abhisathy/Victory,,"Best use of Algolia, Best use of Authorize.net, [Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform, Twilio — Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","python, flask, html5, w3, css3, authorize.net, google-cloud, firebase, twilio, algolia",Boston University,"Google Cloud Platform,Algolia,Authorize.net",,Abhisathy,Abhinav,Sathiamoorthy,abhisat@bu.edu,Boston University,2,harshad16,Harshad Reddy,Nalla,harshadreddy16@gmail.com,samba693,Sambasiva Rao,Gangineni,sambasivarao693@gmail.com,,,,,,,,
+",,https://github.com/Abhisathy/Victory,,"Best use of Algolia, Best use of Authorize.net, [Weekly Challenge] Best Social Good Hack from Fidelity, Best use of Google Cloud Platform, Twilio Best use of Twilio API, [TRACK] Giving Back to Veterans Prize","python, flask, html5, w3, css3, authorize.net, google-cloud, firebase, twilio, algolia",Boston University,"Google Cloud Platform,Algolia,Authorize.net",,Abhisathy,Abhinav,Sathiamoorthy,abhisat@bu.edu,Boston University,2,harshad16,Harshad Reddy,Nalla,harshadreddy16@gmail.com,samba693,Sambasiva Rao,Gangineni,sambasivarao693@gmail.com,,,,,,,,
 mo0w,https://bostonhacks-f2018.devpost.com/submissions/106058-mo0w,"Inspiration
 
 Often I share giffs with friends and family to express emotions that could not otherwise be expressed in words. The motivation of the project was to use image recognition to classify emotion of 'selfies' and to recommend to you giffs to share (from giphy) to others to let them know how you are feeling.
@@ -1452,7 +1452,7 @@ it is very secure
 What's next for smartdoor_impenetrable
 
 sky's the limit
-",https://www.youtube.com/watch?v=1FOODP0iwso,https://github.com/jake1k/smartdoor_impenetrable,https://s3.amazonaws.com/challengepost/zip_files/production/38004/zip_files/src.zip,"[Weekly Challenge] Best Social Good Hack from Fidelity, Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, opencv, twilio","Boston University, Northeastern University, University of Toronto",,,JakeKaplow,Jake,Kaplow,jkaplow@me.com,"Boston University, University of Toronto, Northeastern University",2,MichaelGesuale,Michael,Gesuale,michael.gesuale@mail.utoronto.ca,takezoj,takezoj,,johnsontakezo@gmail.com,,,,,,,,
+",https://www.youtube.com/watch?v=1FOODP0iwso,https://github.com/jake1k/smartdoor_impenetrable,https://s3.amazonaws.com/challengepost/zip_files/production/38004/zip_files/src.zip,"[Weekly Challenge] Best Social Good Hack from Fidelity, Liberty Mutual  - Best Hack to Live Safe, [TRACK] The Smart Home prize, Twilio Best use of Twilio API","python, opencv, twilio","Boston University, Northeastern University, University of Toronto",,,JakeKaplow,Jake,Kaplow,jkaplow@me.com,"Boston University, University of Toronto, Northeastern University",2,MichaelGesuale,Michael,Gesuale,michael.gesuale@mail.utoronto.ca,takezoj,takezoj,,johnsontakezo@gmail.com,,,,,,,,
 no stress parking,https://bostonhacks-f2018.devpost.com/submissions/106064-no-stress-parking,"Inspiration
 
 Many of us have a driver license, and we should all know how annoying it is of finding a parking spot when you try to chase on something. So we decided to build this app to help people finding a parking spot nearby.
@@ -1576,7 +1576,7 @@ What I learned
 What's next for PartyQ
 
 much
-",,https://github.com/mdrobnjak/BostonHacks2018,https://s3.amazonaws.com/challengepost/zip_files/production/38009/zip_files/BostonHacks2018.zip,Twilio — Best use of Twilio API,,"Farmingdale State College, Northeastern",,,MarkDrobnjak,Mark,Drobnjak,drobnjak.crh@gmail.com,SUNY Farmingdale,0,,,,,,,,,,,,,,,,
+",,https://github.com/mdrobnjak/BostonHacks2018,https://s3.amazonaws.com/challengepost/zip_files/production/38009/zip_files/BostonHacks2018.zip,Twilio Best use of Twilio API,,"Farmingdale State College, Northeastern",,,MarkDrobnjak,Mark,Drobnjak,drobnjak.crh@gmail.com,SUNY Farmingdale,0,,,,,,,,,,,,,,,,
 moodSwinger,https://bostonhacks-f2018.devpost.com/submissions/106081-moodswinger,"Inspiration
 
 We have seen veteran families where a person is too tired to be angry, he talks about the innocence and honor of young soldiers. Then he may suddenly cry and the heart of the family members breaks all over again. We developed this application where a family member can click a picture of the person and using the Bose soundtouch, it will play music based their emotional state without bothering them.
@@ -1765,7 +1765,7 @@ Through this project, we learned how to and how not to use the Bose SoundTouch c
 What's next for Decentralized DJ
 
 In the future, we would like to continue to add more control functionality (other playback features). We would also like to integrate a rating system for the songs, so that people can let the DJ know what kind of music they are enjoying. We would also like to explore the zone controls from the BOSE api, and see how we can utilize those to improve our app.
-",,https://github.com/gdgrin/bhacks18-ddj,,"Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio — Best use of Twilio API","python, bose-soundtouch, spotify, centos7, twilio, ngrok, flask",Boston University,,,TaylorRabbitt,Taylor,Rabbitt,trabbitt@bu.edu,Boston University,2,genegrin,Gene,Grinberg,genegrin@bu.edu,yllescas,Gabriel,Yllescas,yllescas@bu.edu,,,,,,,,
+",,https://github.com/gdgrin/bhacks18-ddj,,"Bose - Most creative use of Bose SoundTouch Speaker API, [TRACK] The Smart Home prize, Twilio Best use of Twilio API","python, bose-soundtouch, spotify, centos7, twilio, ngrok, flask",Boston University,,,TaylorRabbitt,Taylor,Rabbitt,trabbitt@bu.edu,Boston University,2,genegrin,Gene,Grinberg,genegrin@bu.edu,yllescas,Gabriel,Yllescas,yllescas@bu.edu,,,,,,,,
 Origin,https://bostonhacks-f2018.devpost.com/submissions/106104-origin,"Inspiration
 
 Tax payers in each country deserve to know where their money is spent
@@ -2055,7 +2055,7 @@ We learned how to use Flask and the Twilio api. None of us really had any experi
 What's next for LoserFountain
 
 Get fully functional updating on the website for LoserFountain, so players can see the updates of their story!
-",,https://github.com/omeedth/LoserFountain,https://s3.amazonaws.com/challengepost/zip_files/production/38042/zip_files/LoserFountain.zip,Twilio — Best use of Twilio API,"flask, python, javascript, html5, css3, twilio",Boston University,,,omeedth,Alex,Thomas,aothomas@bu.edu,Boston University,3,petegilb,Peter,Gilbert,petegilb@bu.edu,Lkchau,Leo,Chau,lkbchau@gmail.com,rhodesrm,Robin,Rhodes,rhodesr@bu.edu,,,,
+",,https://github.com/omeedth/LoserFountain,https://s3.amazonaws.com/challengepost/zip_files/production/38042/zip_files/LoserFountain.zip,Twilio Best use of Twilio API,"flask, python, javascript, html5, css3, twilio",Boston University,,,omeedth,Alex,Thomas,aothomas@bu.edu,Boston University,3,petegilb,Peter,Gilbert,petegilb@bu.edu,Lkchau,Leo,Chau,lkbchau@gmail.com,rhodesrm,Robin,Rhodes,rhodesr@bu.edu,,,,
 TruPhase,https://bostonhacks-f2018.devpost.com/submissions/106128-truphase,"Inspiration
 
 We wanted to increase the life of the speakers by estimating the health of the drivers and Hardware. 
@@ -2305,7 +2305,7 @@ We use Twilio’s SMS API to then broadcast messages that we have selected.
 Scope: 
 
 The scope of the project is currently limited to disaster-related information, but later can be broadened to other topics of interest.  
-",,https://github.com/kaleketan07/TwiNotify,https://s3.amazonaws.com/challengepost/zip_files/production/38030/zip_files/TwiNotify-master.zip,"[TRACK] Data for Urban Good Prize, Twilio — Best use of Twilio API","python, numpy, pandas, sklearn, tweepy, scipy, cloud, twilio",Northeastern University,,,GrishmaAtulThakkar,Grishma Atul,Thakkar,thakkar.grishma95@gmail.com,Northeastern University,0,,,,,,,,,,,,,,,,
+",,https://github.com/kaleketan07/TwiNotify,https://s3.amazonaws.com/challengepost/zip_files/production/38030/zip_files/TwiNotify-master.zip,"[TRACK] Data for Urban Good Prize, Twilio Best use of Twilio API","python, numpy, pandas, sklearn, tweepy, scipy, cloud, twilio",Northeastern University,,,GrishmaAtulThakkar,Grishma Atul,Thakkar,thakkar.grishma95@gmail.com,Northeastern University,0,,,,,,,,,,,,,,,,
 WUT Traffic Optimizer,https://bostonhacks-f2018.devpost.com/submissions/106145-wut-traffic-optimizer,"Inspiration
 
 Facilitate everyday lives of the users by creating software that is easy to use and that does some good to the city by optimizing the traffic at peak hours!
@@ -2335,7 +2335,7 @@ What we learned
 Link to secondary files
 
 https://github.com/KetillG/boston-hacks-traffic-auth
-",,https://github.com/KetillG/boston-hacks-traffic-optimizer,,"[TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform, Twilio — Best use of Twilio API","python, node.js, react, redux, scikit-learn, twilio",boston uni,,,nikhilesh19,nikhilesh1906,,nikm@bu.edu,Boston University,3,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu,sjzhao,shijie,zhao,sjzhao@bu.edu,KetillGudmundsson,Ketill,Guðmundsson,ketillgudmunds@gmail.com,,,,
+",,https://github.com/KetillG/boston-hacks-traffic-optimizer,,"[TRACK] The Smart Home prize, [TRACK] Data for Urban Good Prize, Best use of Google Cloud Platform, Twilio Best use of Twilio API","python, node.js, react, redux, scikit-learn, twilio",boston uni,,,nikhilesh19,nikhilesh1906,,nikm@bu.edu,Boston University,3,jerrywxk,Xiankang,Wu,jerrywxk@bu.edu,sjzhao,shijie,zhao,sjzhao@bu.edu,KetillGudmundsson,Ketill,Guðmundsson,ketillgudmunds@gmail.com,,,,
 Momo,https://bostonhacks-f2018.devpost.com/submissions/106146-momo,"Inspiration
 
 We miss tomigochis and wish they could text when they were about to die so we could have saved them
@@ -2389,7 +2389,7 @@ NLP
 What's next for text-line
 
 Stock trends and Web-App
-",,https://github.com/chaitali-ladikkar/text-line,https://s3.amazonaws.com/challengepost/zip_files/production/38034/zip_files/BostonHacks2.zip,"Twilio — Best use of Twilio API, ITG - Best Fintech Hack, Best Domain Name from Domain.com","nltk, twilio, python","Northeastern University, GWU",,,ChaitaliLadikkar,Chaitali,Ladikkar,chaitali.ladikkar@gmail.com,"Northeastern University, George Washington University",1,aTibrewala,Alok,Tibrewala,alok@gwu.edu,,,,,,,,,,,,
+",,https://github.com/chaitali-ladikkar/text-line,https://s3.amazonaws.com/challengepost/zip_files/production/38034/zip_files/BostonHacks2.zip,"Twilio Best use of Twilio API, ITG - Best Fintech Hack, Best Domain Name from Domain.com","nltk, twilio, python","Northeastern University, GWU",,,ChaitaliLadikkar,Chaitali,Ladikkar,chaitali.ladikkar@gmail.com,"Northeastern University, George Washington University",1,aTibrewala,Alok,Tibrewala,alok@gwu.edu,,,,,,,,,,,,
 CracksInMaps,https://bostonhacks-f2018.devpost.com/submissions/106157-cracksinmaps,"We saw that there is a disconnect between the data collected and real life visuals. In order to combat this problem we wanted to overlay this data into google maps to properly see all of this data. By having a visualization, we hope to continue on with this project with machine learning to determine what is a crack just from pictures taken with Google Maps. 
 
 We have faced several challenges, but we found that Google APIs were essential in our program and helped us overcome these issues. 
