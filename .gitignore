@@ -62,3 +62,6 @@ typings/
 
 # pyc files
 *.pyc
+
+# DS Store
+.DS_Store

@@ -1,6 +1,5 @@
 from giudice.projects import assign_tables_to_judges
-from flask import Flask
-app = Flask(__name__)
+#from flask import Flask
 
 ################
 # PUT ALL TESTS FOR projects.py FILE HERE
@@ -23,6 +22,6 @@ def test_assign_judges():
 		for table_group in assigned_tables:
 			for table in table_group:
 				tables[table-1] += 1 # Count an appearance of a given table
-	print(tables)
+	#print(tables)
 	for appearances in tables:
 		assert appearances % 3 == 0 # Make sure each project has been seen 3 times in each category
