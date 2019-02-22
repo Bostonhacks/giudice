@@ -1,5 +1,4 @@
 from giudice.projects import assign_tables_to_judges
-#from flask import Flask
 
 ################
 # PUT ALL TESTS FOR projects.py FILE HERE
