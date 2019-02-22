@@ -1,6 +1,5 @@
 import csv
-from flask import Flask
-app = Flask(__name__)
+#import flask
 
 # GLOBAL VARS
 # These are constants and should NOT be changed
@@ -52,7 +51,7 @@ def process_csv():
 				table_number += 1
 		total_projects = table_number - 1
 		print("Processed {0} projects.".format(total_projects))
-		print(our_tracks)
+		#print(our_tracks)
 	return projects
 
 
@@ -100,11 +99,14 @@ def assign_tables_to_judges():
 						projects[our_tracks[cur_track][cur_table_index]]["num_judges"][cur_track] += 1
 						cur_table_index += 1
 
-					# If all of the projects in the current track have been seen once in this loop, go to the next track
+					 # If all of the projects in the current track have been seen once in this loop, go to the next track
 					if cur_table_index > (len(our_tracks[cur_track])-1):
-						visited_tracks[track] = True
-						cur_table_index = 0
-						break
+					 	visited_tracks[track] = True
+					 	cur_table_index = 0
+					 	break
+
+				if len(judge_assignments[judge].keys()) == 1:
+				  	break # We don't want to assign a judge to more than one track
 
 				if projects_assigned >= PROJS_PER_JUDGE:
 					break # We do not want to keep assigning projects to a judge that has enough, so break
