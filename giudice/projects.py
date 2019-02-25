@@ -1,5 +1,4 @@
 import csv
-#import flask
 
 # GLOBAL VARS
 # These are constants and should NOT be changed
