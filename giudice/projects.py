@@ -112,3 +112,28 @@ def assign_tables_to_judges():
 	print()
 	print(judge_assignments.values())
 	return judge_assignments
+
+def num_judges_for_track(track):
+        
+        """Calculate the number of judges necessary for a given track
+
+        :param str track: name of the track we wanna get the num judges for
+        :return: number of judges we're gonna need for a specific track
+        :rtype: int
+        """
+        proj_array = our_tracks[track]
+        num_proj = len(proj_array)
+        return num_proj *VIEWS_PER_PROJ//PROJS_PER_JUDGE
+
+def num_judges():
+        """Calculate the number of judges necessary given the number of projects that have been submitted
+
+        :return: number of judges that we're gonna need
+        :rtype: int"""
+        
+        num_proj = 0
+        for x in our_tracks.keys():
+                num_proj += len(our_tracks[x])
+                
+        return num_proj * VIEWS_PER_PROJ//PROJS_PER_JUDGE
+        
