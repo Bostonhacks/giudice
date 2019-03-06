@@ -1,4 +1,5 @@
 import csv
+import random
 
 # GLOBAL VARS
 # These are constants and should NOT be changed
@@ -9,12 +10,13 @@ PROJS_PER_JUDGE = TOTAL_JUDGING_TIME // TIME_PER_PROJ # How many projects should
 
 # These are variables that will be changed and added to throughout
 total_projects = 0
+num_judgements = 0
 projects = {} # Key -> table number ; Value -> {"project":"project_name", "num_of_prizes":num, "num_judges":{category:num,cat:num...}}
 # Key -> Prize name ; Value -> array of table numbers that applied for that *NON-SPONSORED* category
 our_tracks = {"General":[], "[TRACK] Giving Back to Veterans Prize":[], "[TRACK] Data for Urban Good Prize":[], "[TRACK] The Smart Home prize":[]} # Non-sponsored categories
 # Key -> Prize name ; Value -> array of table numbers that applied for that *SPONSORED* category
 sponsor_tracks = {"Spark! Fellowship Award":[], "ITG - Best Fintech Hack":[], "[Weekly Challenge] Best Social Good Hack from Fidelity":[], "Best use of Google Cloud Platform":[], "Best use of GIPHY API":[], "Liberty Mutual  - Best Hack to Live Safe":[], "Twilio Best use of Twilio API":[], "Best use of Algolia":[], "Best Domain Name from Domain.com":[], "Best IoT Hack Using a Qualcomm Device":[], "[Weekly Challenge] Best Chat Bot using Botkit & Cisco Webex Teams":[], "Best use of HERE.com":[], "[Weekly Challenge] Best use of Clarifai\'s API":[], "[Weekly Challenge] Snap Kit Weekly Challenge":[], "[Weekly Challenge] Best Social Good Hack from Fidelity":[], "Best use of Authorize.net":[], "Bose - Most creative use of Bose SoundTouch Speaker API":[], "IBM - Best Use of IBM Cloud":[], "ITG - Best Fintech Hack":[], "OneDB - Best Use of OneDB Platform":[]} # Sponsor tracks
-
+track_judges = {} # The judges assigned to each track; where the key is the track and the value is an arr of judges
 
 def process_csv():
 	"""
@@ -63,59 +65,90 @@ def assign_tables_to_judges():
 	"""
 	process_csv()
 	judge_assignments = {}
-	with open("judges.txt", "r") as judges:
-		for judge in judges:
-			judge_assignments[judge] = {}
+	judges = []
+	with open("judges.txt", "r") as judges_txt:
+		for judge in judges_txt:
+			# judge_assignments[judge] = {}
+			judges.append(judge)
 
-	count = 1
-	while count <= VIEWS_PER_PROJ: # Continue assigning judges until each proj has enough views
-		count += 1
-		visited_tracks = {} # {track_name:bool} where bool is whether you are finished visiting it
-		cur_table_index = 0
+	# Get num of judges needed for each track (both for loops are intended for this)
+	num_track_judges = {} # The number of judges that should be assigned to each track
+	for track in our_tracks.keys():
+		num_track_judges[track] = num_judges_for_track(track)
+	slice_beginning = 0
+	slice_end = 0 # Index of the current judge
+	for track in num_track_judges.keys():
+		slice_end += num_track_judges[track]
+		track_judges[track] = judges[slice_beginning:slice_end]
+		slice_beginning = slice_end
 
-		for judge in judge_assignments.keys():
-			if judge_assignments[judge] != {}:
-				continue # We do not want to give judges double the load, so if they are already assigned stuff from the prev
-						 # iteration of the while loop above, then skip that judge
-			projects_assigned = 0
-
-			for track in our_tracks.keys():
-				cur_track = track
-				if track in visited_tracks.keys() and visited_tracks[track] == True:
-					continue
-				visited_tracks[track] = False # Keep track of whether we have finished looking through the projects in the current track
-				judge_assignments[judge][cur_track] = []
-
-				while (projects_assigned < PROJS_PER_JUDGE) and (cur_table_index <= (len(our_tracks[cur_track])-1)):
-					# Initialize the count for the number of views a project has in a category
-					if cur_track not in projects[our_tracks[cur_track][cur_table_index]]["num_judges"]:
-						projects[our_tracks[cur_track][cur_table_index]]["num_judges"][cur_track] = 0
-
-					# Give a project another view if it does not have enough in a given track
-					if projects[our_tracks[cur_track][cur_table_index]]["num_judges"][cur_track] <= VIEWS_PER_PROJ:
-						judge_assignments[judge][cur_track].append(our_tracks[cur_track][cur_table_index])
-						projects_assigned += 1
-						projects[our_tracks[cur_track][cur_table_index]]["num_judges"][cur_track] += 1
-						cur_table_index += 1
-
-					 # If all of the projects in the current track have been seen once in this loop, go to the next track
-					if cur_table_index > (len(our_tracks[cur_track])-1):
-					 	visited_tracks[track] = True
-					 	cur_table_index = 0
-					 	break
-
-				if len(judge_assignments[judge].keys()) == 1:
-				  	break # We don't want to assign a judge to more than one track
-
-				if projects_assigned >= PROJS_PER_JUDGE:
-					break # We do not want to keep assigning projects to a judge that has enough, so break
-	print()
-	print(judge_assignments.values())
+	# Assign projects to each judge
+	for track in track_judges.keys():
+		judge_assignments[track] = assign_judges_to_track(track, track_judges[track])
+	print(num_track_judges)
+	print(judge_assignments)
 	return judge_assignments
 
+
+def assign_judges_to_track(track, judges):
+	"""
+	Assign judges to projects in a single, specified track
+
+	:param str track: name of the track we want judges for
+	:param list judges: a list of the judges allocated for this track
+	:return: a dictionary with the keys as judge names and values as an array of project numbers
+	:rtype: dict
+	"""
+	track_projects = our_tracks[track]
+	total_views = len(track_projects) * 3
+	assignments = {} # The final result, with the keys as judge names and values as an array of project numbers
+	project_views = []
+	count = 0
+
+	# Set up arrays
+	for judge in judges:
+		assignments[judge] = []
+	for project in track_projects:
+		# project_views[project] = 0
+		for i in range(VIEWS_PER_PROJ):
+			project_views.append(project)
+
+	edge = False
+	# Add projects to a judges array
+	random_proj = random.choice(project_views)
+	for judge in judges:
+		for i in range(PROJS_PER_JUDGE):
+			# keep choosing a new random project until it has not yet been seen by this judge
+			while count != total_views:
+				random_proj = random.choice(project_views)
+				if random_proj not in assignments[judge]:
+					break
+				# Random edge case handled below (this edge case happens when all of the last few projects left unassigned is already seen by the last judge)
+				# PLEASE dont touch anythign in this if clause unless you 100% understand this case
+				if len(project_views) < PROJS_PER_JUDGE:
+					if all(elem in assignments[judge] for elem in project_views):
+						edge = True
+						for i in range(len(project_views)):
+							for judge2 in judges:
+								if project_views[i] not in assignments[judge2]:
+									assignments[judge2].append(project_views[i])
+									break 
+						break
+			if edge:
+				break
+			assignments[judge].append(random_proj)
+			project_views.remove(random_proj)
+			count += 1
+			if count == total_views:
+				break
+		if count == total_views or edge:
+			break
+
+	return assignments
+
 def num_judges_for_track(track):
-        
-        """Calculate the number of judges necessary for a given track
+        """
+        Calculate the number of judges necessary for a given track
 
         :param str track: name of the track we wanna get the num judges for
         :return: number of judges we're gonna need for a specific track
@@ -123,17 +156,22 @@ def num_judges_for_track(track):
         """
         proj_array = our_tracks[track]
         num_proj = len(proj_array)
-        return num_proj *VIEWS_PER_PROJ//PROJS_PER_JUDGE
+        if (num_proj *VIEWS_PER_PROJ%PROJS_PER_JUDGE != 0):
+        	return (num_proj *VIEWS_PER_PROJ//PROJS_PER_JUDGE) + 1
+        else:
+        	return num_proj *VIEWS_PER_PROJ//PROJS_PER_JUDGE
+
 
 def num_judges():
-        """Calculate the number of judges necessary given the number of projects that have been submitted
+        """
+        Calculate the number of judges necessary given the number of projects that have been submitted
 
         :return: number of judges that we're gonna need
-        :rtype: int"""
-        
-        num_proj = 0
+        :rtype: int
+        """
         for x in our_tracks.keys():
-                num_proj += len(our_tracks[x])
-                
-        return num_proj * VIEWS_PER_PROJ//PROJS_PER_JUDGE
-        
+        	num_judgements += len(our_tracks[x])
+        if (num_judgements *VIEWS_PER_PROJ%PROJS_PER_JUDGE != 0):
+        	return (num_judgements *VIEWS_PER_PROJ//PROJS_PER_JUDGE) + 1
+        else:
+        	return num_judgements *VIEWS_PER_PROJ//PROJS_PER_JUDGE        
