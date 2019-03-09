@@ -64,8 +64,8 @@ def assign_tables_to_judges():
 	:rtype: dict
 	"""
 	process_csv()
-	judge_assignments = {}
-	judges = []
+	judge_assignments = {} # For each track, contains a dictionary w/ keys as judge names and vals as projects assigned
+	judges = [] 
 	with open("judges.txt", "r") as judges_txt:
 		for judge in judges_txt:
 			# judge_assignments[judge] = {}
@@ -92,7 +92,7 @@ def assign_tables_to_judges():
 
 def assign_judges_to_track(track, judges):
 	"""
-	Assign judges to projects in a single, specified track
+	Assign judges to projects in a single, specified track with all the projects they will be looking at
 
 	:param str track: name of the track we want judges for
 	:param list judges: a list of the judges allocated for this track
@@ -102,8 +102,8 @@ def assign_judges_to_track(track, judges):
 	track_projects = our_tracks[track]
 	total_views = len(track_projects) * 3
 	assignments = {} # The final result, with the keys as judge names and values as an array of project numbers
-	project_views = []
-	count = 0
+	project_views = [] # The total pool of projects that can be assigned to judges
+	judge_idx = 0  # used to loop through all the available judges as we assign projects
 
 	# Set up arrays
 	for judge in judges:
@@ -113,38 +113,14 @@ def assign_judges_to_track(track, judges):
 		for i in range(VIEWS_PER_PROJ):
 			project_views.append(project)
 
-	edge = False
 	# Add projects to a judges array
-	random_proj = random.choice(project_views)
-	for judge in judges:
-		for i in range(PROJS_PER_JUDGE):
-			# keep choosing a new random project until it has not yet been seen by this judge
-			while count != total_views:
-				random_proj = random.choice(project_views)
-				if random_proj not in assignments[judge]:
-					break
-				# Random edge case handled below (this edge case happens when all of the last few projects left unassigned is already seen by the last judge)
-				# PLEASE dont touch anythign in this if clause unless you 100% understand this case
-				if len(project_views) < PROJS_PER_JUDGE:
-					if all(elem in assignments[judge] for elem in project_views):
-						edge = True
-						for i in range(len(project_views)):
-							for judge2 in judges:
-								if project_views[i] not in assignments[judge2]:
-									assignments[judge2].append(project_views[i])
-									break 
-						break
-			if edge:
-				break
-			assignments[judge].append(random_proj)
-			project_views.remove(random_proj)
-			count += 1
-			if count == total_views:
-				break
-		if count == total_views or edge:
-			break
+	for project in project_views:
+		assignments[judges[judge_idx]].append(project)
+
+		judge_idx = (judge_idx + 1) % len(judges) # updates the judge index; reset once the last judge is reached
 
 	return assignments
+
 
 def num_judges_for_track(track):
         """
