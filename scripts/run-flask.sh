@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-DEV=true FLASK_APP=main.py flask run
+DEV=true FLASK_APP=giudice/main.py flask run

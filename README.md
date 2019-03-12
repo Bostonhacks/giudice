@@ -21,6 +21,28 @@ A Python Flask web application that eases the judging process at hackathons.
 	* Ability to export scoring data into a separate file
 
 
+## Running Giudice Locally :pray:
+
+It is recommended that you use a virtual environment to run Giudice for development. Be sure that you are using Python 3 for the virtual environment. See [here](https://docs.python-guide.org/dev/virtualenvs/) for more on how to use them.
+
+Once on your virtual environment:
+
+To install dependencies, run:
+```bash
+$ pip install -r requirements.txt
+```
+
+To run Giudice, use the following command:
+```bash
+$ ./scripts/run-flask.sh
+```
+
+To run tests, use the following command:
+```bash
+$ ./scripts/run-tests.sh
+```
+
+
 ## How Judging Works at BostonHacks
 
 Note for future contributors/users, here is how we at BostonHacks expect judging to work:
@@ -44,23 +66,6 @@ From there, you can click "Generate .csv report", using the default options.  Th
 
 Giudice will also need a list of your judges.  This list can be updated in the `judges.txt` file.  Enter each judge's name on a separate line.
 
-
-## Running Giudice Locally :pray:
-
-To install dependencies, run:
-```bash
-$ pip install -r requirements.txt
-```
-
-To run Giudice, use the following command:
-```bash
-$ ./scripts/run-flask.sh
-```
-
-To run tests, use the following command:
-```bash
-$ ./scripts/run-tests.sh
-```
 
 
 ## Contribution Guidelines :wave:
