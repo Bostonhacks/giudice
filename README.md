@@ -75,7 +75,7 @@ If the code contribution is significant (a new feature, large commits, etc.) the
 If you feel your contribution is just too significant, it is okay to request a group review at a team meeting!
 You can explain your changes to us, and we will discuss them in the meeting.
 
-* This project follows Sphynx styling, and thus requires a docstring for every function.
+* This project follows Sphynx styling, and thus requires a docstring for every Python function.
 
 A simple example of how to format a docstring in the Sphynx style would be:
 

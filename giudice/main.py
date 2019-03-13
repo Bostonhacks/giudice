@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from giudice.projects import process_csv, assign_tables_to_judges
 
 
@@ -39,6 +39,6 @@ def create_app(test_config=None):
     @app.route('/judging')
     def judging():
         assignments = assign_tables_to_judges()
-        return jsonify(assignments)
+        return render_template('judge-home.html', assignments=assignments)
 
     return app
