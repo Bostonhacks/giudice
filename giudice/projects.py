@@ -174,3 +174,36 @@ def num_judges():
         	return (num_judgements *VIEWS_PER_PROJ//PROJS_PER_JUDGE) + 1
         else:
         	return num_judgements *VIEWS_PER_PROJ//PROJS_PER_JUDGE        
+
+
+def get_judge_assignments(judge_name):
+	"""
+	Get a dictionary of the projects assigned to a particular judge that has the project names and tables
+
+	:param str judge_name: the name of the judge
+	:return: the project names and tables assigned to the input judge
+	:rtype: dict
+	"""
+	assignments = assign_tables_to_judges()
+	assignment = assignments[judge_name]
+	proj_numbers = assignment.values()
+	result = {}
+	for proj_list in proj_numbers:
+		for proj_num in proj_list:
+			proj_name = projects[proj_num]["project"]
+			result[proj_num] = project_name
+	return result
+
+
+def get_judge_categories(judge_name):
+	"""
+	Get the categories that a given judge is judging projects for
+
+	:param str judge_name: the name of the judge
+	:return: the name of the categories the judge is judging for
+	:rtype: list
+	"""
+	assignments = assign_tables_to_judges()
+	assignment = assignments[judge_name]
+	return assignment.keys()
+
