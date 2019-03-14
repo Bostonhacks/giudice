@@ -1,5 +1,237 @@
 {% extends 'base.html' %}
  
 {% block container %}
-  <!--Code here-->
+  <h1 class="title">Project Scoring</h1>
+
+  <h3 class="table-title">Track: General</h3>
+  <p class="table-desc">Please judge the following projects based upon the General category. You are given 10 points to distribute amongst these projects. If one really stands out, you may want to give it significantly more points than the others, thus potentially giving other projects 0 points. Conversely, if none of them particularly stand out, you may just want to distribute the points fairly evenly (i.e. roughly 1 or 2 points each). If you have questions on how this system works, please ask an organizer.</p>
+  <div class="table-container">
+    <table class="table table-hover table-borderless data-table">
+      <thead>
+        <tr class="table-headers">
+          <th scope="col">Table</th>
+          <th scope="col">Project</th>
+          <th scope="col">Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>3</td>
+          <td>My App</td>
+          <td>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline1">0</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline2">1</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline3">2</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline4">3</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline5">4</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline6" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline6">5</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline7" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline7">6</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline8" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline8">7</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline9" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline9">8</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline10" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline10">9</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline11" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline11">10</label>
+			</div>
+		  </td>
+        </tr>
+        <tr style="border-top: 1.5px solid #DDD;">
+          <td>6</td>
+          <td>My Project</td>
+          <td>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline01" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline01">0</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline12" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline12">1</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline13" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline13">2</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline14" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline14">3</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline15" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline15">4</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline16" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline16">5</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline17" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline17">6</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline18" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline18">7</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline19" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline19">8</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline110" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline110">9</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline111" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline111">10</label>
+			</div>
+		  </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="table-title">Track: SmartHome</h3>
+  <p class="table-desc">Please judge the following projects based upon the General category. You are given 10 points to distribute amongst these projects. If one really stands out, you may want to give it significantly more points than the others, thus potentially giving other projects 0 points. Conversely, if none of them particularly stand out, you may just want to distribute the points fairly evenly (i.e. roughly 1 or 2 points each). If you have questions on how this system works, please ask an organizer.</p>
+  <div class="table-container">
+    <table class="table table-hover table-borderless data-table">
+      <thead>
+        <tr class="table-headers">
+          <th scope="col">Table</th>
+          <th scope="col">Project</th>
+          <th scope="col">Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>3</td>
+          <td>My App</td>
+          <td>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline1">0</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline2">1</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline3">2</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline4">3</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline5">4</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline6" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline6">5</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline7" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline7">6</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline8" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline8">7</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline9" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline9">8</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline10" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline10">9</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline11" name="customRadioInline1" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline11">10</label>
+			</div>
+		  </td>
+        </tr>
+        <tr style="border-top: 1.5px solid #DDD;">
+          <td>6</td>
+          <td>My Project</td>
+          <td>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline01" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline01">0</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline12" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline12">1</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline13" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline13">2</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline14" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline14">3</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline15" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline15">4</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline16" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline16">5</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline17" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline17">6</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline18" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline18">7</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline19" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline19">8</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline110" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline110">9</label>
+			</div>
+			<div class="custom-control custom-radio custom-control-inline">
+			  <input type="radio" id="customRadioInline111" name="customRadioInline01" class="custom-control-input">
+			  <label class="custom-control-label" for="customRadioInline111">10</label>
+			</div>
+		  </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 {% endblock %}

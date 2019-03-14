@@ -85,8 +85,7 @@ def assign_tables_to_judges():
 	# Assign projects to each judge
 	for track in track_judges.keys():
 		judge_assignments[track] = assign_judges_to_track(track, track_judges[track])
-	print(num_track_judges)
-	print(judge_assignments)
+
 	return judge_assignments
 
 

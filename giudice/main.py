@@ -41,4 +41,9 @@ def create_app(test_config=None):
         assignments = assign_tables_to_judges()
         return render_template('judge-home.html', assignments=assignments)
 
+    @app.route('/judging/scoring')
+    def scoring():
+        assignments = assign_tables_to_judges()
+        return render_template('judge-judging.html', assignments=assignments)
+
     return app

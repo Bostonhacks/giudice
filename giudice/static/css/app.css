@@ -24,6 +24,11 @@
 	margin-top: 40px;
 }
 
+.table-desc{
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
 .data-table{
 	font-size: 1.2rem;
 	font-family: 'Roboto';
