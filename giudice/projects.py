@@ -89,8 +89,7 @@ def assign_tables_to_judges():
 	# Assign projects to each judge
 	for track in track_judges.keys():
 		judge_assignments[track] = assign_judges_to_track(track, track_judges[track])
-	print(num_track_judges)
-	print(judge_assignments)
+
 	return judge_assignments
 
 
@@ -207,3 +206,44 @@ def num_judges():
         	return (num_judgements *VIEWS_PER_PROJ//PROJS_PER_JUDGE) + 1
         else:
         	return num_judgements *VIEWS_PER_PROJ//PROJS_PER_JUDGE        
+
+
+def get_judge_assignments(judge_name):
+	"""
+	Get a dictionary of the projects assigned to a particular judge that has the project names and tables
+
+	:param str judge_name: the name of the judge
+	:return: the project names and tables assigned to the input judge
+	:rtype: dict
+	"""
+	assignments = assign_tables_to_judges()
+	assignments_values = assignments.values()
+	assignment = []
+	for value_group in assignments_values:
+		for judge in value_group:
+			if judge == judge_name:
+				assignment = value_group[judge]
+	proj_numbers = assignment
+	result = {}
+	for proj_num in proj_numbers:
+		proj_name = projects[proj_num]["project"]
+		result[proj_num] = proj_name
+	return result
+
+
+# def get_judge_categories(judge_name):
+# 	"""
+# 	Get the categories that a given judge is judging projects for
+
+# 	:param str judge_name: the name of the judge
+# 	:return: the name of the categories the judge is judging for
+# 	:rtype: list
+# 	"""
+# 	judge_track = ''
+# 	assignments = assign_tables_to_judges()
+# 	for key in assignments.keys():
+# 		for judge_key in assignments[key].keys()
+# 			if 
+
+# 	return judge_track
+

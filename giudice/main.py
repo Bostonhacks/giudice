@@ -1,7 +1,7 @@
 import os
 
-from flask import Flask, jsonify
-from giudice.projects import process_csv
+from flask import Flask, jsonify, render_template
+from giudice.projects import process_csv, assign_tables_to_judges, get_judge_assignments
 
 
 def create_app(test_config=None):
@@ -25,6 +25,11 @@ def create_app(test_config=None):
     except OSError:
         pass
 
+    # Login page & home page
+    @app.route('/')
+    def login():
+        return "Login"
+
     # JSON response for projects endpoint
     @app.route('/projects')
     def projects():
@@ -33,6 +38,14 @@ def create_app(test_config=None):
 
     @app.route('/judging')
     def judging():
-        return
+        assignments = get_judge_assignments('Judge 1\n')
+        return render_template('judge-home.html', assignments=assignments)
+
+    @app.route('/judging/scoring')
+    def scoring():
+        assignments = get_judge_assignments('Judge 1\n')
+        # category = get_judge_categories('Judge 1\n')
+        num_projects = len(assignments)
+        return render_template('judge-judging.html', assignments=assignments, num_projects=num_projects)
 
     return app

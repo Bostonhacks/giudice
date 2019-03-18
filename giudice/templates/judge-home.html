@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+ 
+{% block container %}
+  <h1 class="title">Welcome!</h1>
+
+  <h3 class="table-title">Judging Assignments</h3>
+  <div class="table-container">
+    <table class="table table-hover table-borderless data-table">
+      <thead>
+        <tr class="table-headers">
+          <th scope="col">Table</th>
+          <th scope="col">Category</th>
+          <th scope="col">Project</th>
+          <th scope="col">Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for project in assignments.keys() %}
+            <tr style="border-top: 1.5px solid #DDD;">
+              <td>{{ project|e }}</td>
+              <td>{{ category|e }}</td>
+              <td>{{ assignments[project]|e }}</td>
+              <td>2</td>
+            </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
