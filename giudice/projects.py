@@ -185,25 +185,33 @@ def get_judge_assignments(judge_name):
 	:rtype: dict
 	"""
 	assignments = assign_tables_to_judges()
-	assignment = assignments[judge_name]
-	proj_numbers = assignment.values()
+	assignments_values = assignments.values()
+	assignment = []
+	for value_group in assignments_values:
+		for judge in value_group:
+			if judge == judge_name:
+				assignment = value_group[judge]
+	proj_numbers = assignment
 	result = {}
-	for proj_list in proj_numbers:
-		for proj_num in proj_list:
-			proj_name = projects[proj_num]["project"]
-			result[proj_num] = project_name
+	for proj_num in proj_numbers:
+		proj_name = projects[proj_num]["project"]
+		result[proj_num] = proj_name
 	return result
 
 
-def get_judge_categories(judge_name):
-	"""
-	Get the categories that a given judge is judging projects for
+# def get_judge_categories(judge_name):
+# 	"""
+# 	Get the categories that a given judge is judging projects for
 
-	:param str judge_name: the name of the judge
-	:return: the name of the categories the judge is judging for
-	:rtype: list
-	"""
-	assignments = assign_tables_to_judges()
-	assignment = assignments[judge_name]
-	return assignment.keys()
+# 	:param str judge_name: the name of the judge
+# 	:return: the name of the categories the judge is judging for
+# 	:rtype: list
+# 	"""
+# 	judge_track = ''
+# 	assignments = assign_tables_to_judges()
+# 	for key in assignments.keys():
+# 		for judge_key in assignments[key].keys()
+# 			if 
+
+# 	return judge_track
 
