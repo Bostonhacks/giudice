@@ -15,7 +15,11 @@ projects = {} # Key -> table number ; Value -> {"project":"project_name", "num_o
 # Key -> Prize name ; Value -> array of table numbers that applied for that *NON-SPONSORED* category
 our_tracks = {"General":[], "[TRACK] Giving Back to Veterans Prize":[], "[TRACK] Data for Urban Good Prize":[], "[TRACK] The Smart Home prize":[]} # Non-sponsored categories
 # Key -> Prize name ; Value -> array of table numbers that applied for that *SPONSORED* category
-sponsor_tracks = {"Spark! Fellowship Award":[], "ITG - Best Fintech Hack":[], "[Weekly Challenge] Best Social Good Hack from Fidelity":[], "Best use of Google Cloud Platform":[], "Best use of GIPHY API":[], "Liberty Mutual  - Best Hack to Live Safe":[], "Twilio Best use of Twilio API":[], "Best use of Algolia":[], "Best Domain Name from Domain.com":[], "Best IoT Hack Using a Qualcomm Device":[], "[Weekly Challenge] Best Chat Bot using Botkit & Cisco Webex Teams":[], "Best use of HERE.com":[], "[Weekly Challenge] Best use of Clarifai\'s API":[], "[Weekly Challenge] Snap Kit Weekly Challenge":[], "[Weekly Challenge] Best Social Good Hack from Fidelity":[], "Best use of Authorize.net":[], "Bose - Most creative use of Bose SoundTouch Speaker API":[], "IBM - Best Use of IBM Cloud":[], "ITG - Best Fintech Hack":[], "OneDB - Best Use of OneDB Platform":[]} # Sponsor tracks
+sponsor_tracks = {"Spark! Fellowship Award":[], "ITG - Best Fintech Hack":[], "[Weekly Challenge] Best Social Good Hack from Fidelity":[], "Best use of Google Cloud Platform":[], 
+					"Best use of GIPHY API":[], "Liberty Mutual  - Best Hack to Live Safe":[], "Twilio Best use of Twilio API":[], "Best use of Algolia":[], "Best Domain Name from Domain.com":[], 
+					"Best IoT Hack Using a Qualcomm Device":[], "[Weekly Challenge] Best Chat Bot using Botkit & Cisco Webex Teams":[], "Best use of HERE.com":[], 
+					"[Weekly Challenge] Best use of Clarifai\'s API":[], "[Weekly Challenge] Snap Kit Weekly Challenge":[], "[Weekly Challenge] Best Social Good Hack from Fidelity":[], "Best use of Authorize.net":[], 
+					"Bose - Most creative use of Bose SoundTouch Speaker API":[], "IBM - Best Use of IBM Cloud":[], "ITG - Best Fintech Hack":[], "OneDB - Best Use of OneDB Platform":[]} # Sponsor tracks
 track_judges = {} # The judges assigned to each track; where the key is the track and the value is an arr of judges
 
 def process_csv():
@@ -104,6 +108,9 @@ def assign_judges_to_track(track, judges):
 	assignments = {} # The final result, with the keys as judge names and values as an array of project numbers
 	project_views = [] # The total pool of projects that can be assigned to judges
 	judge_idx = 0  # used to loop through all the available judges as we assign projects
+	count = 0  # reused throughout
+	edge = False # if we hit the edge case where all the projects left to be assigned are already assigned to the last judge
+	edge_idx = len(judges) - 1  
 
 	# Set up arrays
 	for judge in judges:
@@ -113,11 +120,60 @@ def assign_judges_to_track(track, judges):
 		for i in range(VIEWS_PER_PROJ):
 			project_views.append(project)
 
-	# Add projects to a judges array
-	for project in project_views:
-		assignments[judges[judge_idx]].append(project)
+
+	# if there are less than 5 judges, there will be suffient overlap since each project will be seen with every other project at least once
+	if len(judges) < 6:  
+		for project in project_views:
+			assignments[judges[judge_idx]].append(project)
+	
+			judge_idx = (judge_idx + 1) % len(judges) # updates the judge index; reset once the last judge is reached
+	
+		return assignments
+
+
+	# at least 6 judges; Add projects to a judge's array
+	while len(project_views) > 0:  # while there are still projects left to be assigned
+		random_proj = random.choice(project_views)
+		count += 1 # for edge test
+
+		if random_proj in assignments[judges[judge_idx]]: # if this judge already has this project assigned to them
+			if count > len(project_views) + 2: # if we have tried len(project_views)+1 number of random projects, we are probably at the edge case
+				edge = True
+				break  # break to go to the edge case
+			else:
+				continue # if not at the edge, keep trying to get a new project
+
+		# we now have a new project and can add it to this judge's assignments
+		assignments[judges[judge_idx]].append(random_proj)
+		project_views.remove(random_proj)
+		count = 0
 
 		judge_idx = (judge_idx + 1) % len(judges) # updates the judge index; reset once the last judge is reached
+
+
+ 	# we can assume that all the projects left to be assigned have already been assigned to this last judge
+	if edge:
+		count = 0  # used to sequentially step through the array of judges from index 0
+		jLen = len(assignments[judges[count]]) # goal length of assignments
+
+		while edge_idx != judge_idx-1:  # keeps going until we get to the judge we terminated the previous loop at, edge_idx starts at the last judge 
+			random_proj = random.choice(assignments[judges[count]]) 
+
+			if random_proj not in assignments[judges[edge_idx]]: 
+				assignments[judges[edge_idx]].append(random_proj)
+				assignments[judges[count]].remove(random_proj)
+				count += 1 # next sequential judge
+
+				edge_idx -= 1 
+	
+
+	# if there are still unassigned projects left
+	if len(project_views) > 0: 
+		edge_idx = 0 # sequentially step through the first judges to add the unassigned ones to them
+
+		for project in project_views:
+			assignments[judges[edge_idx]].append(project)
+			edge_idx = (edge_idx + 1) % len(judges)
 
 	return assignments
 
