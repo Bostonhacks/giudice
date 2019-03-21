@@ -39,7 +39,6 @@ def create_app(test_config=None):
     @app.route('/judging')
     def judging():
         assignments = get_judge_assignments('Judge 1\n')
-        print("hi")
         return render_template('judge-home.html', assignments=assignments)
 
     @app.route('/judging/scoring')
