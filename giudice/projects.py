@@ -90,6 +90,9 @@ def assign_tables_to_judges():
 	for track in track_judges.keys():
 		judge_assignments[track] = assign_judges_to_track(track, track_judges[track])
 
+	print(num_track_judges)
+	print(judge_assignments)
+
 	return judge_assignments
 
 
@@ -118,11 +121,13 @@ def assign_judges_to_track(track, judges):
 		# project_views[project] = 0
 		for i in range(VIEWS_PER_PROJ):
 			project_views.append(project)
-
+			
 
 	# if there are less than 5 judges, there will be suffient overlap since each project will be seen with every other project at least once
-	if len(judges) < 6:  
+	if len(judges) < 6:
 		for project in project_views:
+			#print(assignments[judges[judge_idx]])
+			#print(project)
 			assignments[judges[judge_idx]].append(project)
 	
 			judge_idx = (judge_idx + 1) % len(judges) # updates the judge index; reset once the last judge is reached
