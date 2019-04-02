@@ -129,7 +129,8 @@ def assign_judges_to_track(track, judges):
 			#print(assignments[judges[judge_idx]])
 			#print(project)
 			assignments[judges[judge_idx]].append(project)
-	
+			projects[project]["num_judges"][track] += 1
+
 			judge_idx = (judge_idx + 1) % len(judges) # updates the judge index; reset once the last judge is reached
 	
 		return assignments
@@ -149,13 +150,15 @@ def assign_judges_to_track(track, judges):
 
 		# we now have a new project and can add it to this judge's assignments
 		assignments[judges[judge_idx]].append(random_proj)
+		projects[random_proj]["num_judges"][track] += 1
 		project_views.remove(random_proj)
 		count = 0
 
 		judge_idx = (judge_idx + 1) % len(judges) # updates the judge index; reset once the last judge is reached
 
 
- 	# we can assume that all the projects left to be assigned have already been assigned to this last judge
+ 	# we can assume that all the projects left to be assigned have already been assigned to this last judge, 
+ 	# so start from the beginning and start assign a proj from judge 1 to the last judge, then judge 2 to second last
 	if edge:
 		count = 0  # used to sequentially step through the array of judges from index 0
 		jLen = len(assignments[judges[count]]) # goal length of assignments
@@ -171,12 +174,13 @@ def assign_judges_to_track(track, judges):
 				edge_idx -= 1 
 	
 
-	# if there are still unassigned projects left
+	# if there are still unassigned projects left assign them to the first x judges
 	if len(project_views) > 0: 
 		edge_idx = 0 # sequentially step through the first judges to add the unassigned ones to them
 
 		for project in project_views:
 			assignments[judges[edge_idx]].append(project)
+			projects[project]["num_judges"][track] += 1
 			edge_idx = (edge_idx + 1) % len(judges)
 
 	return assignments
@@ -234,6 +238,16 @@ def get_judge_assignments(judge_name):
 		proj_name = projects[proj_num]["project"]
 		result[proj_num] = proj_name
 	return result
+
+
+def judging_csv():
+	# needs project name, table number, and number of judges
+	#projects = {} Key -> table number ; Value -> {"project":"project_name", "num_of_prizes":num, "num_judges":{category:num,cat:num...}}
+
+	with open('judging.csv', 'w') as judgingCSV:
+		filewriter = csv.writer(judgingCSV, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+		for proj in projects:
+			filewriter.writerow([projects[proj]["project"], proj, projects[proj]["num_judges"]])
 
 
 # def get_judge_categories(judge_name):
