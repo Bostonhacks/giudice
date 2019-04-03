@@ -90,8 +90,8 @@ def assign_tables_to_judges():
 	for track in track_judges.keys():
 		judge_assignments[track] = assign_judges_to_track(track, track_judges[track])
 
-	print(num_track_judges)
-	print(judge_assignments)
+	#print(num_track_judges)
+	#print(judge_assignments)
 
 	return judge_assignments
 
@@ -242,12 +242,19 @@ def get_judge_assignments(judge_name):
 
 def judging_csv():
 	# needs project name, table number, and number of judges
-	#projects = {} Key -> table number ; Value -> {"project":"project_name", "num_of_prizes":num, "num_judges":{category:num,cat:num...}}
-
 	with open('judging.csv', 'w') as judgingCSV:
 		filewriter = csv.writer(judgingCSV, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 		for proj in projects:
 			filewriter.writerow([projects[proj]["project"], proj, projects[proj]["num_judges"]])
+
+
+def sponsorship_csv():
+	#Each sponsor should be listed along with the table numbers assigned to them
+	with open('sponsorship.csv', 'w') as sponsorshipCSV:
+		filewriter = csv.writer(sponsorshipCSV, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+		keys = sponsor_tracks.keys()
+		for track in keys:
+			filewriter.writerow([track, sponsor_tracks.get(track)])
 
 
 # def get_judge_categories(judge_name):
