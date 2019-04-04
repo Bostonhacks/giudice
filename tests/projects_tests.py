@@ -1,4 +1,7 @@
 from giudice.projects import assign_tables_to_judges
+from giudice.projects import judging_csv
+from giudice.projects import sponsorship_csv
+
 
 ################
 # PUT ALL TESTS FOR projects.py FILE HERE
@@ -12,6 +15,8 @@ def run_tests():
 	"""
 	test_assign_judges()
 	test_repeat_assignments()
+	test_judging_csv()
+	test_sponsorship_csv()
 
 
 def test_assign_judges():
@@ -39,3 +44,12 @@ def test_repeat_assignments():
 				proj = jAssignments.pop(0)
 				if proj in jAssignments:
 					raise Exception('Duplicates found!!!!')		
+
+
+def test_judging_csv():
+	judging_csv()
+
+
+def test_sponsorship_csv():
+	sponsorship_csv()
+	
